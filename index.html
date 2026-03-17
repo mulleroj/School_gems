@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>GemForge – Místo, kde se z nápadů stávají užitečné Gemy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="inner nav">
+        <a href="index.html" class="logo-wrap">
+          <div class="logo-gem" aria-hidden="true"></div>
+          <div class="logo-text-main">GemForge</div>
+        </a>
+
+        <nav class="nav-links" aria-label="Hlavní navigace">
+          <a class="nav-link" href="all-gems.html">Všechny gemy</a>
+          <a class="nav-link" href="#newest">Nové gemy</a>
+          <a class="nav-link" href="#planning">Plánování výuky</a>
+          <a class="nav-link" href="#materials">Materiály</a>
+          <a class="nav-link" href="#engagement">Zapojení žáků</a>
+          <a class="nav-link" href="#support">Podpora žáků</a>
+          <a class="nav-link" href="#assessment">Hodnocení</a>
+        </nav>
+
+        <a class="nav-cta" href="#student-tools">
+          Spustit gem pro žáky
+          <span>↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-bg-orbit"></div>
+        <div class="inner hero-content">
+          <div>
+            <h1 class="hero-title">
+              <span class="highlight">GemForge</span>
+            </h1>
+            <p class="hero-tagline">
+              Místo, kde se z nápadů stávají užitečné Gemy
+            </p>
+            <p class="hero-subtitle">
+              Procházej, testuj a stav si vlastní sadu Gemů pro Gemini podle toho, co zrovna potřebuješ.
+            </p>
+
+            <div class="hero-badges">
+              <div class="pill">Desítky předpřipravených gemů</div>
+              <div class="pill pill-accent">Plánování, hodnocení, hry, podpora žáků</div>
+              <div class="pill">Vhodné pro učitele i žáky</div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#newest" class="btn-primary">
+                Prozkoumat nejnovější gemy
+                <span>↓</span>
+              </a>
+              <a href="#planning" class="btn-ghost">
+                Přeskočit na kategorie
+              </a>
+            </div>
+
+            <div class="hero-meta">
+              <strong>Tip:</strong> Při spuštění gemu v Gemini napište „Ahoj“
+              a pro lepší výsledky zvolte model <strong>Thinking</strong> nebo
+              <strong>Pro</strong>.
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Ukázkové gemy">
+            <div class="hero-panel-inner">
+              <div class="hero-panel-header">
+                <div>Nejnovější gemy</div>
+                <div class="status-pill">
+                  <span class="status-dot"></span>
+                  Stále přibývají
+                </div>
+              </div>
+
+              <div class="gem-carousel" id="gem-carousel">
+                <a href="gem.html?slug=3-step-reflection" class="gem-card">
+                  <div class="gem-emoji">🪞</div>
+                  <div>
+                    <div class="gem-meta-title">3-kroková reflexe</div>
+                    <div class="gem-meta-sub">Metakognice a sebereflexe</div>
+                    <div class="gem-footer"><span class="badge-small badge-small-accent">Nový gem</span><span class="badge-small">Pro žáky</span></div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="gem-controls">
+                <button class="cycle-btn" id="prev-gem" aria-label="Předchozí">‹</button>
+                <button class="cycle-btn" id="next-gem" aria-label="Další">›</button>
+                <span class="cycle-indicator" id="gem-indicator">1 / 4</span>
+              </div>
+
+              <div class="hero-tip">
+                Kliknutím na kartu přejdete k související kategorii gemů níže na stránce.
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="newest">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">💎</span>
+              Nejnovější gemy
+            </div>
+            <p class="section-subtitle">
+              Rychlý přehled právě přidaných gemů – reflektivní nástroje, plánování
+              výuky, mapy, hudební aktivity a další.
+            </p>
+          </div>
+
+          <div class="categories-bar" id="newest-filter">
+            <button class="chip active" data-filter="all">Vše</button>
+            <button class="chip" data-filter="reflection">Reflexe & žáci</button>
+            <button class="chip" data-filter="planning">Plánování výuky</button>
+            <button class="chip" data-filter="materials">Materiály</button>
+            <button class="chip" data-filter="support">Podpora & koučink</button>
+          </div>
+
+          <div class="cards-grid" id="newest-grid" data-category="newest">
+            <a href="gem.html?slug=3-step-reflection" class="card">
+              <div class="card-header"><div class="card-icon">🪞</div><div class="card-title">3-kroková reflexe</div></div>
+              <p class="card-content">Strukturovaná reflexe podle Rolfe et al. – Co?, Tak co?, Co dál?</p>
+              <div class="card-tags"><span class="tag tag-accent">Nový gem</span><span class="tag">Pro žáky</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=5e-lesson-plan" class="card">
+              <div class="card-header"><div class="card-icon">🖐️</div><div class="card-title">5E plán hodiny</div></div>
+              <p class="card-content">Strukturovaný plán podle modelu 5E (Zapoj, Prozkoumej, Vysvětli, Rozšiř, Zhodnoť).</p>
+              <div class="card-tags"><span class="tag tag-accent">Nový gem</span><span class="tag">Plánování</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="planning">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">🧭</span>
+              Plánování hodin a tvorba kurikula
+            </div>
+            <p class="section-subtitle">
+              Nástroje pro návrh jednotek, hodin, rozbor standardů a plánování
+              výuky od první aktivity až po závěrečnou reflexi.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-planning" data-category="planning">
+            <a href="gem.html?slug=5e-lesson-plan" class="card">
+              <div class="card-header"><div class="card-icon">🖐️</div><div class="card-title">5E plán hodiny</div></div>
+              <p class="card-content">Strukturovaný plán podle modelu 5E (Zapoj, Prozkoumej, Vysvětli, Rozšiř, Zhodnoť).</p>
+              <div class="card-tags"><span class="tag tag-accent">Plán hodiny</span><span class="tag">5E model</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=unit-plan" class="card">
+              <div class="card-header"><div class="card-icon">📋</div><div class="card-title">Plán jednotky</div></div>
+              <p class="card-content">Souvislá výuková jednotka s cíli, klíčovými otázkami a posloupností hodin.</p>
+              <div class="card-tags"><span class="tag tag-accent">Plán jednotky</span><span class="tag">Kurikulum</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+
+          <div class="accordion" data-accordion>
+            <div class="accordion-header">
+              <span>Více možností plánování (SAMR, jigsaw, stanoviště…)</span>
+              <span class="accordion-chevron">›</span>
+            </div>
+            <div class="accordion-body">
+              <div class="accordion-body-inner">
+                <p>
+                  V katalogu najdete další gemy pro
+                  <strong>AI + SAMR aktivity</strong>, <strong>stanoviště</strong>,
+                  <strong>jigsaw</strong> a <strong>rozbory standardů</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="materials">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">💡</span>
+              Výukové materiály a obsah
+            </div>
+            <p class="section-subtitle">
+              Gemy zaměřené na tvorbu pracovních listů, textů, slidů, grafiky
+              a dalších materiálů, které můžete rovnou použít ve třídě.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-materials" data-category="materials">
+            <a href="gem.html?slug=worksheet" class="card">
+              <div class="card-header"><div class="card-icon">📝</div><div class="card-title">Pracovní list</div></div>
+              <p class="card-content">Pracovní listy s úlohami pro konkrétní téma, ročník a úroveň obtížnosti.</p>
+              <div class="card-tags"><span class="tag tag-accent">Worksheet</span><span class="tag">Materiály</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=simple-slides" class="card">
+              <div class="card-header"><div class="card-icon">🎯</div><div class="card-title">Jednoduché slidové sady</div></div>
+              <p class="card-content">Strukturovaná sadu slidů pro Google Slides.</p>
+              <div class="card-tags"><span class="tag tag-accent">Simple Slides</span><span class="tag">Prezentace</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="engagement">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">🙋</span>
+              Zapojení žáků a hry
+            </div>
+            <p class="section-subtitle">
+              Interaktivní aktivity, hry a simulace, které pomohou zvýšit
+              zapojení žáků a udělat hodiny zábavnější.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-engagement" data-category="engagement">
+            <a href="gem.html?slug=2-truths-a-lie-game" class="card">
+              <div class="card-header"><div class="card-icon">🫢</div><div class="card-title">Hra 2 pravdy a lež</div></div>
+              <p class="card-content">Výroky ke konkrétnímu tématu – žáci hádají, které tvrzení je nepravdivé.</p>
+              <div class="card-tags"><span class="tag tag-accent">2 Truths & a Lie</span><span class="tag">Zapojení</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=jeopardy-game" class="card">
+              <div class="card-header"><div class="card-icon">❓</div><div class="card-title">Kvíz Jeopardy</div></div>
+              <p class="card-content">Otázky a kategorie ve stylu Jeopardy pro opakování.</p>
+              <div class="card-tags"><span class="tag tag-accent">Jeopardy Game</span><span class="tag">Opakování</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="support">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">🔑</span>
+              Podpora žáků a diferenciace
+            </div>
+            <p class="section-subtitle">
+              Nástroje pro speciální vzdělávací potřeby, IEP/504, úpravy úloh,
+              jazykovou podporu, behaviorální intervence a sociální příběhy.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-support" data-category="support">
+            <a href="gem.html?slug=ai-tutor" class="card">
+              <div class="card-header"><div class="card-icon">🧑‍🏫</div><div class="card-title">AI tutor</div></div>
+              <p class="card-content">Bezpečný AI tutor, který žákům vysvětluje látku krok za krokem.</p>
+              <div class="card-tags"><span class="tag tag-accent">AI Tutor</span><span class="tag">Podpora</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=re-level-text" class="card">
+              <div class="card-header"><div class="card-icon">🔀</div><div class="card-title">Přeúrovňování textů</div></div>
+              <p class="card-content">Texty v různých úrovních obtížnosti pro diferenciaci.</p>
+              <div class="card-tags"><span class="tag tag-accent">Re-level Text</span><span class="tag">Diferenciace</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="assessment">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">💯</span>
+              Hodnocení, testy a data
+            </div>
+            <p class="section-subtitle">
+              Gemy pro tvorbu testů, otázek vyšší úrovně DOK, rozbory dat ze
+              zkoušek a poskytování kvalitní zpětné vazby žákům.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-assessment" data-category="assessment">
+            <a href="gem.html?slug=exit-ticket" class="card">
+              <div class="card-header"><div class="card-icon">🎫</div><div class="card-title">Exit ticket</div></div>
+              <p class="card-content">Krátké výstupní lístky pro formativní hodnocení.</p>
+              <div class="card-tags"><span class="tag tag-accent">Exit Ticket</span><span class="tag">Hodnocení</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=rubric" class="card">
+              <div class="card-header"><div class="card-icon">📋</div><div class="card-title">Hodnoticí rubrika</div></div>
+              <p class="card-content">Rubriky pro hodnocení projektů, esejí a prezentací.</p>
+              <div class="card-tags"><span class="tag tag-accent">Rubric</span><span class="tag">Kritéria</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="literacy">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">📖</span>
+              Čtenářství, psaní a jazyk
+            </div>
+            <p class="section-subtitle">
+              Gemy pro čtenářskou gramotnost, psaní, práci s textem a podporu
+              cizích jazyků.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-literacy" data-category="literacy">
+            <a href="gem.html?slug=book-matchmaker" class="card">
+              <div class="card-header"><div class="card-icon">❤️</div><div class="card-title">Doporučovač knih</div></div>
+              <p class="card-content">Doporučení knih podle zájmů, věku a čtenářské úrovně.</p>
+              <div class="card-tags"><span class="tag tag-accent">Book Matchmaker</span><span class="tag">Čtení</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=raft-writing-prompts" class="card">
+              <div class="card-header"><div class="card-icon">✍️</div><div class="card-title">RAFT psací úkoly</div></div>
+              <p class="card-content">RAFT zadání (Role, Audience, Format, Topic) pro kreativní psaní.</p>
+              <div class="card-tags"><span class="tag tag-accent">RAFT</span><span class="tag">Psaní</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="stem">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">🧪</span>
+              Matematika, věda & STEM
+            </div>
+            <p class="section-subtitle">
+              Nástroje pro 3D aktivity podle NGSS, slovní úlohy a spirálové
+              opakování v matematice a přírodních vědách.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-stem" data-category="stem">
+            <a href="gem.html?slug=3d-ngss-activity" class="card">
+              <div class="card-header"><div class="card-icon">🔬</div><div class="card-title">3D NGSS aktivita</div></div>
+              <p class="card-content">Vědecká aktivita propojující tři dimenze NGSS.</p>
+              <div class="card-tags"><span class="tag tag-accent">3D NGSS</span><span class="tag">Science</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=math-story-problems" class="card">
+              <div class="card-header"><div class="card-icon">➕</div><div class="card-title">Matematické slovní úlohy</div></div>
+              <p class="card-content">Slovní úlohy s různou obtížností a kontextem.</p>
+              <div class="card-tags"><span class="tag tag-accent">Math Story</span><span class="tag">Matematika</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="student-tools">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">🧒</span>
+              Nástroje přímo pro žáky
+            </div>
+            <p class="section-subtitle">
+              Samostatné gemy, které mohou žáci používat přímo – od reflexí a
+              brainstormingů až po kariérní průzkum.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-student" data-category="student">
+            <a href="gem.html?slug=3-step-reflection" class="card">
+              <div class="card-header"><div class="card-icon">🪞</div><div class="card-title">3-kroková reflexe</div></div>
+              <p class="card-content">Strukturovaná reflexe pro žáky – Co?, Tak co?, Co dál?</p>
+              <div class="card-tags"><span class="tag tag-accent">3-Step Reflection</span><span class="tag">Metakognice</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=career-explorer" class="card">
+              <div class="card-header"><div class="card-icon">💼</div><div class="card-title">Průzkumník kariéry</div></div>
+              <p class="card-content">Objevování povolání podle zájmů a dovedností.</p>
+              <div class="card-tags"><span class="tag tag-accent">Career Explorer</span><span class="tag">Budoucnost</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="professional">
+        <div class="inner">
+          <div class="section-header">
+            <div class="section-title">
+              <span class="icon">💼</span>
+              Profesní úkoly a administrativa
+            </div>
+            <p class="section-subtitle">
+              Gemy, které šetří čas při přípravě newsletterů, plánování
+              školení, komunikaci s rodiči a další administrativě.
+            </p>
+          </div>
+
+          <div class="cards-grid" id="grid-professional" data-category="professional">
+            <a href="gem.html?slug=email-to-parents" class="card">
+              <div class="card-header"><div class="card-icon">📧</div><div class="card-title">E-mail rodičům</div></div>
+              <p class="card-content">Profesionální e-maily rodičům o průběhu výuky a výsledcích.</p>
+              <div class="card-tags"><span class="tag tag-accent">Email to Parents</span><span class="tag">Komunikace</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=professional-learning-coach" class="card">
+              <div class="card-header"><div class="card-icon">📣</div><div class="card-title">Profesní kouč</div></div>
+              <p class="card-content">Návrhy na profesní rozvoj a reflexi výuky.</p>
+              <div class="card-tags"><span class="tag tag-accent">PD Coach</span><span class="tag">Rozvoj</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+
+          <div class="inline-chips">
+            <span class="tag">Recommendation Letter</span>
+            <span class="tag">Mindfulness Break</span>
+            <span class="tag">Error-Resistant Research</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="inner footer-inner">
+        <div>
+          GemForge – sbírka gemů pro Google Gemini.
+        </div>
+        <div class="footer-links">
+          <a href="#planning" class="footer-link">Plánování</a>
+          <a href="#student-tools" class="footer-link">Pro žáky</a>
+          <a href="#professional" class="footer-link">Pro učitele</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="gems-data.js"></script>
+  <script>
+    var GEMS = window.GEMS_DATA || {};
+    if (Object.keys(GEMS).length === 0) {
+      GEMS = { "3-step-reflection": { slug: "3-step-reflection", emoji: "🪞", titleCs: "3-kroková reflexe", shortDescCs: "Strukturovaná reflexe pro žáky.", category: "student", categories: ["student", "newest"] }, "5e-lesson-plan": { slug: "5e-lesson-plan", emoji: "🖐️", titleCs: "5E plán hodiny", shortDescCs: "Plán podle modelu 5E.", category: "planning", categories: ["planning", "newest"] }, "worksheet": { slug: "worksheet", emoji: "📝", titleCs: "Pracovní list", shortDescCs: "Generování pracovních listů.", category: "materials", categories: ["materials"] }, "2-truths-a-lie-game": { slug: "2-truths-a-lie-game", emoji: "🫢", titleCs: "Hra 2 pravdy a lež", shortDescCs: "Výroky ke konkrétnímu tématu – žáci hádají lež.", category: "engagement", categories: ["engagement"] }, "jeopardy-game": { slug: "jeopardy-game", emoji: "❓", titleCs: "Kvíz Jeopardy", shortDescCs: "Otázky a kategorie ve stylu Jeopardy.", category: "engagement", categories: ["engagement"] } };
+    }
+    var categoryLabels = { planning: "Plánování", materials: "Materiály", engagement: "Zapojení", support: "Podpora", assessment: "Hodnocení", literacy: "Čtenářství", stem: "STEM", student: "Pro žáky", professional: "Pro učitele", newest: "Nový" };
+
+    function renderCard(gem, extraTag) {
+      var tag = extraTag ? '<span class="tag tag-accent">' + extraTag + "</span>" : "";
+      var role = gem.category === "student" ? "Žák" : "Učitel";
+      return '<a href="gem.html?slug=' + gem.slug + '" class="card">' +
+        '<div class="card-header"><div class="card-icon">' + gem.emoji + "</div><div class="card-title">" + gem.titleCs + "</div></div>" +
+        '<p class="card-content">' + gem.shortDescCs + "</p>" +
+        '<div class="card-tags">' + tag + '<span class="tag">' + (categoryLabels[gem.category] || gem.category) + "</span></div>" +
+        '<div class="card-footer"><span>' + role + "</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>" +
+        "</a>";
+    }
+
+    function renderSectionGrid(sectionId, category) {
+      var grid = document.getElementById("grid-" + sectionId);
+      if (!grid) return;
+      grid.innerHTML = "";
+      Object.keys(GEMS).forEach(function (slug) {
+        var g = GEMS[slug];
+        if (g.categories && g.categories.indexOf(category) !== -1) {
+          grid.insertAdjacentHTML("beforeend", renderCard(g, category === "newest" ? "Nový gem" : ""));
+        }
+      });
+    }
+
+    function renderAllSections() {
+      var sections = ["planning", "materials", "engagement", "support", "assessment", "literacy", "stem", "student", "professional"];
+      sections.forEach(function (s) { renderSectionGrid(s, s); });
+    }
+
+    function renderNewest(filter) {
+      var grid = document.getElementById("newest-grid");
+      if (!grid) return;
+      grid.innerHTML = "";
+      var filterMap = { all: null, reflection: "student", planning: "planning", materials: "materials", support: "support" };
+      var subCat = filterMap[filter] || filterMap.all;
+      Object.keys(GEMS).forEach(function (slug) {
+        var g = GEMS[slug];
+        if (!g.categories || g.categories.indexOf("newest") === -1) return;
+        if (subCat && g.categories.indexOf(subCat) === -1) return;
+        grid.insertAdjacentHTML("beforeend", renderCard(g, "Nový gem"));
+      });
+    }
+
+    document.querySelectorAll("[data-scroll]").forEach(function (el) {
+      el.addEventListener("click", function () {
+        var target = el.getAttribute("data-scroll");
+        if (!target) return;
+        var section = document.querySelector(target);
+        if (!section) return;
+        var top = section.getBoundingClientRect().top + window.scrollY - (window.innerWidth < 620 ? 64 : 80);
+        window.scrollTo({ top: top, behavior: "smooth" });
+      });
+    });
+
+    document.querySelectorAll("[data-accordion]").forEach(function (acc) {
+      var header = acc.querySelector(".accordion-header");
+      var body = acc.querySelector(".accordion-body");
+      header.addEventListener("click", function () {
+        var open = acc.classList.toggle("open");
+        body.style.maxHeight = open ? body.scrollHeight + "px" : "0";
+      });
+      body.style.maxHeight = "0";
+    });
+
+    document.getElementById("newest-filter") && document.getElementById("newest-filter").addEventListener("click", function (e) {
+      var chip = e.target.closest(".chip");
+      if (!chip) return;
+      document.querySelectorAll("#newest-filter .chip").forEach(function (c) { c.classList.remove("active"); });
+      chip.classList.add("active");
+      renderNewest(chip.dataset.filter || "all");
+    });
+
+    renderAllSections();
+    renderNewest("all");
+
+    var newestSlugs = Object.keys(GEMS).filter(function (s) { return GEMS[s].categories && GEMS[s].categories.indexOf("newest") !== -1; });
+    var carouselData = newestSlugs.slice(0, 6).map(function (slug) {
+      var g = GEMS[slug];
+      return { slug: slug, emoji: g.emoji, title: g.titleCs, sub: g.shortDescCs, badge: "Nový gem", category: categoryLabels[g.category] || g.category };
+    });
+    if (carouselData.length === 0) carouselData = [{ slug: "3-step-reflection", emoji: "🪞", title: "3-kroková reflexe", sub: "Metakognice a sebereflexe", badge: "Nový", category: "Pro žáky" }];
+    var currentIndex = 0;
+
+    function renderCarouselItem() {
+      var container = document.getElementById("gem-carousel");
+      if (!container) return;
+      var item = carouselData[currentIndex];
+      container.innerHTML = '<a href="gem.html?slug=' + (item.slug || "3-step-reflection") + '" class="gem-card">' +
+        '<div class="gem-emoji">' + item.emoji + "</div>" +
+        '<div><div class="gem-meta-title">' + item.title + "</div><div class="gem-meta-sub">" + item.sub + "</div>" +
+        '<div class="gem-footer"><span class="badge-small badge-small-accent">' + item.badge + "</span><span class="badge-small">" + item.category + "</span></div></div></a>";
+      var ind = document.getElementById("gem-indicator");
+      if (ind) ind.textContent = (currentIndex + 1) + " / " + carouselData.length;
+    }
+
+    var prevBtn = document.getElementById("prev-gem");
+    var nextBtn = document.getElementById("next-gem");
+    if (prevBtn) prevBtn.addEventListener("click", function () { currentIndex = (currentIndex - 1 + carouselData.length) % carouselData.length; renderCarouselItem(); });
+    if (nextBtn) nextBtn.addEventListener("click", function () { currentIndex = (currentIndex + 1) % carouselData.length; renderCarouselItem(); });
+    renderCarouselItem();
+  </script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detail gemu – GemForge</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="inner nav">
+        <a href="index.html" class="logo-wrap">
+          <div class="logo-gem" aria-hidden="true"></div>
+          <div class="logo-text-main">GemForge</div>
+        </a>
+        <a href="index.html" class="nav-cta">← Zpět na přehled</a>
+      </div>
+    </header>
+
+    <main class="gem-detail" id="gem-detail">
+      <div class="inner">
+        <div class="gem-not-found" id="gem-not-found" style="display:none">
+          <h1>Gem nenalezen</h1>
+          <p>Zvolený gem neexistuje nebo byl odstraněn.</p>
+          <a href="index.html" class="btn-primary">Zpět na přehled</a>
+        </div>
+
+        <article class="gem-article" id="gem-article" style="display:none">
+          <div class="gems-fallback-notice" id="gem-fallback-notice" style="display:none;margin-bottom:1rem;padding:0.75rem 1rem;background:rgba(255,193,7,0.15);border-radius:8px;color:var(--text);">
+            <strong>Zobrazuje se jen ukázka.</strong> Pro plné popisy všech 114 gemů spusťte v této složce v terminálu: <code>python -m http.server 8080</code> a otevřete <a href="http://localhost:8080/all-gems.html" id="gem-fallback-link" style="color:var(--accent);">http://localhost:8080/all-gems.html</a>
+          </div>
+          <div class="gem-detail-header">
+            <span class="gem-detail-emoji" id="gem-emoji"></span>
+            <div>
+              <h1 class="gem-detail-title" id="gem-title"></h1>
+              <p class="gem-detail-subtitle" id="gem-subtitle"></p>
+              <div class="gem-detail-meta">
+                <span class="tag tag-accent" id="gem-category"></span>
+                <a href="#" target="_blank" rel="noopener" class="gem-original-link" id="gem-original-link">
+                  Otevřít gem ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <section class="gem-section">
+            <h2>Popis</h2>
+            <p class="gem-description" id="gem-description"></p>
+          </section>
+
+          <section class="gem-section">
+            <h2>Jak použít</h2>
+            <ul class="gem-instructions">
+              <li>Klikněte na odkaz níže a otevřete gem v Google Gemini.</li>
+              <li>Napište „Ahoj“ nebo popište, co potřebujete.</li>
+              <li>Pro lepší výsledky zvolte model <strong>Thinking</strong> nebo <strong>Pro</strong> místo Fast.</li>
+            </ul>
+            <a href="#" target="_blank" rel="noopener" class="btn-primary btn-gem-link" id="btn-gem-link">
+              Spustit gem v Gemini ↗
+            </a>
+          </section>
+
+          <section class="gem-section gem-notes-section">
+            <h2>Moje poznámky k tomuto gemu</h2>
+            <p class="gem-notes-hint">Poznámky se ukládají lokálně v prohlížeči.</p>
+            <textarea class="gem-notes-input" id="gem-notes" rows="6" placeholder="Zde můžete ukládat své poznámky, nápady nebo zkušenosti s tímto gemem..."></textarea>
+            <button type="button" class="btn-primary" id="save-notes">Uložit poznámky</button>
+            <span class="save-status" id="save-status"></span>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <div class="inner footer-inner">
+        <div>
+          GemForge
+        </div>
+        <a href="index.html" class="footer-link">Zpět na přehled</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./gems-data.js"></script>
+  <script>
+    (function(){
+      if (!window.GEMS_DATA || Object.keys(window.GEMS_DATA).length === 0) {
+        window._GEMS_FALLBACK = true;
+        window.GEMS_DATA = {"3-step-reflection":{"slug":"3-step-reflection","emoji":"🪞","title":"3-Step Reflection","titleCs":"3-kroková reflexe","shortDescCs":"Strukturovaná reflexe podle Rolfe et al. – Co?, Tak co?, Co dál?","descriptionCs":"Tento Gem pomáhá žákům prohloubit porozumění jakékoli učební zkušenosti tím, že je provádí strukturovaným reflexním procesem založeným na rámci Rolfe et al.","category":"student","categories":["student","newest"],"gemUrl":"https://www.edugems.ai/gem/3-step-reflection"},"5e-lesson-plan":{"slug":"5e-lesson-plan","emoji":"🖐️","title":"5E Lesson Plan","titleCs":"5E plán hodiny","shortDescCs":"Plán podle modelu 5E.","descriptionCs":"Tento Gem pomáhá rychle vygenerovat detailní plán hodiny založený na badatelském modelu 5E (Zapoj, Prozkoumej, Vysvětli, Rozšiř, Zhodnoť).","category":"planning","categories":["planning","newest"],"gemUrl":"https://www.edugems.ai/gem/5e-lesson-plan"},"unit-plan":{"slug":"unit-plan","emoji":"📋","title":"Unit Plan","titleCs":"Plán jednotky","shortDescCs":"Souvislá výuková jednotka s cíli a hodinami.","descriptionCs":"Tento Gem pomáhá rychle vytvořit podrobný, na standardy navázaný plán jednotky pro efektivní zmapování učební cesty vašich žáků. Výsledný plán obsahuje učební cíle, standardy, klíčovou slovní zásobu a doporučený časový harmonogram.","category":"planning","categories":["planning"],"gemUrl":"https://www.edugems.ai/gem/unit-plan"},"worksheet":{"slug":"worksheet","emoji":"📝","title":"Worksheet","titleCs":"Pracovní list","shortDescCs":"Pracovní listy s úlohami.","descriptionCs":"Tento Gem pomáhá generovat pracovní listy s úlohami pro konkrétní téma, ročník a úroveň obtížnosti.","category":"materials","categories":["materials"],"gemUrl":"https://www.edugems.ai/gem/worksheet"},"ai-tutor":{"slug":"ai-tutor","emoji":"🧑‍🏫","title":"AI Tutor","titleCs":"AI tutor","shortDescCs":"Bezpečný AI tutor pro žáky.","descriptionCs":"Bezpečný AI tutor, který žákům vysvětluje látku krok za krokem.","category":"support","categories":["support","student"],"gemUrl":"https://www.edugems.ai/gem/ai-tutor"},"exit-ticket":{"slug":"exit-ticket","emoji":"🎫","title":"Exit Ticket","titleCs":"Exit ticket","shortDescCs":"Výstupní lístky pro formativní hodnocení.","descriptionCs":"Tento Gem pomáhá rychle vytvářet kvalitní výstupní lístky pro zjištění porozumění žáků na konci hodiny.","category":"assessment","categories":["assessment"],"gemUrl":"https://www.edugems.ai/gem/exit-ticket"},"book-matchmaker":{"slug":"book-matchmaker","emoji":"❤️","title":"Book Matchmaker","titleCs":"Doporučovač knih","shortDescCs":"Doporučení knih podle zájmů.","descriptionCs":"Tento Gem pomáhá žákům objevit jejich další skvělou knihu podle zájmů, věku a čtenářské úrovně.","category":"literacy","categories":["literacy","student"],"gemUrl":"https://www.edugems.ai/gem/book-matchmaker"},"3d-ngss-activity":{"slug":"3d-ngss-activity","emoji":"🔬","title":"3D NGSS Activity","titleCs":"3D NGSS aktivita","shortDescCs":"Vědecká aktivita propojující tři dimenze NGSS.","descriptionCs":"Tento Gem pomáhá vytvářet kompletní balíčky hodnocení a zdroje založené na standardech NGSS.","category":"stem","categories":["stem"],"gemUrl":"https://www.edugems.ai/gem/3d-ngss-activity"},"career-explorer":{"slug":"career-explorer","emoji":"💼","title":"Career Explorer","titleCs":"Průzkumník kariéry","shortDescCs":"Objevování povolání.","descriptionCs":"Tento Gem pomáhá žákům objevovat povolání podle zájmů a dovedností.","category":"student","categories":["student"],"gemUrl":"https://www.edugems.ai/gem/career-explorer"},"email-to-parents":{"slug":"email-to-parents","emoji":"📧","title":"Email to Parents","titleCs":"E-mail rodičům","shortDescCs":"Profesionální e-maily.","descriptionCs":"Profesionální e-maily rodičům o průběhu výuky a výsledcích.","category":"professional","categories":["professional"],"gemUrl":"https://www.edugems.ai/gem/email-to-parents"},"2-truths-a-lie-game":{"slug":"2-truths-a-lie-game","emoji":"🫢","title":"2 Truths & a Lie Game","titleCs":"Hra 2 pravdy a lež","shortDescCs":"Výroky ke konkrétnímu tématu – žáci hádají lež.","descriptionCs":"Tento Gem pomáhá rychle vytvořit vlastní kolo hry „Dvě pravdy a lež\" pro libovolné téma. Ideální pro podporu zapojení žáků, kritického myšlení a diagnostického opakování.","category":"engagement","categories":["engagement"],"gemUrl":"https://www.edugems.ai/gem/2-truths-a-lie-game"},"jeopardy-game":{"slug":"jeopardy-game","emoji":"❓","title":"Jeopardy Game","titleCs":"Kvíz Jeopardy","shortDescCs":"Otázky a kategorie ve stylu Jeopardy.","descriptionCs":"Tento Gem pomáhá rychle vygenerovat kompletní obsah pro opakovací hru ve stylu Jeopardy pro gamifikaci akademického obsahu a maximalizaci zapojení žáků.","category":"engagement","categories":["engagement"],"gemUrl":"https://www.edugems.ai/gem/jeopardy-game"}};
+      }
+    })();
+  </script>
+  <script>
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var slug = params.get("slug") || params.get("id") || "";
+      var hash = window.location.hash ? window.location.hash.slice(1) : "";
+      slug = slug || hash;
+
+      var notFoundEl = document.getElementById("gem-not-found");
+      var articleEl = document.getElementById("gem-article");
+
+      var gem = window.GEMS_DATA && slug ? window.GEMS_DATA[slug] : null;
+
+      if (!gem) {
+        notFoundEl.style.display = "block";
+        articleEl.style.display = "none";
+        return;
+      }
+
+      notFoundEl.style.display = "none";
+      articleEl.style.display = "block";
+
+      if (window._GEMS_FALLBACK) {
+        var notice = document.getElementById("gem-fallback-notice");
+        if (notice) notice.style.display = "block";
+      }
+
+      document.title = gem.titleCs + " – GemForge";
+
+      document.getElementById("gem-emoji").textContent = gem.emoji;
+      document.getElementById("gem-title").textContent = gem.titleCs;
+      document.getElementById("gem-subtitle").textContent = gem.title;
+      document.getElementById("gem-description").textContent = gem.descriptionCs || gem.shortDescCs || "Popis není k dispozici. Pro detail použijte odkaz níže.";
+
+      var categoryLabels = {
+        planning: "Plánování výuky",
+        materials: "Materiály",
+        engagement: "Zapojení žáků",
+        support: "Podpora žáků",
+        assessment: "Hodnocení",
+        literacy: "Čtenářství a jazyk",
+        stem: "Matematika a věda",
+        student: "Pro žáky",
+        professional: "Profesní úkoly",
+        newest: "Nový"
+      };
+      document.getElementById("gem-category").textContent = categoryLabels[gem.category] || gem.category;
+
+      var gemUrl = gem.gemUrl || "#";
+      document.getElementById("gem-original-link").href = gemUrl;
+      document.getElementById("btn-gem-link").href = gemUrl;
+
+      var notesKey = "gems-notes-" + slug;
+      var notesEl = document.getElementById("gem-notes");
+      var saveBtn = document.getElementById("save-notes");
+      var statusEl = document.getElementById("save-status");
+
+      try {
+        var saved = localStorage.getItem(notesKey);
+        if (saved) notesEl.value = saved;
+      } catch (e) {}
+
+      saveBtn.addEventListener("click", function() {
+        try {
+          localStorage.setItem(notesKey, notesEl.value);
+          statusEl.textContent = "Uloženo";
+          statusEl.className = "save-status saved";
+          setTimeout(function() {
+            statusEl.textContent = "";
+            statusEl.className = "save-status";
+          }, 2000);
+        } catch (e) {
+          statusEl.textContent = "Nepodařilo se uložit";
+          statusEl.className = "save-status error";
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

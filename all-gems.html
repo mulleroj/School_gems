@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Všechny gemy – GemForge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="inner nav">
+        <a href="index.html" class="logo-wrap">
+          <div class="logo-gem" aria-hidden="true"></div>
+          <div class="logo-text-main">GemForge</div>
+        </a>
+
+        <nav class="nav-links" aria-label="Hlavní navigace">
+          <a class="nav-link" href="index.html">Úvod</a>
+          <a class="nav-link active" href="all-gems.html">Všechny gemy</a>
+        </nav>
+
+        <a class="nav-cta" href="index.html#student-tools">
+          Nástroje pro žáky
+          <span>↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-compact">
+        <div class="inner">
+          <h1 class="hero-title">Všechny gemy</h1>
+          <p class="hero-subtitle">
+            Procházej, testuj a stav si vlastní sadu Gemů pro Gemini podle toho, co zrovna potřebuješ. Kompletní přehled všech 114 gemů.
+          </p>
+        </div>
+      </section>
+
+      <section class="all-gems-section">
+        <div class="inner">
+          <div class="gems-fallback-notice" id="fallback-notice" style="display:none;">
+            <strong>Zobrazuje se jen ukázka 9 gemů.</strong> Pro všech 114 gemů spusťte v této složce v terminálu: <code>python -m http.server 8080</code> a otevřete <a href="http://localhost:8080/all-gems.html">http://localhost:8080/all-gems.html</a>
+          </div>
+          <div class="categories-bar" id="filter-bar">
+            <button class="chip active" data-filter="all">Všechny</button>
+            <button class="chip" data-filter="planning">Plánování</button>
+            <button class="chip" data-filter="materials">Materiály</button>
+            <button class="chip" data-filter="engagement">Zapojení</button>
+            <button class="chip" data-filter="support">Podpora</button>
+            <button class="chip" data-filter="assessment">Hodnocení</button>
+            <button class="chip" data-filter="literacy">Čtenářství</button>
+            <button class="chip" data-filter="stem">STEM</button>
+            <button class="chip" data-filter="student">Pro žáky</button>
+            <button class="chip" data-filter="professional">Pro učitele</button>
+          </div>
+
+          <div class="cards-grid" id="all-gems-grid">
+            <a href="gem.html?slug=3-step-reflection" class="card">
+              <div class="card-header"><div class="card-icon">🪞</div><div class="card-title">3-kroková reflexe</div></div>
+              <p class="card-content">Strukturovaná reflexe podle Rolfe et al.</p>
+              <div class="card-tags"><span class="tag">Pro žáky</span></div>
+              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=5e-lesson-plan" class="card">
+              <div class="card-header"><div class="card-icon">🖐️</div><div class="card-title">5E plán hodiny</div></div>
+              <p class="card-content">Plán podle modelu 5E.</p>
+              <div class="card-tags"><span class="tag">Plánování</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+            <a href="gem.html?slug=worksheet" class="card">
+              <div class="card-header"><div class="card-icon">📝</div><div class="card-title">Pracovní list</div></div>
+              <p class="card-content">Pracovní listy s úlohami.</p>
+              <div class="card-tags"><span class="tag">Materiály</span></div>
+              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+            </a>
+          </div>
+
+          <p class="section-subtitle" style="margin-top: 2rem; text-align: center; color: var(--text-muted);">
+            <span id="gem-count">0</span> gemů celkem
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="inner footer-inner">
+        <div>
+          GemForge – sbírka gemů pro Google Gemini.
+        </div>
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Úvod</a>
+          <a href="index.html#planning" class="footer-link">Plánování</a>
+          <a href="index.html#student-tools" class="footer-link">Pro žáky</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./gems-data.js"></script>
+  <script>
+    (function(){
+      if (!window.GEMS_DATA || Object.keys(window.GEMS_DATA).length === 0) {
+        window.GEMS_DATA = {"3-step-reflection":{"slug":"3-step-reflection","emoji":"🪞","titleCs":"3-kroková reflexe","shortDescCs":"Strukturovaná reflexe podle Rolfe et al.","category":"student","categories":["student","newest"],"gemUrl":"https://www.edugems.ai/gem/3-step-reflection"},"5e-lesson-plan":{"slug":"5e-lesson-plan","emoji":"🖐️","titleCs":"5E plán hodiny","shortDescCs":"Plán podle modelu 5E.","category":"planning","categories":["planning","newest"],"gemUrl":"https://www.edugems.ai/gem/5e-lesson-plan"},"unit-plan":{"slug":"unit-plan","emoji":"📋","titleCs":"Plán jednotky","shortDescCs":"Souvislá výuková jednotka s cíli a hodinami.","category":"planning","categories":["planning"],"gemUrl":"https://www.edugems.ai/gem/unit-plan"},"worksheet":{"slug":"worksheet","emoji":"📝","titleCs":"Pracovní list","shortDescCs":"Pracovní listy s úlohami.","category":"materials","categories":["materials"],"gemUrl":"https://www.edugems.ai/gem/worksheet"},"ai-tutor":{"slug":"ai-tutor","emoji":"🧑‍🏫","titleCs":"AI tutor","shortDescCs":"Bezpečný AI tutor pro žáky.","category":"support","categories":["support","student"],"gemUrl":"https://www.edugems.ai/gem/ai-tutor"},"exit-ticket":{"slug":"exit-ticket","emoji":"🎫","titleCs":"Exit ticket","shortDescCs":"Výstupní lístky pro formativní hodnocení.","category":"assessment","categories":["assessment"],"gemUrl":"https://www.edugems.ai/gem/exit-ticket"},"book-matchmaker":{"slug":"book-matchmaker","emoji":"❤️","titleCs":"Doporučovač knih","shortDescCs":"Doporučení knih podle zájmů.","category":"literacy","categories":["literacy","student"],"gemUrl":"https://www.edugems.ai/gem/book-matchmaker"},"3d-ngss-activity":{"slug":"3d-ngss-activity","emoji":"🔬","titleCs":"3D NGSS aktivita","shortDescCs":"Vědecká aktivita NGSS.","category":"stem","categories":["stem"],"gemUrl":"https://www.edugems.ai/gem/3d-ngss-activity"},"career-explorer":{"slug":"career-explorer","emoji":"💼","titleCs":"Průzkumník kariéry","shortDescCs":"Objevování povolání.","category":"student","categories":["student"],"gemUrl":"https://www.edugems.ai/gem/career-explorer"},"email-to-parents":{"slug":"email-to-parents","emoji":"📧","titleCs":"E-mail rodičům","shortDescCs":"Profesionální e-maily.","category":"professional","categories":["professional"],"gemUrl":"https://www.edugems.ai/gem/email-to-parents"},"2-truths-a-lie-game":{"slug":"2-truths-a-lie-game","emoji":"🫢","titleCs":"Hra 2 pravdy a lež","shortDescCs":"Výroky ke konkrétnímu tématu – žáci hádají lež.","category":"engagement","categories":["engagement"],"gemUrl":"https://www.edugems.ai/gem/2-truths-a-lie-game"},"jeopardy-game":{"slug":"jeopardy-game","emoji":"❓","titleCs":"Kvíz Jeopardy","shortDescCs":"Otázky a kategorie ve stylu Jeopardy.","category":"engagement","categories":["engagement"],"gemUrl":"https://www.edugems.ai/gem/jeopardy-game"}};
+        window._GEMS_FALLBACK = true;
+      }
+    })();
+  </script>
+  <script>
+    (function() {
+      var GEMS = window.GEMS_DATA || {};
+      if (Object.keys(GEMS).length === 0) {
+        var grid = document.getElementById("all-gems-grid");
+        var countEl = document.getElementById("gem-count");
+        if (grid) grid.innerHTML = "<p style=\"color:var(--text-muted);padding:2rem;text-align:center;\">Data gemů se nenačetla. <strong>Řešení:</strong> Otevřete stránku přes HTTP server – v terminálu v této složce spusťte <code>python -m http.server 8080</code> a pak otevřete <a href=\"http://localhost:8080/all-gems.html\" style=\"color:var(--accent);\">http://localhost:8080/all-gems.html</a></p>";
+        if (countEl) countEl.textContent = "0";
+        return;
+      }
+      var categoryLabels = {
+        planning: "Plánování",
+        materials: "Materiály",
+        engagement: "Zapojení",
+        support: "Podpora",
+        assessment: "Hodnocení",
+        literacy: "Čtenářství",
+        stem: "STEM",
+        student: "Pro žáky",
+        professional: "Pro učitele",
+        newest: "Nový"
+      };
+
+      function esc(s) {
+        if (!s) return "";
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+      function renderCard(gem) {
+        var cat = gem.category || "other";
+        var role = cat === "student" ? "Žák" : "Učitel";
+        var title = esc(gem.titleCs || gem.title);
+        var desc = esc(gem.shortDescCs || "");
+        var tag = esc(categoryLabels[cat] || cat);
+        return '<a href="gem.html?slug=' + esc(gem.slug) + '" class="card">' +
+          '<div class="card-header"><div class="card-icon">' + (gem.emoji || "") + "</div><div class=\"card-title\">" + title + "</div></div>" +
+          '<p class="card-content">' + desc + "</p>" +
+          '<div class="card-tags"><span class=\"tag\">' + tag + "</span></div>" +
+          '<div class=\"card-footer\"><span>' + role + "</span><span class=\"card-link\">Detail &amp; otevřít <span>↗</span></span></div>" +
+          "</a>";
+      }
+
+      function renderGrid(filter) {
+        var grid = document.getElementById("all-gems-grid");
+        var countEl = document.getElementById("gem-count");
+        if (!grid) return;
+
+        var slugs = Object.keys(GEMS);
+        var html = "";
+        var shown = 0;
+
+        slugs.forEach(function(slug) {
+          var g = GEMS[slug];
+          if (!g || !g.slug) return;
+          if (filter && filter !== "all") {
+            var cats = g.categories || (g.category ? [g.category] : []);
+            if (cats.indexOf(filter) === -1 && g.category !== filter) return;
+          }
+          html += renderCard(g);
+          shown++;
+        });
+
+        grid.innerHTML = html;
+        if (countEl) countEl.textContent = shown;
+      }
+
+      var bar = document.getElementById("filter-bar");
+      if (bar) {
+        bar.addEventListener("click", function(e) {
+          var chip = e.target.closest(".chip");
+          if (!chip) return;
+          bar.querySelectorAll(".chip").forEach(function(c) { c.classList.remove("active"); });
+          chip.classList.add("active");
+          renderGrid(chip.dataset.filter || "all");
+        });
+      }
+
+      renderGrid("all");
+      if (window._GEMS_FALLBACK) {
+        var n = document.getElementById("fallback-notice");
+        if (n) n.style.display = "block";
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# Netlify konfigurace pro GemForge
+# Statický web – žádný build krok, soubory se nasazují přímo
+
+[build]
+  publish = "."
