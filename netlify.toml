@@ -3,3 +3,9 @@
 
 [build]
   publish = "."
+
+[[redirects]]
+  from = "/gem"
+  to = "/gem.html"
+  status = 301
+  force = true
