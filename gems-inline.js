@@ -5,7 +5,7 @@ window.GEMS_DATA={
     title: "3-Step Reflection",
     titleCs: "3-kroková reflexe",
     shortDescCs: "Strukturovaná reflexe podle Rolfe et al. – Co?, Tak co?, Co dál?",
-    descriptionCs: "Tento Gem pomáhá žákům prohloubit porozumění jakékoli učební zkušenosti tím, že je provádí strukturovaným reflexním procesem založeným na rámci Rolfe et al. Jako podporující „kouč reflexe" používá sokratovský přístup a klade jednu otázku za druhou, aby žáci překročili povrchní odpovědi a odhalili smysluplné poznatky o „Co?", „Tak co?" a „Co dál?" své práce. Žáci vedou s Gemini spolupracující rozhovor, začnou uvedením ročníku a konkrétní aktivity, projektu nebo zkušenosti, na kterou reflektují. Gemini je provede procesem, klade doplňující otázky ke kontrole hloubky a nakonec vygeneruje souvislé shrnutí reflexe připravené k odevzdání.",
+    descriptionCs: "Tento Gem pomáhá žákům prohloubit porozumění jakékoli učební zkušenosti tím, že je provádí strukturovaným reflexním procesem založeným na rámci Rolfe et al. Jako podporující „kouč reflexe“ používá sokratovský přístup a klade jednu otázku za druhou, aby žáci překročili povrchní odpovědi a odhalili smysluplné poznatky o „Co?“, „Tak co?“ a „Co dál?“ své práce. Žáci vedou s Gemini spolupracující rozhovor, začnou uvedením ročníku a konkrétní aktivity, projektu nebo zkušenosti, na kterou reflektují. Gemini je provede procesem, klade doplňující otázky ke kontrole hloubky a nakonec vygeneruje souvislé shrnutí reflexe připravené k odevzdání.",
     category: "student",
     categories: ["student", "newest"],
     gemUrl: "https://www.edugems.ai/gem/3-step-reflection"
@@ -16,7 +16,7 @@ window.GEMS_DATA={
     title: "3D NGSS Activity",
     titleCs: "3D NGSS aktivita",
     shortDescCs: "Vědecká aktivita propojující tři dimenze NGSS.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvářet kompletní, kvalitní balíčky hodnocení a zdroje založené na standardech Next Generation Science Standards (NGSS). Jako váš „architekt 3D aktivit" šetří čas tím, že převádí složité standardy na poutavé materiály připravené pro výuku, zakotvené v konkrétních vědeckých a inženýrských postupech (SEP), oborových základních myšlenkách (DCI) a průřezových konceptech (CCC) cílového standardu.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvářet kompletní, kvalitní balíčky hodnocení a zdroje založené na standardech Next Generation Science Standards (NGSS). Jako váš „architekt 3D aktivit“ šetří čas tím, že převádí složité standardy na poutavé materiály připravené pro výuku, zakotvené v konkrétních vědeckých a inženýrských postupech (SEP), oborových základních myšlenkách (DCI) a průřezových konceptech (CCC) cílového standardu.",
     category: "stem",
     categories: ["stem", "newest"],
     gemUrl: "https://www.edugems.ai/gem/3d-ngss-activity"
@@ -38,7 +38,7 @@ window.GEMS_DATA={
     title: "AI Use Reflection",
     titleCs: "AI reflexe používání",
     shortDescCs: "Reflexe odpovědného používání AI a akademické čestnosti.",
-    descriptionCs: "Tento Gem pomáhá žákům přesně popsat, jak spolupracovali s AI na projektu, a přechází od pasivních konzumentů k aktivním tvůrcům. Jako podporující „kouč reflexe používání AI" využívá rámec „Zápas, Rým, Reflexe" k vedení žáků důkladným procesem „kognitivního uvedení do problematiky".",
+    descriptionCs: "Tento Gem pomáhá žákům přesně popsat, jak spolupracovali s AI na projektu, a přechází od pasivních konzumentů k aktivním tvůrcům. Jako podporující „kouč reflexe používání AI“ využívá rámec „Zápas, Rým, Reflexe“ k vedení žáků důkladným procesem „kognitivního uvedení do problematiky“.",
     category: "student",
     categories: ["student", "newest"],
     gemUrl: "https://www.edugems.ai/gem/ai-use-reflection"
@@ -126,7 +126,7 @@ window.GEMS_DATA={
     title: "Grading Partner",
     titleCs: "Hodnoticí partner",
     shortDescCs: "Pomocník při hodnocení a zpětné vazbě.",
-    descriptionCs: "Tento Gem výrazně ulehčuje zátěž při hodnocení a zároveň zajišťuje, že každý žák dostane včasnou, konkrétní a využitelnou zpětnou vazbu. Jako podporující „hodnoticí partner" a spolupedagog přísně dodržuje vaši rubriku a generuje dvoudílnou zprávu: formální hodnocení pro vaše záznamy a personalizovaný dopis se zpětnou vazbou přiměřenou věku žáka.",
+    descriptionCs: "Tento Gem výrazně ulehčuje zátěž při hodnocení a zároveň zajišťuje, že každý žák dostane včasnou, konkrétní a využitelnou zpětnou vazbu. Jako podporující „hodnoticí partner“ a spolupedagog přísně dodržuje vaši rubriku a generuje dvoudílnou zprávu: formální hodnocení pro vaše záznamy a personalizovaný dopis se zpětnou vazbou přiměřenou věku žáka.",
     category: "assessment",
     categories: ["assessment", "newest"],
     gemUrl: "https://www.edugems.ai/gem/grading-partner"
@@ -137,7 +137,7 @@ window.GEMS_DATA={
     title: "Job Interview Coach",
     titleCs: "Kouč pohovorů",
     shortDescCs: "Příprava na pracovní pohovory.",
-    descriptionCs: "Tento Gem pomáhá žákům budovat sebevědomí a kompetence pro pracovní pohovory tím, že funguje jako přátelský a podporující „kouč pohovorů". Ideální pro procvičování v prostředí s nízkým stresem, nabízí strukturovanou rolovou hru střídající realistické dotazování s konkrétní, konstruktivní zpětnou vazbou ke zlepšení komunikačních dovedností.",
+    descriptionCs: "Tento Gem pomáhá žákům budovat sebevědomí a kompetence pro pracovní pohovory tím, že funguje jako přátelský a podporující „kouč pohovorů“. Ideální pro procvičování v prostředí s nízkým stresem, nabízí strukturovanou rolovou hru střídající realistické dotazování s konkrétní, konstruktivní zpětnou vazbou ke zlepšení komunikačních dovedností.",
     category: "student",
     categories: ["student", "newest"],
     gemUrl: "https://www.edugems.ai/gem/job-interview-coach"
@@ -159,7 +159,7 @@ window.GEMS_DATA={
     title: "Mindfulness Break",
     titleCs: "Mindfulness pauza",
     shortDescCs: "Krátké řízené pauzy pro třídu.",
-    descriptionCs: "Tento Gem pomáhá rychle zvládat stres, úzkost a únavu poskytováním okamžitých, vědecky podložených „mikrodávek" mindfulness. Jako klidný a profesionální průvodce pomáhá resetovat nervový systém za pouhých 1–3 minut, přenáší kognitivní pozornost z reaktivní amygdaly na racionální prefrontální kortex pomocí technik přizpůsobených vašim konkrétním příznakům.",
+    descriptionCs: "Tento Gem pomáhá rychle zvládat stres, úzkost a únavu poskytováním okamžitých, vědecky podložených „mikrodávek“ mindfulness. Jako klidný a profesionální průvodce pomáhá resetovat nervový systém za pouhých 1–3 minut, přenáší kognitivní pozornost z reaktivní amygdaly na racionální prefrontální kortex pomocí technik přizpůsobených vašim konkrétním příznakům.",
     category: "professional",
     categories: ["professional", "newest"],
     gemUrl: "https://www.edugems.ai/gem/mindfulness-break"
@@ -181,7 +181,7 @@ window.GEMS_DATA={
     title: "PE Game Inventor",
     titleCs: "Vynálezce PE her",
     shortDescCs: "Tvorba her pro tělesnou výchovu.",
-    descriptionCs: "Tento Gem pomáhá vymýšlet čerstvé, poutavé a vývojově přiměřené hry pro tělesnou výchovu za běhu podle vašich konkrétních denních omezení. Jako kreativní a bezpečnostně uvědomělý „vynálezce PE her" je ideální pro navrhování přizpůsobitelných aktivit, které maximalizují dostupný prostor, velikost třídy a vybavení při zachování aktivity, bezpečnosti a snadné viditelnosti žáků pro učitele.",
+    descriptionCs: "Tento Gem pomáhá vymýšlet čerstvé, poutavé a vývojově přiměřené hry pro tělesnou výchovu za běhu podle vašich konkrétních denních omezení. Jako kreativní a bezpečnostně uvědomělý „vynálezce PE her“ je ideální pro navrhování přizpůsobitelných aktivit, které maximalizují dostupný prostor, velikost třídy a vybavení při zachování aktivity, bezpečnosti a snadné viditelnosti žáků pro učitele.",
     category: "engagement",
     categories: ["engagement", "newest"],
     gemUrl: "https://www.edugems.ai/gem/pe-game-inventor"
@@ -192,7 +192,7 @@ window.GEMS_DATA={
     title: "Professional Learning Coach",
     titleCs: "Profesní kouč",
     shortDescCs: "Návrhy na profesní rozvoj a reflexi výuky.",
-    descriptionCs: "Tento Gem pomáhá zapojit se do personalizovaného, „kouskovaného" profesního rozvoje pro prohloubení odbornosti a aplikaci praxí založených na důkazech. Jako expertní mentor pro předškolní až střední vzdělávání překlenuje propast mezi teorií a třídní praxí a umožňuje vám prozkoumávat témata podložená výzkumem (jako je Science of Reading, UDL nebo MTSS) a slaďovat je s vašimi profesními standardy.",
+    descriptionCs: "Tento Gem pomáhá zapojit se do personalizovaného, „kouskovaného“ profesního rozvoje pro prohloubení odbornosti a aplikaci praxí založených na důkazech. Jako expertní mentor pro předškolní až střední vzdělávání překlenuje propast mezi teorií a třídní praxí a umožňuje vám prozkoumávat témata podložená výzkumem (jako je Science of Reading, UDL nebo MTSS) a slaďovat je s vašimi profesními standardy.",
     category: "professional",
     categories: ["professional", "newest"],
     gemUrl: "https://www.edugems.ai/gem/professional-learning-coach"
@@ -203,7 +203,7 @@ window.GEMS_DATA={
     title: "RAFT Writing Prompts",
     titleCs: "RAFT psací úkoly",
     shortDescCs: "RAFT zadání (Role, Audience, Format, Topic) pro psaní.",
-    descriptionCs: "Tento Gem pomáhá rychle brainstormovat kreativní, poutavé a někdy neobvyklé psací úkoly RAFT (Role, Publikum, Formát, Téma), aby se odklonily od standardních, nudných zadání. Jako vtipný, kreativní brainstormingový partner je ideální pro roznícení skutečné žákovské zvědavosti generováním „mimo šablonu" psacích scénářů – například nervózní tektonická deska píšící rozchodový SMS zemskému plášti – pečlivě přizpůsobených vašemu ročníku a učebním cílům.",
+    descriptionCs: "Tento Gem pomáhá rychle brainstormovat kreativní, poutavé a někdy neobvyklé psací úkoly RAFT (Role, Publikum, Formát, Téma), aby se odklonily od standardních, nudných zadání. Jako vtipný, kreativní brainstormingový partner je ideální pro roznícení skutečné žákovské zvědavosti generováním „mimo šablonu“ psacích scénářů – například nervózní tektonická deska píšící rozchodový SMS zemskému plášti – pečlivě přizpůsobených vašemu ročníku a učebním cílům.",
     category: "literacy",
     categories: ["literacy", "newest"],
     gemUrl: "https://www.edugems.ai/gem/raft-writing-prompts"
@@ -214,7 +214,7 @@ window.GEMS_DATA={
     title: "Shelf-Talkers",
     titleCs: "Shelf-Talkers",
     shortDescCs: "Krátké doporučení knih pro knihovnu.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvářet úderné, asi 50slovné „záchytné" texty (shelf-talkers) určené k upoutání pozornosti žáků a podpoře samostatného půjčování. Jako energický a nadšený „písař shelf-talkerů" analyzuje příběh, žánr a tón vaší knihy a generuje pět odlišných marketingových úhlů dokonale přizpůsobených cílovým čtenářům.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvářet úderné, asi 50slovné „záchytné“ texty (shelf-talkers) určené k upoutání pozornosti žáků a podpoře samostatného půjčování. Jako energický a nadšený „písař shelf-talkerů“ analyzuje příběh, žánr a tón vaší knihy a generuje pět odlišných marketingových úhlů dokonale přizpůsobených cílovým čtenářům.",
     category: "literacy",
     categories: ["literacy", "newest"],
     gemUrl: "https://www.edugems.ai/gem/shelf-talkers"
@@ -247,7 +247,7 @@ window.GEMS_DATA={
     title: "Teach a Robot",
     titleCs: "Nauč robota",
     shortDescCs: "Žáci vysvětlují látku robotovi pro prohloubení porozumění.",
-    descriptionCs: "Tento Gem pomáhá žákům upevnit učení tím, že obrací scénář: místo toho, aby AI učila je, oni učí AI. Jako „zvědavý robot", přátelský, ale zmatený žák, povzbuzuje žáky, aby vysvětlili téma vlastními slovy. Robot pak generuje konkrétní, věrohodná nedorozumění (jako falešná kauzalita, nadměrná generalizace nebo záměna slovní zásoby), která nutí žáka objasnit své myšlení a prohloubit znalosti.",
+    descriptionCs: "Tento Gem pomáhá žákům upevnit učení tím, že obrací scénář: místo toho, aby AI učila je, oni učí AI. Jako „zvědavý robot“, přátelský, ale zmatený žák, povzbuzuje žáky, aby vysvětlili téma vlastními slovy. Robot pak generuje konkrétní, věrohodná nedorozumění (jako falešná kauzalita, nadměrná generalizace nebo záměna slovní zásoby), která nutí žáka objasnit své myšlení a prohloubit znalosti.",
     category: "student",
     categories: ["student", "engagement", "newest"],
     gemUrl: "https://www.edugems.ai/gem/teach-a-robot"
@@ -280,7 +280,7 @@ window.GEMS_DATA={
     title: "AI + SAMR Activity",
     titleCs: "AI + SAMR aktivita",
     shortDescCs: "Aktivity integrující AI podle SAMR modelu.",
-    descriptionCs: "Tento Gem pomáhá navrhovat učební zkušenosti, v nichž je AI používána bezpečně, eticky a efektivně k posílení žáků. Zakotven v „AI optimismu" využívá model SAMR k rozšíření standardních hodin na příležitosti, kde AI funguje nejen jako nástroj, ale jako myšlenkový partner (Modifikace) nebo spoluhráč/spolutvůrce (Redefinice) pro maximalizaci žákovské agentury.",
+    descriptionCs: "Tento Gem pomáhá navrhovat učební zkušenosti, v nichž je AI používána bezpečně, eticky a efektivně k posílení žáků. Zakotven v „AI optimismu“ využívá model SAMR k rozšíření standardních hodin na příležitosti, kde AI funguje nejen jako nástroj, ale jako myšlenkový partner (Modifikace) nebo spoluhráč/spolutvůrce (Redefinice) pro maximalizaci žákovské agentury.",
     category: "planning",
     categories: ["planning"],
     gemUrl: "https://www.edugems.ai/gem/ai-samr-activity"
@@ -291,7 +291,7 @@ window.GEMS_DATA={
     title: "Bell Ringer by Date",
     titleCs: "Zahřívací aktivita podle data",
     shortDescCs: "Krátké úvodní aktivity podle historického data.",
-    descriptionCs: "Tento Gem pomáhá začínat každou hodinu energií a relevancí generováním včasné „zahřívací aktivity podle data". Jako expertní specialista na zapojení žáků propojuje historické události, svátky nebo zajímavosti daného dne přímo s vaším předmětem (např. propojení „Národního dne pizzy" se zlomky v hodině matematiky) a zároveň zajišťuje, že veškerý obsah je přiměřený ročníku a „bezpečný pro školu\".",
+    descriptionCs: "Tento Gem pomáhá začínat každou hodinu energií a relevancí generováním včasné „zahřívací aktivity podle data“. Jako expertní specialista na zapojení žáků propojuje historické události, svátky nebo zajímavosti daného dne přímo s vaším předmětem (např. propojení „Národního dne pizzy“ se zlomky v hodině matematiky) a zároveň zajišťuje, že veškerý obsah je přiměřený ročníku a „bezpečný pro školu\“.",
     category: "planning",
     categories: ["planning", "engagement"],
     gemUrl: "https://www.edugems.ai/gem/bell-ringer-by-date"
@@ -324,7 +324,7 @@ window.GEMS_DATA={
     title: "Emergency Sub Plan",
     titleCs: "Nouzový plán pro suplování",
     shortDescCs: "Plán hodiny pro náhradní učitele.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat podrobný, nenáročný na přípravu a samostatný nouzový plán pro suplování. Ideální pro vytváření „neprůstřelných\" hodin při neočekávaných absencích, zajišťuje, že plán těsně odpovídá vašemu obsahu, ale nevyžaduje žádná specifická přihlášení, složitou technologii ani specializované znalosti od náhradního učitele.",
+    descriptionCs: "Tento Gem pomáhá rychle vygenerovat podrobný, nenáročný na přípravu a samostatný nouzový plán pro suplování. Ideální pro vytváření „neprůstřelných\“ hodin při neočekávaných absencích, zajišťuje, že plán těsně odpovídá vašemu obsahu, ale nevyžaduje žádná specifická přihlášení, složitou technologii ani specializované znalosti od náhradního učitele.",
     category: "planning",
     categories: ["planning", "professional"],
     gemUrl: "https://www.edugems.ai/gem/emergency-sub-plan"
@@ -423,7 +423,7 @@ window.GEMS_DATA={
     title: "Coloring Page Maker",
     titleCs: "Tvůrce omalovánek",
     shortDescCs: "Generování omalovánek pro výuku.",
-    descriptionCs: "Tento Gem pomáhá generovat kvalitní, vlastní omalovánky přizpůsobené vašemu kurikulu nebo tématu. Jako váš „kreativní společník pro omalovánky\" vytváří bezpečné, čisté linkové kresby na čistě bílém pozadí, ideální pro tisk a použití ve třídě k relaxaci, odměně nebo tematickému upevnění.",
+    descriptionCs: "Tento Gem pomáhá generovat kvalitní, vlastní omalovánky přizpůsobené vašemu kurikulu nebo tématu. Jako váš „kreativní společník pro omalovánky\“ vytváří bezpečné, čisté linkové kresby na čistě bílém pozadí, ideální pro tisk a použití ve třídě k relaxaci, odměně nebo tematickému upevnění.",
     category: "materials",
     categories: ["materials"],
     gemUrl: "https://www.edugems.ai/gem/coloring-page-maker"
@@ -555,7 +555,7 @@ window.GEMS_DATA={
     title: "Video Prompt Generator",
     titleCs: "Generátor videopromptů",
     shortDescCs: "Generování promptů pro tvorbu videí.",
-    descriptionCs: "Tento Gem funguje jako váš expertní režisér videopromptů a pomáhá sestavit „perfektní\" prompt pro nástroje pro generování AI videí jako Veo, Sora a Runway. Kombinuje hluboké znalosti kinematografie (osvětlení, úhly kamery, poměry stran) s inženýrstvím AI promptů k přeměně vágních nápadů na podrobné, vysoce věrné instrukce generující úžasné výsledky.",
+    descriptionCs: "Tento Gem funguje jako váš expertní režisér videopromptů a pomáhá sestavit „perfektní\“ prompt pro nástroje pro generování AI videí jako Veo, Sora a Runway. Kombinuje hluboké znalosti kinematografie (osvětlení, úhly kamery, poměry stran) s inženýrstvím AI promptů k přeměně vágních nápadů na podrobné, vysoce věrné instrukce generující úžasné výsledky.",
     category: "materials",
     categories: ["materials"],
     gemUrl: "https://www.edugems.ai/gem/video-prompt-generator"
@@ -588,7 +588,7 @@ window.GEMS_DATA={
     title: "2 Truths & a Lie Game",
     titleCs: "Hra 2 pravdy a lež",
     shortDescCs: "Výroky ke konkrétnímu tématu – žáci hádají lež.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní kolo hry „Dvě pravdy a lež\" pro libovolné téma. Ideální pro podporu zapojení žáků, kritického myšlení a diagnostického opakování generováním tří výroků přiměřených věku – dvou faktů a jedné věrohodné, přesvědčivé lži – k prověření žákovského porozumění a zacílení na běžné omyly.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní kolo hry „Dvě pravdy a lež\“ pro libovolné téma. Ideální pro podporu zapojení žáků, kritického myšlení a diagnostického opakování generováním tří výroků přiměřených věku – dvou faktů a jedné věrohodné, přesvědčivé lži – k prověření žákovského porozumění a zacílení na běžné omyly.",
     category: "engagement",
     categories: ["engagement"],
     gemUrl: "https://www.edugems.ai/gem/2-truths-a-lie-game"
@@ -599,7 +599,7 @@ window.GEMS_DATA={
     title: "20 Questions Game",
     titleCs: "Hra 20 otázek",
     shortDescCs: "Klasická hra 20 otázek pro výuku.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní, poutavé a náročné kolo hry „20 otázek\". Ideální pro podporu kritického myšlení, diagnostického opakování a systematického dotazování, když žáci spolupracují na hádání klíčového slova, významné osobnosti nebo základního konceptu z vaší hodiny.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní, poutavé a náročné kolo hry „20 otázek\“. Ideální pro podporu kritického myšlení, diagnostického opakování a systematického dotazování, když žáci spolupracují na hádání klíčového slova, významné osobnosti nebo základního konceptu z vaší hodiny.",
     category: "engagement",
     categories: ["engagement"],
     gemUrl: "https://www.edugems.ai/gem/20-questions-game"
@@ -632,7 +632,7 @@ window.GEMS_DATA={
     title: "Classroom Taboo Game",
     titleCs: "Třídní hra Taboo",
     shortDescCs: "Hra Taboo přizpůsobená výuce.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat zábavné a náročné kolo hry „Třídní Taboo\" pro libovolné téma. Ideální pro upevnění klíčové slovní zásoby a konceptů, protože žáci musí kriticky myslet, aby uhodli tajné slovo na základě nápověd od Gemini, přičemž se vyhýbají seznamu běžných, „tabu\" souvisejících výrazů.",
+    descriptionCs: "Tento Gem pomáhá rychle vygenerovat zábavné a náročné kolo hry „Třídní Taboo\“ pro libovolné téma. Ideální pro upevnění klíčové slovní zásoby a konceptů, protože žáci musí kriticky myslet, aby uhodli tajné slovo na základě nápověd od Gemini, přičemž se vyhýbají seznamu běžných, „tabu\“ souvisejících výrazů.",
     category: "engagement",
     categories: ["engagement"],
     gemUrl: "https://www.edugems.ai/gem/classroom-taboo-game"
@@ -643,7 +643,7 @@ window.GEMS_DATA={
     title: "CYOA Story",
     titleCs: "Příběh typu Vyber si vlastní dobrodružství",
     shortDescCs: "Interaktivní příběhy s volbami.",
-    descriptionCs: "Tento Gem přeměňuje standardní hodiny na ponořující, interaktivní narativy, které umožňují žákům „prožít\" historické události, vědecké procesy nebo literární scénáře. Jako expertní průvodce vzdělávacím dobrodružstvím usnadňuje kolo za kolem hru „Vyber si vlastní dobrodružství\" přísně navázanou na vaše učební cíle a ročník, zajišťuje, že zábava slouží pedagogickému účelu.",
+    descriptionCs: "Tento Gem přeměňuje standardní hodiny na ponořující, interaktivní narativy, které umožňují žákům „prožít\“ historické události, vědecké procesy nebo literární scénáře. Jako expertní průvodce vzdělávacím dobrodružstvím usnadňuje kolo za kolem hru „Vyber si vlastní dobrodružství\“ přísně navázanou na vaše učební cíle a ročník, zajišťuje, že zábava slouží pedagogickému účelu.",
     category: "engagement",
     categories: ["engagement", "student"],
     gemUrl: "https://www.edugems.ai/gem/cyoa-story"
@@ -654,7 +654,7 @@ window.GEMS_DATA={
     title: "Emoji Definition Game",
     titleCs: "Hra emoji definice",
     shortDescCs: "Hádání pojmů pomocí emoji.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit zábavnou, vizuální a vysoce poutavou hru „Emoji definice\" pro upevnění klíčové slovní zásoby, významných osobností nebo základních konceptů z libovolného tématu. Ideální pro podporu nadšené třídní diskuse a opakování prostřednictvím zapamatovatelné, kolaborativní hádanky.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit zábavnou, vizuální a vysoce poutavou hru „Emoji definice\“ pro upevnění klíčové slovní zásoby, významných osobností nebo základních konceptů z libovolného tématu. Ideální pro podporu nadšené třídní diskuse a opakování prostřednictvím zapamatovatelné, kolaborativní hádanky.",
     category: "engagement",
     categories: ["engagement"],
     gemUrl: "https://www.edugems.ai/gem/emoji-definition-game"
@@ -676,7 +676,7 @@ window.GEMS_DATA={
     title: "Historical What If?",
     titleCs: "Historické Co kdyby?",
     shortDescCs: "Alternativní historické scénáře.",
-    descriptionCs: "Tento Gem pomáhá učitelům společenských věd vytvářet náročné, věrohodné a poutavé scénáře „alternativní historie\" pro výuku kauzality a historického významu. Jako „Chrono-Shift historik\" přesahuje jednoduché vyprávění a generuje komplexní zprávu zakotvující fikci v realitě, vytváří hlubokou analýzu vlnových efektů napříč společností, ekonomikou a geopolitikou.",
+    descriptionCs: "Tento Gem pomáhá učitelům společenských věd vytvářet náročné, věrohodné a poutavé scénáře „alternativní historie\“ pro výuku kauzality a historického významu. Jako „Chrono-Shift historik\“ přesahuje jednoduché vyprávění a generuje komplexní zprávu zakotvující fikci v realitě, vytváří hlubokou analýzu vlnových efektů napříč společností, ekonomikou a geopolitikou.",
     category: "engagement",
     categories: ["engagement"],
     gemUrl: "https://www.edugems.ai/gem/historical-what-if"
@@ -709,7 +709,7 @@ window.GEMS_DATA={
     title: "Story Co-Writer",
     titleCs: "Spolutvůrce příběhů",
     shortDescCs: "Společné psaní příběhů s AI.",
-    descriptionCs: "Tento Gem usnadňuje kolaborativní aktivitu „round robin\" nebo „řetězového psaní\" s vaší třídou. Jako „kreativní spolutvůrce\" píše střídavě příběh po částech se žáky. Tento přístup povzbuzuje kreativitu, modeluje dobré psací návyky a zajišťuje, že narativ plyne logicky při zachování vývojové přiměřenosti.",
+    descriptionCs: "Tento Gem usnadňuje kolaborativní aktivitu „round robin\“ nebo „řetězového psaní\“ s vaší třídou. Jako „kreativní spolutvůrce\“ píše střídavě příběh po částech se žáky. Tento přístup povzbuzuje kreativitu, modeluje dobré psací návyky a zajišťuje, že narativ plyne logicky při zachování vývojové přiměřenosti.",
     category: "engagement",
     categories: ["engagement", "student", "literacy"],
     gemUrl: "https://www.edugems.ai/gem/story-cowriter"
@@ -731,7 +731,7 @@ window.GEMS_DATA={
     title: "AI Tutor",
     titleCs: "AI tutor",
     shortDescCs: "Bezpečný AI tutor pro žáky.",
-    descriptionCs: "Tento Gem funguje jako sokratovský a povzbuzující studijní partner, který pomáhá žákům rozvíjet hluboké porozumění a dovednosti. Trpělivě provádí žáky strukturovaným učebním procesem – od diagnostiky jejich současných znalostí po podporu cílenými otázkami – přísně se vyhýbá přímým odpovědím, aby zachoval akademickou čestnost a aktivní myšlení. Žák jednoduše zahájí konverzaci o domácím úkolu, projektu nebo studijním tématu. Gemini pak provede personalizovaným procesem: nejprve diagnostikuje potřeby, pak vytvoří plán a nakonec použije „sokratovskou smyčku" otevřených otázek a užitečných podnětů, aby žákům pomohl řešit problémy a zvládnout koncepty samostatně.",
+    descriptionCs: "Tento Gem funguje jako sokratovský a povzbuzující studijní partner, který pomáhá žákům rozvíjet hluboké porozumění a dovednosti. Trpělivě provádí žáky strukturovaným učebním procesem – od diagnostiky jejich současných znalostí po podporu cílenými otázkami – přísně se vyhýbá přímým odpovědím, aby zachoval akademickou čestnost a aktivní myšlení. Žák jednoduše zahájí konverzaci o domácím úkolu, projektu nebo studijním tématu. Gemini pak provede personalizovaným procesem: nejprve diagnostikuje potřeby, pak vytvoří plán a nakonec použije „sokratovskou smyčku“ otevřených otázek a užitečných podnětů, aby žákům pomohl řešit problémy a zvládnout koncepty samostatně.",
     category: "support",
     categories: ["support", "student"],
     gemUrl: "https://www.edugems.ai/gem/ai-tutor"
@@ -852,7 +852,7 @@ window.GEMS_DATA={
     title: "Project Breakdown",
     titleCs: "Rozdělení projektu",
     shortDescCs: "Rozdělení projektu na kroky.",
-    descriptionCs: "Tento Gem funguje jako vřelý, organizovaný mentor pro žáky čelící velkým, ohromujícím úkolům. Pomáhá žákům zvládat jejich pracovní zátěž rozdělením složitých projektů na zvládnutelné „mikrokroky\" s jasným časovým harmonogramem. Klíčově dodržuje „průvodcovskou\" zábradlí, zajišťuje, že poskytuje opory, osnovy a strukturu, místo aby za žáka psal obsah.",
+    descriptionCs: "Tento Gem funguje jako vřelý, organizovaný mentor pro žáky čelící velkým, ohromujícím úkolům. Pomáhá žákům zvládat jejich pracovní zátěž rozdělením složitých projektů na zvládnutelné „mikrokroky\“ s jasným časovým harmonogramem. Klíčově dodržuje „průvodcovskou\“ zábradlí, zajišťuje, že poskytuje opory, osnovy a strukturu, místo aby za žáka psal obsah.",
     category: "support",
     categories: ["support", "student"],
     gemUrl: "https://www.edugems.ai/gem/project-breakdown"
@@ -907,7 +907,7 @@ window.GEMS_DATA={
     title: "ACT English Generator",
     titleCs: "Generátor ACT English",
     shortDescCs: "Generování cvičení ACT English.",
-    descriptionCs: "Tento Gem pomáhá hladce vložit přípravu na ACT English do vašeho stávajícího kurikula bez narušení průběhu hodin. Jako expertní specialista na integraci kurikula ACT generuje kvalitní, standardizované otázky založené na vašich konkrétních obsahových tématech (např. první světová válka, mitóza, Velký Gatsby), umožňuje „skrytou\" přípravu na testy v hodinách dějepisu, přírodopisu nebo literatury.",
+    descriptionCs: "Tento Gem pomáhá hladce vložit přípravu na ACT English do vašeho stávajícího kurikula bez narušení průběhu hodin. Jako expertní specialista na integraci kurikula ACT generuje kvalitní, standardizované otázky založené na vašich konkrétních obsahových tématech (např. první světová válka, mitóza, Velký Gatsby), umožňuje „skrytou\“ přípravu na testy v hodinách dějepisu, přírodopisu nebo literatury.",
     category: "assessment",
     categories: ["assessment", "literacy"],
     gemUrl: "https://www.edugems.ai/gem/act-english-generator"
@@ -995,7 +995,7 @@ window.GEMS_DATA={
     title: "NWEA MAP Analysis",
     titleCs: "Analýza NWEA MAP",
     shortDescCs: "Analýza výsledků NWEA MAP.",
-    descriptionCs: "Tento Gem pomáhá rychle analyzovat vaše zprávy NWEA MAP Class Profile pro vygenerování jediného, sjednoceného a využitelného „datového příběhu\" pro vaši třídu. Ideální pro získání jasného porozumění potřebám vašich žáků identifikací celotřídních trendů, mezipředmětových vzorců a konkrétních žákovských skupin pro diferenciaci, vše strukturované pro okamžité plánování výuky.",
+    descriptionCs: "Tento Gem pomáhá rychle analyzovat vaše zprávy NWEA MAP Class Profile pro vygenerování jediného, sjednoceného a využitelného „datového příběhu\“ pro vaši třídu. Ideální pro získání jasného porozumění potřebám vašich žáků identifikací celotřídních trendů, mezipředmětových vzorců a konkrétních žákovských skupin pro diferenciaci, vše strukturované pro okamžité plánování výuky.",
     category: "assessment",
     categories: ["assessment"],
     gemUrl: "https://www.edugems.ai/gem/nwea-map-analysis"
@@ -1083,7 +1083,7 @@ window.GEMS_DATA={
     title: "Devil's Advocate",
     titleCs: "Ďáblův advokát",
     shortDescCs: "Kritické zpochybňování argumentů.",
-    descriptionCs: "Tento Gem umožňuje vést vysoce náročnou kolaborativní konverzaci s „Ďáblovým advokátem\". Ideální pro posílení vašich argumentů, identifikaci slepých míst a zvážení tématu z více perspektiv pomocí sokratovské metody, aktivně zpochybňuje předpoklady, vyžaduje důkazy a představuje silné, dobře odůvodněné protinázory.",
+    descriptionCs: "Tento Gem umožňuje vést vysoce náročnou kolaborativní konverzaci s „Ďáblovým advokátem\“. Ideální pro posílení vašich argumentů, identifikaci slepých míst a zvážení tématu z více perspektiv pomocí sokratovské metody, aktivně zpochybňuje předpoklady, vyžaduje důkazy a představuje silné, dobře odůvodněné protinázory.",
     category: "student",
     categories: ["student", "professional"],
     gemUrl: "https://www.edugems.ai/gem/devils-advocate"
@@ -1116,7 +1116,7 @@ window.GEMS_DATA={
     title: "World Language Conversation",
     titleCs: "Konverzace v cizím jazyce",
     shortDescCs: "Procvičování konverzace v cizím jazyce.",
-    descriptionCs: "Tento Gem funguje jako váš imerzní konverzační partner pro cizí jazyky, pomáhá žákům procvičovat mluvení v přirozeném prostředí s nízkým stresem. Jako přátelský kulturní velvyslanec se přizpůsobuje jakékoli úrovni pokročilosti (od začátečníka A1 po pokročilého C2) a přijímá konkrétní personu – jako „Pierre z Paříže\" nebo „Sofia z Buenos Aires\" – aby byla rolová hra autentická a kulturně bohatá.",
+    descriptionCs: "Tento Gem funguje jako váš imerzní konverzační partner pro cizí jazyky, pomáhá žákům procvičovat mluvení v přirozeném prostředí s nízkým stresem. Jako přátelský kulturní velvyslanec se přizpůsobuje jakékoli úrovni pokročilosti (od začátečníka A1 po pokročilého C2) a přijímá konkrétní personu – jako „Pierre z Paříže\“ nebo „Sofia z Buenos Aires\" – aby byla rolová hra autentická a kulturně bohatá.",
     category: "student",
     categories: ["student", "literacy"],
     gemUrl: "https://www.edugems.ai/gem/world-language-conversation"
@@ -1160,7 +1160,7 @@ window.GEMS_DATA={
     title: "EduGem Generator",
     titleCs: "Generátor EduGemů",
     shortDescCs: "Tvorba vlastních EduGem promptů.",
-    descriptionCs: "Tento Gem pomáhá vytvořit systémové instrukce (prompt) pro vaše vlastní vlastní Gemy. Jako architekt EduGem vás provádí strukturovaným návrhovým procesem, aby zajistil, že váš nový nástroj následuje „zlatý standard\" architektury nalezené v kolekci GemForge. Pomáhá definovat personu, pravidla interakce a formáty výstupu potřebné k tomu, aby byl váš Gem spolehlivý a efektivní.",
+    descriptionCs: "Tento Gem pomáhá vytvořit systémové instrukce (prompt) pro vaše vlastní vlastní Gemy. Jako architekt EduGem vás provádí strukturovaným návrhovým procesem, aby zajistil, že váš nový nástroj následuje „zlatý standard\“ architektury nalezené v kolekci GemForge. Pomáhá definovat personu, pravidla interakce a formáty výstupu potřebné k tomu, aby byl váš Gem spolehlivý a efektivní.",
     category: "professional",
     categories: ["professional"],
     gemUrl: "https://www.edugems.ai/gem/edugem-generator"
@@ -1215,7 +1215,7 @@ window.GEMS_DATA={
     title: "Staff Superhero Image",
     titleCs: "Superhrdinský obrázek personálu",
     shortDescCs: "Vytváření motivujících obrázků pro tým.",
-    descriptionCs: "Tento Gem pomáhá oslavit školní personál přeměnou jejich fotografií na kvalitní superhrdinské portréty. Jako váš expertní „školní umělec superhrdinů\" vytváří pozitivní, ctící a cool obrázky, které zachovávají rozpoznatelnost člena personálu při umístění do dynamických póz. Ideální pro vytváření jedinečných ocenění, plakátů nebo digitálních pozdravů pro učitele, administrátory a podpůrný personál.",
+    descriptionCs: "Tento Gem pomáhá oslavit školní personál přeměnou jejich fotografií na kvalitní superhrdinské portréty. Jako váš expertní „školní umělec superhrdinů\“ vytváří pozitivní, ctící a cool obrázky, které zachovávají rozpoznatelnost člena personálu při umístění do dynamických póz. Ideální pro vytváření jedinečných ocenění, plakátů nebo digitálních pozdravů pro učitele, administrátory a podpůrný personál.",
     category: "professional",
     categories: ["professional"],
     gemUrl: "https://www.edugems.ai/gem/staff-superhero-image"
