@@ -8,7 +8,7 @@ window.GEMS_DATA={
     descriptionCs: "Tento Gem vede žáky k hlubší a smysluplné reflexi vlastního učení. Opírá se o model Rolfe et al. a pomocí sokratovského způsobu dotazování pomáhá žákům promýšlet jejich zkušenost krok za krokem – od otázky „Co?“ přes „Tak co?“ až po „Co dál?“. Cílem je překročit stručné či povrchní odpovědi a podpořit skutečné porozumění tomu, co žák dělal, co si z činnosti odnáší a jak může získané poznatky využít v dalším učení. Žák nejprve zadá svůj ročník a popíše aktivitu, projekt nebo zkušenost, kterou chce reflektovat. Gemini potom vede navazující rozhovor, klade doplňující otázky podle hloubky odpovědí a na závěr vytvoří souvislé shrnutí reflexe, které je připravené k odevzdání.",
     category: "student",
     categories: ["student", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/3-step-reflection"
+    gemUrl: "https://gemini.google.com/gem/18paOMiUpKKkK7n0P_Xd4pk2gWHfYV7qz?usp=sharing"
   },
   "3d-ngss-activity": {
     slug: "3d-ngss-activity",
