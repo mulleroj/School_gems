@@ -39,9 +39,6 @@
 
       <section class="all-gems-section">
         <div class="inner">
-          <div class="gems-fallback-notice" id="fallback-notice" style="display:none;">
-            <strong>Zobrazuje se jen ukázka 9 gemů.</strong> Pro všech 114 gemů spusťte v této složce v terminálu: <code>python -m http.server 8080</code> a otevřete <a href="http://localhost:8080/all-gems.html">http://localhost:8080/all-gems.html</a>
-          </div>
           <div class="categories-bar" id="filter-bar">
             <button class="chip active" data-filter="all">Všechny</button>
             <button class="chip" data-filter="planning">Plánování</button>
@@ -98,11 +95,11 @@
   </div>
 
   <script src="./gems-data.js"></script>
+  <script src="./gems-inline.js"></script>
   <script>
     (function(){
-      if (!window.GEMS_DATA || Object.keys(window.GEMS_DATA).length === 0) {
-        window.GEMS_DATA = {"3-step-reflection":{"slug":"3-step-reflection","emoji":"🪞","titleCs":"3-kroková reflexe","shortDescCs":"Strukturovaná reflexe podle Rolfe et al.","category":"student","categories":["student","newest"],"gemUrl":"https://www.edugems.ai/gem/3-step-reflection"},"5e-lesson-plan":{"slug":"5e-lesson-plan","emoji":"🖐️","titleCs":"5E plán hodiny","shortDescCs":"Plán podle modelu 5E.","category":"planning","categories":["planning","newest"],"gemUrl":"https://www.edugems.ai/gem/5e-lesson-plan"},"unit-plan":{"slug":"unit-plan","emoji":"📋","titleCs":"Plán jednotky","shortDescCs":"Souvislá výuková jednotka s cíli a hodinami.","category":"planning","categories":["planning"],"gemUrl":"https://www.edugems.ai/gem/unit-plan"},"worksheet":{"slug":"worksheet","emoji":"📝","titleCs":"Pracovní list","shortDescCs":"Pracovní listy s úlohami.","category":"materials","categories":["materials"],"gemUrl":"https://www.edugems.ai/gem/worksheet"},"ai-tutor":{"slug":"ai-tutor","emoji":"🧑‍🏫","titleCs":"AI tutor","shortDescCs":"Bezpečný AI tutor pro žáky.","category":"support","categories":["support","student"],"gemUrl":"https://www.edugems.ai/gem/ai-tutor"},"exit-ticket":{"slug":"exit-ticket","emoji":"🎫","titleCs":"Exit ticket","shortDescCs":"Výstupní lístky pro formativní hodnocení.","category":"assessment","categories":["assessment"],"gemUrl":"https://www.edugems.ai/gem/exit-ticket"},"book-matchmaker":{"slug":"book-matchmaker","emoji":"❤️","titleCs":"Doporučovač knih","shortDescCs":"Doporučení knih podle zájmů.","category":"literacy","categories":["literacy","student"],"gemUrl":"https://www.edugems.ai/gem/book-matchmaker"},"3d-ngss-activity":{"slug":"3d-ngss-activity","emoji":"🔬","titleCs":"3D NGSS aktivita","shortDescCs":"Vědecká aktivita NGSS.","category":"stem","categories":["stem"],"gemUrl":"https://www.edugems.ai/gem/3d-ngss-activity"},"career-explorer":{"slug":"career-explorer","emoji":"💼","titleCs":"Průzkumník kariéry","shortDescCs":"Objevování povolání.","category":"student","categories":["student"],"gemUrl":"https://www.edugems.ai/gem/career-explorer"},"email-to-parents":{"slug":"email-to-parents","emoji":"📧","titleCs":"E-mail rodičům","shortDescCs":"Profesionální e-maily.","category":"professional","categories":["professional"],"gemUrl":"https://www.edugems.ai/gem/email-to-parents"},"2-truths-a-lie-game":{"slug":"2-truths-a-lie-game","emoji":"🫢","titleCs":"Hra 2 pravdy a lež","shortDescCs":"Výroky ke konkrétnímu tématu – žáci hádají lež.","category":"engagement","categories":["engagement"],"gemUrl":"https://www.edugems.ai/gem/2-truths-a-lie-game"},"jeopardy-game":{"slug":"jeopardy-game","emoji":"❓","titleCs":"Kvíz Jeopardy","shortDescCs":"Otázky a kategorie ve stylu Jeopardy.","category":"engagement","categories":["engagement"],"gemUrl":"https://www.edugems.ai/gem/jeopardy-game"}};
-        window._GEMS_FALLBACK = true;
+      if (!window.GEMS_DATA || Object.keys(window.GEMS_DATA).length < 100) {
+        window.GEMS_DATA = window.GEMS_DATA || {};
       }
     })();
   </script>
@@ -112,7 +109,7 @@
       if (Object.keys(GEMS).length === 0) {
         var grid = document.getElementById("all-gems-grid");
         var countEl = document.getElementById("gem-count");
-        if (grid) grid.innerHTML = "<p style=\"color:var(--text-muted);padding:2rem;text-align:center;\">Data gemů se nenačetla. <strong>Řešení:</strong> Otevřete stránku přes HTTP server – v terminálu v této složce spusťte <code>python -m http.server 8080</code> a pak otevřete <a href=\"http://localhost:8080/all-gems.html\" style=\"color:var(--accent);\">http://localhost:8080/all-gems.html</a></p>";
+        if (grid) grid.innerHTML = "<p style=\"color:var(--text-muted);padding:2rem;text-align:center;\">Data gemů se nenačetla. Zkuste obnovit stránku.</p>";
         if (countEl) countEl.textContent = "0";
         return;
       }
@@ -187,10 +184,6 @@
       }
 
       renderGrid("all");
-      if (window._GEMS_FALLBACK) {
-        var n = document.getElementById("fallback-notice");
-        if (n) n.style.display = "block";
-      }
     })();
   </script>
 </body>

@@ -8,6 +8,7 @@ Místo, kde se z nápadů stávají užitečné Gemy. Procházej, testuj a stav 
 - `all-gems.html` – přehled všech 114 gemů
 - `gem.html` – detail jednotlivého gemu
 - `gems-data.js` – data gemů (slug, emoji, popisy, odkazy)
+- `gems-inline.js` – záložní kopie dat pro stránku „Všechny gemy“
 - `styles.css` – styly
 
 ## Lokální spuštění
