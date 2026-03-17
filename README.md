@@ -2,6 +2,8 @@
 
 Místo, kde se z nápadů stávají užitečné Gemy. Procházej, testuj a stav si vlastní sadu Gemů pro Google Gemini.
 
+**Live:** https://gemforge.netlify.app
+
 ## Struktura projektu
 
 - `index.html` – úvodní stránka

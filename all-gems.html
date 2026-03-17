@@ -94,15 +94,9 @@
     </footer>
   </div>
 
-  <script src="./gems-data.js"></script>
+  <!-- gems-inline.js jako fallback (načte se první), gems-data.js přepíše když je k dispozici -->
   <script src="./gems-inline.js"></script>
-  <script>
-    (function(){
-      if (!window.GEMS_DATA || Object.keys(window.GEMS_DATA).length < 100) {
-        window.GEMS_DATA = window.GEMS_DATA || {};
-      }
-    })();
-  </script>
+  <script src="./gems-data.js"></script>
   <script>
     (function() {
       var GEMS = window.GEMS_DATA || {};
