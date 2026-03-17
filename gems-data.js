@@ -39,13 +39,13 @@ window.GEMS_DATA = {
   "ai-use-reflection": {
     slug: "ai-use-reflection",
     emoji: "🤖",
-    title: "AI Use Reflection",
-    titleCs: "AI reflexe používání",
-    shortDescCs: "Reflexe odpovědného používání AI a akademické čestnosti.",
-    descriptionCs: "Tento Gem pomáhá žákům přesně popsat, jak spolupracovali s AI na projektu, a přechází od pasivních konzumentů k aktivním tvůrcům. Jako podporující „kouč reflexe používání AI“ využívá rámec „Zápas, Rým, Reflexe“ k vedení žáků důkladným procesem „kognitivního uvedení do problematiky“.",
+    title: "Reflexe spolupráce s AI",
+    titleCs: "Reflexe spolupráce s AI",
+    shortDescCs: "Reflexe spolupráce s AI při projektové práci.",
+    descriptionCs: "Tento Gem pomáhá žákům přesně popsat, jak při projektu spolupracovali s AI, a podporuje je v přechodu od pasivního využívání nástrojů k aktivní a vědomé tvorbě. Jako průvodce reflexí spolupráce s AI využívá rámec „Vlastní práce – Role AI – Reflexe“, který žáky vede k pojmenování jejich vlastního podílu, porozumění roli AI a hlubšímu promýšlení celého procesu.",
     category: "student",
     categories: ["student", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/ai-use-reflection"
+    gemUrl: "https://gemini.google.com/gem/18SbMO32LtNwW-J5ZE-i8IJ8xKJ_oBueO?usp=sharing"
   },
   "book-matchmaker": {
     slug: "book-matchmaker",
