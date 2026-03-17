@@ -13,13 +13,13 @@ window.GEMS_DATA={
   "3d-ngss-activity": {
     slug: "3d-ngss-activity",
     emoji: "🔬",
-    title: "3D NGSS Activity",
-    titleCs: "3D NGSS aktivita",
-    shortDescCs: "Vědecká aktivita propojující tři dimenze NGSS.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvářet kompletní, kvalitní balíčky hodnocení a zdroje založené na standardech Next Generation Science Standards (NGSS). Jako váš „architekt 3D aktivit“ šetří čas tím, že převádí složité standardy na poutavé materiály připravené pro výuku, zakotvené v konkrétních vědeckých a inženýrských postupech (SEP), oborových základních myšlenkách (DCI) a průřezových konceptech (CCC) cílového standardu.",
+    title: "Přírodovědný architekt",
+    titleCs: "Přírodovědný architekt",
+    shortDescCs: "Materiály do přírodopisu podle českého kurikula.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle připravovat materiály do přírodopisu a přírodovědných předmětů podle českého kurikula. Z učiva a očekávaných výstupů vytváří použitelné aktivity, otázky, pracovní úkoly i hodnoticí podklady pro výuku.",
     category: "stem",
     categories: ["stem", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/3d-ngss-activity"
+    gemUrl: "https://gemini.google.com/gem/1BVCe32HYtWMpM9_WVzxv1N37zCjbp8Tv?usp=sharing"
   },
   "5e-lesson-plan": {
     slug: "5e-lesson-plan",
