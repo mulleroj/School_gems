@@ -60,10 +60,10 @@ window.GEMS_DATA={
     title: "Cognates & False Friends",
     titleCs: "Kognáty a falešní přátelé",
     shortDescCs: "Práce s podobnými slovy v cizích jazycích.",
-    descriptionCs: "Tento Gem pomáhá učitelům jazyků i žákům tím, že identifikuje a vysvětluje kognáty a falešné přátele v poskytnutém čteném textu. Jako expertní lingvista, pedagog a podporující jazykový Gem přizpůsobuje slovní zásobu a složitost vysvětlení věku a jazykové úrovni žáka.",
+    descriptionCs: "Tento Gem pomáhá učitelům cizích jazyků i žákům rozpoznávat a vysvětlovat kognáty a falešné přátele v zadaném textu. Přizpůsobuje slovní zásobu, způsob vysvětlení i obtížnost věku a jazykové úrovni žáka.",
     category: "literacy",
     categories: ["literacy", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/cognates-false-friends"
+    gemUrl: "https://gemini.google.com/gem/12RONf5LSIsEvCaPqng_NhFYmrs7PAbC0?usp=sharing"
   },
   "cte-client-simulator": {
     slug: "cte-client-simulator",
