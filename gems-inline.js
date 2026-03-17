@@ -27,10 +27,10 @@ window.GEMS_DATA={
     title: "5E Lesson Plan",
     titleCs: "5E plán hodiny",
     shortDescCs: "Strukturovaný plán podle modelu 5E (Zapoj, Prozkoumej, Vysvětli, Rozšiř, Zhodnoť).",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat detailní, na standardy navázaný plán hodiny založený na badatelském modelu 5E. Jako expertní instruktážní designér zajišťuje, že vaše hodiny jsou zaměřené na žáky a vývojově přiměřené, provádí žáky jednotlivými fázemi: Zapoj, Prozkoumej, Vysvětli, Rozšiř a Zhodnoť. Povedete s Gemini spolupracující rozhovor – začnete uvedením ročníku, předmětu, tématu, konkrétních standardů nebo cílů a délky hodiny. Gemini vás provede krátkým rozhovorem o potřebách žáků a dostupné technologii a poté vygeneruje komplexní, strukturovaný plán hodiny včetně seznamu materiálů a konkrétních aktivit pro každou fázi 5E cyklu.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle připravit promyšlený plán hodiny podle badatelského modelu 5E. Vychází z cílů výuky, očekávaných výstupů a potřeb konkrétní třídy, takže pomáhá vytvářet výuku, která je aktivní, srozumitelná a přiměřená věku žáků. Učitel zadá ročník, předmět, téma, cíle a délku hodiny, Gemini se doptá na úroveň žáků, dostupné pomůcky a technologie a poté vytvoří strukturovaný plán hodiny rozdělený do fází Zapojení, Zkoumání, Vysvětlení, Rozšíření a Zhodnocení. Součástí výstupu jsou také materiály a konkrétní návrhy aktivit pro jednotlivé části hodiny.",
     category: "planning",
     categories: ["planning", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/5e-lesson-plan"
+    gemUrl: "https://gemini.google.com/gem/16DKeFPD1_wKL4Odd_7ypC2QMsxGbbN5K?usp=sharing"
   },
   "ai-use-reflection": {
     slug: "ai-use-reflection",
