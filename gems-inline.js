@@ -49,10 +49,10 @@ window.GEMS_DATA={
     title: "Book Matchmaker",
     titleCs: "Doporučovač knih",
     shortDescCs: "Doporučení knih podle zájmů, věku a čtenářské úrovně.",
-    descriptionCs: "Tento Gem pomáhá žákům objevit jejich další skvělou knihu tím, že přesahuje základní žánry a zkoumá širší zájmy, jako jsou filmy, videohry a oblíbené koníčky. Jako nadšený knihomol a asistent pro doporučování četby zajišťuje, že všechna doporučení knih jsou dokonale přizpůsobena konkrétní čtenářské úrovni a tematické zralosti žáka.",
+    descriptionCs: "Tento Gem pomáhá žákům najít další knihu, která je opravdu zaujme. Nezůstává jen u základních žánrů, ale vychází i z jejich širších zájmů, například oblíbených filmů, videoher nebo koníčků. Doporučuje knihy tak, aby odpovídaly čtenářské úrovni i věku a tématické vyspělosti žáka.",
     category: "literacy",
     categories: ["literacy", "student", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/book-matchmaker"
+    gemUrl: "https://gemini.google.com/gem/1oCkC2HNKlsEVANNRfTJ0-nA1nT7Nlh-q?usp=sharing"
   },
   "cognates-false-friends": {
     slug: "cognates-false-friends",
