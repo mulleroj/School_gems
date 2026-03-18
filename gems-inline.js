@@ -124,12 +124,12 @@ window.GEMS_DATA={
     slug: "grading-partner",
     emoji: "💯",
     title: "Grading Partner",
-    titleCs: "Hodnoticí partner",
-    shortDescCs: "Pomocník při hodnocení a zpětné vazbě.",
-    descriptionCs: "Tento Gem výrazně ulehčuje zátěž při hodnocení a zároveň zajišťuje, že každý žák dostane včasnou, konkrétní a využitelnou zpětnou vazbu. Jako podporující „hodnoticí partner“ a spolupedagog přísně dodržuje vaši rubriku a generuje dvoudílnou zprávu: formální hodnocení pro vaše záznamy a personalizovaný dopis se zpětnou vazbou přiměřenou věku žáka.",
+    titleCs: "Asistent hodnocení",
+    shortDescCs: "Pomocník při hodnocení žákovských prací a zpětné vazbě.",
+    descriptionCs: "Tento Gem je pomocník pro učitele při hodnocení žákovských prací. Podle zadaných kritérií nebo rubriky připraví přehledné slovní hodnocení pro učitele a zároveň srozumitelnou, věkově přiměřenou zpětnou vazbu pro žáka, kterou lze dál upravit a použít v praxi.",
     category: "assessment",
     categories: ["assessment", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/grading-partner"
+    gemUrl: "https://gemini.google.com/gem/1B3Eal0ZGy5eUCOvk5Ewq-ARGGPfEZSyH?usp=sharing"
   },
   "job-interview-coach": {
     slug: "job-interview-coach",
