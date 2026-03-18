@@ -91,12 +91,12 @@ window.GEMS_DATA={
     slug: "edtech-tool-evaluator",
     emoji: "🛡️",
     title: "EdTech Tool Evaluator",
-    titleCs: "Hodnotitel EdTech nástrojů",
-    shortDescCs: "Hodnocení vzdělávacích technologií.",
-    descriptionCs: "Tento Gem pomáhá předem vyhodnotit digitální nástroje a produkty tak, aby byly pedagogicky kvalitní, inkluzivní a bezpečné. Jako expertní hodnotitel vzdělávacích technologií vychází z rámce ISTE Teacher Ready a dokumentace CoSN o ochraně soukromí žáků a poskytuje komplexní analýzu.",
+    titleCs: "Hodnotitel digitálních nástrojů",
+    shortDescCs: "Hodnocení digitálních nástrojů před zavedením do výuky.",
+    descriptionCs: "Tento Gem pomáhá učitelům a školám posoudit digitální nástroje ještě před jejich zavedením do výuky, aby byly pedagogicky přínosné, přístupné pro různé žáky a bezpečné z hlediska ochrany osobních údajů.",
     category: "professional",
     categories: ["professional", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/edtech-tool-evaluator"
+    gemUrl: "https://gemini.google.com/gem/1KPRcRlnac54rSOCEn4gi5AunuV7118Bq?usp=sharing"
   },
   "educational-map-maker": {
     slug: "educational-map-maker",
