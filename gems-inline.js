@@ -190,12 +190,12 @@ window.GEMS_DATA={
     slug: "professional-learning-coach",
     emoji: "📣",
     title: "Professional Learning Coach",
-    titleCs: "Profesní kouč",
-    shortDescCs: "Návrhy na profesní rozvoj a reflexi výuky.",
-    descriptionCs: "Tento Gem pomáhá zapojit se do personalizovaného, „kouskovaného“ profesního rozvoje pro prohloubení odbornosti a aplikaci praxí založených na důkazech. Jako expertní mentor pro předškolní až střední vzdělávání překlenuje propast mezi teorií a třídní praxí a umožňuje vám prozkoumávat témata podložená výzkumem (jako je Science of Reading, UDL nebo MTSS) a slaďovat je s vašimi profesními standardy.",
+    titleCs: "Pedagogický mentor",
+    shortDescCs: "Plánování profesního růstu po menších krocích.",
+    descriptionCs: "Tento Gem pomáhá učitelům plánovat a rozvíjet profesní růst po menších, zvládnutelných krocích. Jako pedagogický mentor propojuje ověřené poznatky z výzkumu s každodenní školní praxí a podporuje vás při zavádění přístupů, jako je čtenářská gramotnost, formativní hodnocení, individualizace výuky, UDL nebo systém podpory žáků, v souladu s potřebami české školy a profesním rozvojem pedagoga.",
     category: "professional",
     categories: ["professional", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/professional-learning-coach"
+    gemUrl: "https://gemini.google.com/gem/179E_WE_3mnBfjCl68H72-QQ-6ng4HVQ9?usp=sharing"
   },
   "raft-writing-prompts": {
     slug: "raft-writing-prompts",
