@@ -212,12 +212,12 @@ window.GEMS_DATA={
     slug: "shelf-talkers",
     emoji: "📣",
     title: "Shelf-Talkers",
-    titleCs: "Shelf-Talkers",
-    shortDescCs: "Krátké doporučení knih pro knihovnu.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvářet úderné, asi 50slovné „záchytné“ texty (shelf-talkers) určené k upoutání pozornosti žáků a podpoře samostatného půjčování. Jako energický a nadšený „písař shelf-talkerů“ analyzuje příběh, žánr a tón vaší knihy a generuje pět odlišných marketingových úhlů dokonale přizpůsobených cílovým čtenářům.",
+    titleCs: "Knižní lákadla",
+    shortDescCs: "Krátké úderné texty ke knihám pro školní knihovnu.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvářet krátké, úderné texty ke knihám, které zaujmou žáky a podpoří jejich samostatný výběr četby ve školní či třídní knihovně. Jako tvořivý průvodce čtenářstvím pracuje s příběhem, žánrem a atmosférou knihy a připravuje několik různých variant textu přizpůsobených věku a zájmům cílových čtenářů.",
     category: "literacy",
     categories: ["literacy", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/shelf-talkers"
+    gemUrl: "https://gemini.google.com/gem/1iBs07GvX2298xH7QoS1ju6dKbsVTCSRX?usp=sharing"
   },
   "simple-slides": {
     slug: "simple-slides",
