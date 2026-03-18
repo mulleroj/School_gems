@@ -227,12 +227,12 @@ window.GEMS_DATA = {
     slug: "simple-slides",
     emoji: "🎯",
     title: "Simple Slides",
-    titleCs: "Jednoduché slidové sady",
-    shortDescCs: "Strukturované slidové sady pro Google Slides.",
-    descriptionCs: "Tento Gem pomáhá okamžitě převádět složitá témata, texty, standardy nebo články na vysoce přístupné prezentace s nízkou kognitivní zátěží přizpůsobené různorodým žákům. Jako podporující spolupedagog speciální pedagogiky je ideální pro snižování bariér učení tím, že každý slide zaměřuje na jeden klíčový koncept, omezuje text na 15–20 slov a zahrnuje konkrétní vizuální párování místo abstraktních obrázků.",
+    titleCs: "Srozumitelné slidy",
+    shortDescCs: "Prezentace s nízkou kognitivní zátěží pro různorodé žáky.",
+    descriptionCs: "Tento Gem pomáhá rychle převádět složitá témata, texty, vzdělávací cíle nebo články do přehledných prezentací s nízkou kognitivní zátěží pro různorodé žáky. Každý slide staví na jedné klíčové myšlence, pracuje s minimem textu a využívá konkrétní vizuální opory, aby snižoval bariéry v porozumění a usnadňoval učení.",
     category: "materials",
     categories: ["materials", "support", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/simple-slides"
+    gemUrl: "https://gemini.google.com/gem/1Rp3i2_GWUDbpGerZGxSAPDmXCW5mh9EY?usp=sharing"
   },
   "student-assignment-feedback": {
     slug: "student-assignment-feedback",
