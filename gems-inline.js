@@ -157,12 +157,12 @@ window.GEMS_DATA={
     slug: "mindfulness-break",
     emoji: "🧘",
     title: "Mindfulness Break",
-    titleCs: "Mindfulness pauza",
-    shortDescCs: "Krátké řízené pauzy pro třídu.",
-    descriptionCs: "Tento Gem pomáhá rychle zvládat stres, úzkost a únavu poskytováním okamžitých, vědecky podložených „mikrodávek“ mindfulness. Jako klidný a profesionální průvodce pomáhá resetovat nervový systém za pouhých 1–3 minut, přenáší kognitivní pozornost z reaktivní amygdaly na racionální prefrontální kortex pomocí technik přizpůsobených vašim konkrétním příznakům.",
+    titleCs: "Minuta pro sebe",
+    shortDescCs: "Krátké mindfulness pauzy na 1–3 minuty pro zklidnění a soustředění.",
+    descriptionCs: "Tento Gem nabízí žákům i učitelům krátké mindfulness pauzy, které pomáhají zklidnit se, uvolnit napětí a znovu se soustředit během školního dne. Pomocí jednoduchých cvičení na 1–3 minuty provází uživatele podle toho, zda potřebují zvládnout stres, únavu, neklid nebo jen krátce vypnout a nadechnout se.",
     category: "professional",
     categories: ["professional", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/mindfulness-break"
+    gemUrl: "https://gemini.google.com/gem/14q6JWgAANCMgOsNmf5BlLZcqGcY4lEIv?usp=sharing"
   },
   "musailab": {
     slug: "musailab",
