@@ -117,12 +117,12 @@ window.GEMS_DATA = {
     slug: "exit-ticket",
     emoji: "🎫",
     title: "Exit Ticket",
-    titleCs: "Exit ticket",
-    shortDescCs: "Krátké výstupní lístky pro formativní hodnocení.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvářet kvalitní, cílené výstupní lístky pro zjištění porozumění žáků na konci libovolné hodiny. Jako podporující a efektivní asistent pedagoga zajišťuje, že hodnocení těsně odpovídá vašemu obsahu, ročníku a vzdělávacím standardům. Ideální pro získání okamžitých pedagogických poznatků a identifikaci potřeb žáků bez navyšování příprav na večer.",
+    titleCs: "Výstupní lístek (Exit Ticket)",
+    shortDescCs: "Výstupní lístky pro ověření porozumění na konci hodiny.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvářet kvalitní a cílené výstupní lístky pro ověření porozumění žáků na konci libovolné hodiny. Jako praktický asistent učitele zajišťuje, aby úkoly odpovídaly probíranému učivu, ročníku i očekávaným výstupům a cílům výuky v rámci RVP a ŠVP. Je ideální pro získání rychlé zpětné vazby, odhalení nejasností a lepší plánování další výuky bez zbytečného navyšování příprav.",
     category: "assessment",
     categories: ["assessment", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/exit-ticket"
+    gemUrl: "https://gemini.google.com/gem/1Rk_-JDUGJcLtIVMbAlsAYOxw4jN_otLz?usp=sharing"
   },
   "grading-partner": {
     slug: "grading-partner",
