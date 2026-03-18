@@ -139,12 +139,12 @@ window.GEMS_DATA = {
     slug: "job-interview-coach",
     emoji: "🤝",
     title: "Job Interview Coach",
-    titleCs: "Kouč pohovorů",
-    shortDescCs: "Příprava na pracovní pohovory.",
-    descriptionCs: "Tento Gem pomáhá žákům budovat sebevědomí a kompetence pro pracovní pohovory tím, že funguje jako přátelský a podporující „kouč pohovorů“. Ideální pro procvičování v prostředí s nízkým stresem, nabízí strukturovanou rolovou hru střídající realistické dotazování s konkrétní, konstruktivní zpětnou vazbou ke zlepšení komunikačních dovedností.",
+    titleCs: "Pracovní pohovor nanečisto",
+    shortDescCs: "Nácvik pracovního pohovoru s konkrétní zpětnou vazbou.",
+    descriptionCs: "Tento Gem pomáhá žákům připravit se na pracovní pohovor, posílit sebevědomí a zlepšit komunikační dovednosti. Funguje jako přátelský a podporující kouč, který vede realistický nácvik pohovoru a potom poskytuje konkrétní a srozumitelnou zpětnou vazbu k odpovědím, vystupování i celkovému dojmu.",
     category: "student",
     categories: ["student", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/job-interview-coach"
+    gemUrl: "https://gemini.google.com/gem/1ppi62C1-w6D9Bnghza7XqL_b6YPszgL8?usp=sharing"
   },
   "kwl-interactive": {
     slug: "kwl-interactive",
