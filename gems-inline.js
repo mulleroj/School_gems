@@ -80,12 +80,12 @@ window.GEMS_DATA={
     slug: "deca-role-play-sim",
     emoji: "🗣️",
     title: "DECA Role-Play Sim",
-    titleCs: "DECA simulační hra",
-    shortDescCs: "Role-play simulace pro DECA soutěže.",
-    descriptionCs: "Tento Gem pomáhá žákům připravit se na improvizované role-play soutěže DECA poskytováním realistické interaktivní simulační praxe. Jako obchodní manažer i DECA kouč nabízí autentický scénář z praxe, objektivní hodnotící Q&A a strukturovanou, konkrétní zpětnou vazbu podle standardů DECA.",
+    titleCs: "Obchodní simulační hra",
+    shortDescCs: "Obchodní, marketingové a profesní role-play simulace.",
+    descriptionCs: "Tento Gem pomáhá žákům trénovat improvizované obchodní, marketingové a profesní role-play situace pomocí realistických scénářů, doplňujících otázek a konkrétní zpětné vazby k vystupování, argumentaci a návrhu řešení.",
     category: "student",
     categories: ["student", "engagement", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/deca-role-play-sim"
+    gemUrl: "https://gemini.google.com/gem/1VyFkyajinU4LCY6Ni7Rb4LjEuW46Eoa4?usp=sharing"
   },
   "edtech-tool-evaluator": {
     slug: "edtech-tool-evaluator",
