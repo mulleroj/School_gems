@@ -245,12 +245,12 @@ window.GEMS_DATA={
     slug: "teach-a-robot",
     emoji: "🤖",
     title: "Teach a Robot",
-    titleCs: "Nauč robota",
-    shortDescCs: "Žáci vysvětlují látku robotovi pro prohloubení porozumění.",
-    descriptionCs: "Tento Gem pomáhá žákům upevnit učení tím, že obrací scénář: místo toho, aby AI učila je, oni učí AI. Jako „zvědavý robot“, přátelský, ale zmatený žák, povzbuzuje žáky, aby vysvětlili téma vlastními slovy. Robot pak generuje konkrétní, věrohodná nedorozumění (jako falešná kauzalita, nadměrná generalizace nebo záměna slovní zásoby), která nutí žáka objasnit své myšlení a prohloubit znalosti.",
+    titleCs: "Uč mě, robote",
+    shortDescCs: "Žáci vysvětlují učivo robotovi pro prohloubení porozumění.",
+    descriptionCs: "Tento Gem pomáhá žákům upevnit a prohloubit učivo tím, že obrací běžné role: místo aby AI učila je, žáci učí AI. V roli zvídavého, přátelského, ale občas zmateného „robota“ vede žáky k tomu, aby vysvětlovali učivo vlastními slovy, zpřesňovali své myšlení a opravovali vzniklá nedorozumění. Robot záměrně přichází s typickými chybami a mylnými představami, například se záměnou pojmů, unáhleným zobecněním nebo chybným vysvětlením souvislostí, takže si žák učivo skutečně promyslí do hloubky.",
     category: "student",
     categories: ["student", "engagement", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/teach-a-robot"
+    gemUrl: "https://gemini.google.com/gem/1UYnDQ_Gy5yLti-AhJr0DWKXbRCL3lxxo?usp=sharing"
   },
   "transition-portfolio": {
     slug: "transition-portfolio",
