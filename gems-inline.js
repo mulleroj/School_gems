@@ -103,11 +103,11 @@ window.GEMS_DATA={
     emoji: "🗺️",
     title: "Educational Map Maker",
     titleCs: "Vzdělávací mapa",
-    shortDescCs: "Tématické mapy s úkoly a otázkami pro žáky.",
-    descriptionCs: "Tento Gem pomáhá rychle přeměnit libovolné téma – od historických bitev po literární prostředí – na vlastní interaktivní mapu bohatou na data. Jako přesný a užitečný průvodce automatizuje zdlouhavý proces sběru souřadnic a faktů a umožňuje vygenerovat kompletní datovou sadu formátovanou přímo pro Google My Maps.",
+    shortDescCs: "Interaktivní mapy z libovolného tématu pro Google My Maps.",
+    descriptionCs: "Tento Gem pomáhá učitelům i žákům rychle převést libovolné téma – od historických událostí po literární díla nebo přírodopisná místa – do vlastní interaktivní mapy. Automaticky připraví přehled míst, souřadnic a doprovodných informací a vygeneruje datovou sadu, kterou lze snadno použít v Google My Maps.",
     category: "materials",
     categories: ["materials", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/educational-map-maker"
+    gemUrl: "https://gemini.google.com/gem/1w0n5eUizpYwyF97Ike4YV3AMWLR3Mv7P?usp=sharing"
   },
   "exit-ticket": {
     slug: "exit-ticket",
