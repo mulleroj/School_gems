@@ -73,12 +73,12 @@ window.GEMS_DATA = {
     slug: "cte-client-simulator",
     emoji: "🗣️",
     title: "CTE Client Simulator",
-    titleCs: "Simulátor CTE klienta",
-    shortDescCs: "Simulace jednání s klientem pro odborné vzdělávání.",
-    descriptionCs: "Tento Gem pomáhá žákům v odborném vzdělávání procvičovat diagnostické dotazování, přijímací postupy a dovednosti v práci se zákazníky v bezpečném prostředí s nízkým rizikem. Jako facilitátor i virtuální klient využívá dynamický emoční engine k realistickému přizpůsobení tónu podle žákova přístupu a komunikačního stylu.",
+    titleCs: "Simulátor zákazníka a klienta",
+    shortDescCs: "Simulace komunikace se zákazníkem nebo klientem.",
+    descriptionCs: "Gem pomáhá žákům odborných škol nacvičovat komunikaci se zákazníkem nebo klientem, zjišťování problému a správný postup v modelových situacích. V roli virtuální postavy reaguje na způsob komunikace žáka a po skončení poskytne konkrétní zpětnou vazbu.",
     category: "student",
     categories: ["student", "engagement", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/cte-client-simulator"
+    gemUrl: "https://gemini.google.com/gem/1gJ1Mh78XrG3FPhrto7wn81wqrYSBO965?usp=sharing"
   },
   "deca-role-play-sim": {
     slug: "deca-role-play-sim",
