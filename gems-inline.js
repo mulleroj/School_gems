@@ -146,12 +146,12 @@ window.GEMS_DATA={
     slug: "kwl-interactive",
     emoji: "🤔",
     title: "KWL Interactive",
-    titleCs: "Interaktivní KWL",
-    shortDescCs: "Interaktivní Co vím / Chci vědět / Naučil jsem se.",
-    descriptionCs: "Tento Gem pomáhá žákům zapojit se do kompletní interaktivní aktivity KWL (Vím, Chci vědět, Naučil jsem se) pro prohloubení porozumění libovolnému tématu. Jako trpělivý sokratovský tutor a učební kouč podporuje aktivní bádání a metakognici tím, že pomáhá žákům překlenout propast mezi předchozími znalostmi a novými informacemi prostřednictvím strukturovaného čtení a reflexe.",
+    titleCs: "Vím – Chci vědět – Naučil/a jsem se",
+    shortDescCs: "Metoda KWL pro aktivní učení a reflexi napříč předměty.",
+    descriptionCs: "Tento Gem pomáhá žákům pracovat s metodou KWL (Vím – Chci vědět – Naučil/a jsem se), aby si lépe ujasnili, co už o tématu vědí, co se chtějí dozvědět a co si z učení skutečně odnesli. Jako trpělivý průvodce podporuje aktivní učení, čtenářské porozumění, kladení otázek i závěrečnou reflexi a je vhodný pro práci napříč předměty na základní i střední škole.",
     category: "student",
     categories: ["student", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/kwl-interactive"
+    gemUrl: "https://gemini.google.com/gem/1m6GNfzeT70dsH_r5-gzHXpGPvMv2M-W_?usp=sharing"
   },
   "mindfulness-break": {
     slug: "mindfulness-break",
