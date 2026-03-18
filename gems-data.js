@@ -172,12 +172,12 @@ window.GEMS_DATA = {
     slug: "musailab",
     emoji: "🎹",
     title: "MusAILab",
-    titleCs: "MusAILab",
-    shortDescCs: "Propojení hudby a výuky – texty písní, aktivity.",
-    descriptionCs: "Tento Gem pomáhá navrhovat inkluzivní, inovativní materiály pro hudební výchovu. Jako expertní AI asistent a spolupilot pro učitele hudby přeměňuje vaše hrubé nápady na strukturované materiály připravené pro třídu, které hladce integrují aktivní pedagogické metodologie, kreativní psaní a hudební technologii.",
+    titleCs: "Hudební AI dílna",
+    shortDescCs: "Materiály pro hudební výchovu s ohledem na české prostředí.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet nápadité, inkluzivní a prakticky využitelné materiály pro hudební výchovu. Jako AI asistent pro učitele hudby převádí vaše základní nápady do přehledných výukových aktivit a materiálů připravených pro použití ve výuce, a to s ohledem na české školní prostředí, tvořivé činnosti, aktivní zapojení žáků i smysluplné využití digitálních hudebních nástrojů.",
     category: "materials",
     categories: ["materials", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/musailab"
+    gemUrl: "https://gemini.google.com/gem/13NPh-egAGYjuERWu_X8-w-NPlWRPkJ5H?usp=sharing"
   },
   "pe-game-inventor": {
     slug: "pe-game-inventor",
