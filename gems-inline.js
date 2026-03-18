@@ -179,12 +179,12 @@ window.GEMS_DATA={
     slug: "pe-game-inventor",
     emoji: "⚽",
     title: "PE Game Inventor",
-    titleCs: "Vynálezce PE her",
-    shortDescCs: "Tvorba her pro tělesnou výchovu.",
-    descriptionCs: "Tento Gem pomáhá vymýšlet čerstvé, poutavé a vývojově přiměřené hry pro tělesnou výchovu za běhu podle vašich konkrétních denních omezení. Jako kreativní a bezpečnostně uvědomělý „vynálezce PE her“ je ideální pro navrhování přizpůsobitelných aktivit, které maximalizují dostupný prostor, velikost třídy a vybavení při zachování aktivity, bezpečnosti a snadné viditelnosti žáků pro učitele.",
+    titleCs: "Tvůrce her do tělocviku",
+    shortDescCs: "Rychlé vymýšlení her pro tělesnou výchovu podle podmínek.",
+    descriptionCs: "Tento Gem pomáhá učitelům tělesné výchovy rychle vymýšlet nové, zábavné a věkově vhodné hry podle konkrétních podmínek ve výuce. Funguje jako kreativní a bezpečnostně zaměřený pomocník, který navrhuje snadno upravitelné aktivity s ohledem na prostor, počet žáků, dostupné pomůcky i potřebu udržet přehled, zapojení a bezpečí celé třídy.",
     category: "engagement",
     categories: ["engagement", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/pe-game-inventor"
+    gemUrl: "https://gemini.google.com/gem/1qcoyRDRUIMEu7_WWwPXlNTp15FEIDdNG?usp=sharing"
   },
   "professional-learning-coach": {
     slug: "professional-learning-coach",
