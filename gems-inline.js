@@ -201,12 +201,12 @@ window.GEMS_DATA={
     slug: "raft-writing-prompts",
     emoji: "✍️",
     title: "RAFT Writing Prompts",
-    titleCs: "RAFT psací úkoly",
-    shortDescCs: "RAFT zadání (Role, Audience, Format, Topic) pro psaní.",
-    descriptionCs: "Tento Gem pomáhá rychle brainstormovat kreativní, poutavé a někdy neobvyklé psací úkoly RAFT (Role, Publikum, Formát, Téma), aby se odklonily od standardních, nudných zadání. Jako vtipný, kreativní brainstormingový partner je ideální pro roznícení skutečné žákovské zvědavosti generováním „mimo šablonu“ psacích scénářů – například nervózní tektonická deska píšící rozchodový SMS zemskému plášti – pečlivě přizpůsobených vašemu ročníku a učebním cílům.",
+    titleCs: "RAFT generátor psacích úkolů",
+    shortDescCs: "Kreativní psací úkoly RAFT (Role, Publikum, Formát, Téma).",
+    descriptionCs: "Tento asistent pomáhá učitelům rychle vymýšlet kreativní a poutavé psací úkoly typu RAFT (Role, Publikum, Formát, Téma), které odpovídají věku žáků, výukovým cílům i konkrétnímu předmětu.",
     category: "literacy",
     categories: ["literacy", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/raft-writing-prompts"
+    gemUrl: "https://gemini.google.com/gem/1SEWs0hCmvHjZzmy8jDH6EaBk9-7bnDGs?usp=sharing"
   },
   "shelf-talkers": {
     slug: "shelf-talkers",
