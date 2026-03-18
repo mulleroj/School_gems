@@ -238,12 +238,12 @@ window.GEMS_DATA = {
     slug: "student-assignment-feedback",
     emoji: "⭐",
     title: "Student Assignment Feedback",
-    titleCs: "Zpětná vazba k úkolu",
-    shortDescCs: "Personalizované komentáře k žákovským pracím.",
-    descriptionCs: "Tento Gem pomáhá žákům získat okamžitou, podrobnou a konstruktivní zpětnou vazbu k jejich úkolům před odevzdáním. Ideální pro podporu samostatnosti a akademické integrity, neboť hodnotí práci podle rubriky, zdůrazňuje silné stránky a oblasti růstu, aniž by za žáka psal nebo řešil.",
+    titleCs: "Průvodce zpětnou vazbou",
+    shortDescCs: "Jasná zpětná vazba k práci před odevzdáním.",
+    descriptionCs: "Tento Gem pomáhá žákům zlepšit jejich práci před odevzdáním tím, že jim poskytuje jasnou a konstruktivní zpětnou vazbu podle zadaných kritérií, upozorňuje na silné stránky i rezervy a podporuje samostatnost bez toho, aby úkol vypracoval za ně.",
     category: "assessment",
     categories: ["assessment", "student", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/student-assignment-feedback"
+    gemUrl: "https://gemini.google.com/gem/1iLbjXOt84UzzXKX4u77k4rU0mpFGQg1p?usp=sharing"
   },
   "teach-a-robot": {
     slug: "teach-a-robot",
