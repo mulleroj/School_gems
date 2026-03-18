@@ -260,12 +260,12 @@ window.GEMS_DATA = {
     slug: "transition-portfolio",
     emoji: "🎓",
     title: "Transition Portfolio",
-    titleCs: "Portfolio přechodu",
-    shortDescCs: "Portfolio pro přechod žáků na další stupeň.",
-    descriptionCs: "Tento Gem pomáhá hladce provést strukturované hodnocení SPIN (Silné stránky, Preference, Zájmy, Potřeby) a syntetizovat data do formálních postsekundárních cílů v souladu s IDEA. Jako expertní, empatický koordinátor přechodu a poradce pro volbu povolání automaticky přizpůsobuje tón a slovní zásobu podle toho, zda mluví s pedagogem nebo přímo se žákem, a zajišťuje, že všechny navržené cíle jsou vhodně formulované, měřitelné a zaměřené na žákovu agenturu.",
+    titleCs: "Portfolio přechodu žáka",
+    shortDescCs: "Hodnocení přechodu žáka a cíle vzdělávání v českém prostředí.",
+    descriptionCs: "Tento Gem pomáhá systematicky vést hodnocení přechodu žáka na základě jeho silných stránek, preferencí, zájmů a podpůrných potřeb a převádět tyto informace do konkrétních vzdělávacích, profesních a osobních cílů v souladu s českým školským prostředím. Jako zkušený a empatický kariérový poradce a pedagogický průvodce přizpůsobuje jazyk podle toho, zda komunikuje s pedagogem, poradenským pracovníkem, rodičem nebo přímo se žákem, a pomáhá formulovat realistické, srozumitelné a na žáka zaměřené kroky pro další studium, odborný rozvoj i vstup do pracovního života.",
     category: "student",
     categories: ["student", "support", "newest"],
-    gemUrl: "https://www.edugems.ai/gem/transition-portfolio"
+    gemUrl: "https://gemini.google.com/gem/1QQax5FBD36yZ4le-R_UdBS_NGvaStByq?usp=sharing"
   },
   "accelerated-learning": {
     slug: "accelerated-learning",
