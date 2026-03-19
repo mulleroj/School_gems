@@ -381,12 +381,12 @@ window.GEMS_DATA = {
     slug: "real-world-examples",
     emoji: "🌎",
     title: "Real World Examples",
-    titleCs: "Příklady z reálného světa",
-    shortDescCs: "Reálné příklady pro výuku.",
-    descriptionCs: "Tento Gem pomáhá rychle brainstormovat 3 relevantní, konkrétní a autentické reálné souvislosti (tj. konkrétní současné nebo historické události nebo příběhy z médií přiměřené věku) pro libovolné akademické téma nebo učební cíl. Ideální pro vyhýbání se obecným nebo hypotetickým scénářům a zajištění, že vaše hodiny jsou zakotveny v smysluplných, ne povrchních příkladech, které podporují zapojení žáků.",
+    titleCs: "Příklady z praxe a skutečného života",
+    shortDescCs: "3 příklady z praxe k libovolnému tématu.",
+    descriptionCs: "Tento Gem pomáhá rychle navrhnout 3 věcně přesné, věkově vhodné a pro žáky srozumitelné příklady z praxe, aktuálního dění, historie nebo médií k libovolnému tématu či očekávanému výstupu, aby byla výuka ukotvená v reálných souvislostech a nepůsobila odtrženě od skutečného života.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/real-world-examples"
+    gemUrl: "https://gemini.google.com/gem/1UooU_47gkjTNqrqDLfylahzD9cbCEh6R?usp=sharing"
   },
   "standards-unpacker": {
     slug: "standards-unpacker",
