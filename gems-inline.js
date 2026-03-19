@@ -344,12 +344,12 @@ window.GEMS_DATA={
     slug: "jigsaw-activity",
     emoji: "🧩",
     title: "Jigsaw Activity",
-    titleCs: "Jigsaw aktivita",
-    shortDescCs: "Skupinová aktivita metodou jigsaw.",
-    descriptionCs: "Tento Gem pomáhá rychle navrhnout bohatou, kolaborativní jigsaw aktivitu na libovolné téma nebo učební cíl. Poskytuje podrobné instrukce včetně diskusních podnětů pro závěrečnou reflexi a doporučených materiálů pro aktivitu, aby vaše hodina podporovala hluboké porozumění prostřednictvím mistrovství expertních skupin a výuky žák-žák.",
+    titleCs: "Expertní skládačka",
+    shortDescCs: "Kooperativní aktivita typu skládačka s expertními skupinami.",
+    descriptionCs: "Tento Gem pomáhá rychle navrhnout promyšlenou kooperativní aktivitu typu skládačka na libovolné téma, učivo nebo vzdělávací cíl. Připraví přehlednou strukturu hodiny, rozdělení rolí a práce ve skupinách, otázky pro společnou reflexi i doporučení k materiálům, aby žáci porozuměli učivu do hloubky díky práci v expertních skupinách a vzájemnému učení.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/jigsaw-activity"
+    gemUrl: "https://gemini.google.com/gem/1fGUMveZ-5DMiuJ88GtvKfyrssrvjWWlb?usp=sharing"
   },
   "lesson-hooks": {
     slug: "lesson-hooks",
