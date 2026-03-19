@@ -458,12 +458,12 @@ window.GEMS_DATA = {
     slug: "graphic-novel-maker",
     emoji: "🗯️",
     title: "Graphic Novel Maker",
-    titleCs: "Tvůrce grafických románů",
-    shortDescCs: "Tvorba grafických románů a komiksů.",
-    descriptionCs: "Tento Gem pomáhá přeměnit libovolný příběh, článek nebo zdrojový text na profesionální, formátovaný scénář grafického románu. Jako expertní scénárista grafických románů a vizuální režisér strukturová scénář speciálně pro snadný překlad do vizuálního umění v NotebookLM. Zajišťuje vizuální kontinuitu opakováním podrobných popisů postav u každého panelu a navrhuje rozvržení přizpůsobená kinematografickému formátu 16:9 včetně působivé titulní stránky.",
+    titleCs: "Scénárista komiksů",
+    shortDescCs: "Scénáře pro komiksy a grafické romány v NotebookLM.",
+    descriptionCs: "Tento Gem pomáhá převést libovolný příběh, článek nebo jiný zdrojový text do profesionálně zpracovaného scénáře pro komiks nebo grafický román. V roli zkušeného komiksového scénáristy a vizuálního režiséra vytváří přehlednou strukturu vhodnou pro snadný převod do vizuální podoby v NotebookLM, hlídá návaznost děje i vzhledu postav opakováním jejich popisů v každém panelu a navrhuje rozvržení scén v kinematografickém formátu 16:9 včetně působivé titulní stránky.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/graphic-novel-maker"
+    gemUrl: "https://gemini.google.com/gem/164vmd5wgZAT2-GHMFcHOtz1nJBvFnH4H?usp=sharing"
   },
   "guided-notes": {
     slug: "guided-notes",
