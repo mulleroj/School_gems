@@ -315,12 +315,12 @@ window.GEMS_DATA = {
     slug: "class-syllabus",
     emoji: "📄",
     title: "Class Syllabus",
-    titleCs: "Sylabus předmětu",
-    shortDescCs: "Tvorba sylabu kurzu.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit podrobný a přizpůsobený sylabus pro jasnou komunikaci vaší učební cesty, očekávání a pravidel. Ideální pro uvedení žáků a rodin do vaší hodiny a zajištění hladkého začátku školního roku s jasným, snadno čitelným dokumentem.",
+    titleCs: "Průvodce předmětem",
+    shortDescCs: "Průvodce předmětem pro žáky a rodiče.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit přehledný a přizpůsobený průvodce předmětem, který jasně vysvětluje cíle výuky, očekávání, pravidla, způsob hodnocení i organizaci práce během školního roku. Hodí se pro seznámení žáků i rodičů s předmětem a pro zajištění klidného, srozumitelného a dobře nastaveného začátku výuky.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/class-syllabus"
+    gemUrl: "https://gemini.google.com/gem/1SdSYdTIW8WbRyHAgDN6qe5MtUyZMBRKi?usp=sharing"
   },
   "emergency-sub-plan": {
     slug: "emergency-sub-plan",
