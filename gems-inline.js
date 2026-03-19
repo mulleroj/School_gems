@@ -355,12 +355,12 @@ window.GEMS_DATA={
     slug: "lesson-hooks",
     emoji: "🪝",
     title: "Lesson Hooks",
-    titleCs: "Motivační háčky lekce",
-    shortDescCs: "Nápady na úvodní motivaci hodiny.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit 3 až 5 vysoce účinných, novátorských a poutavých motivačních háčků (otázky, krátké aktivity, vizuály nebo relevantní scénáře), které těsně odpovídají konkrétnímu učebnímu cíli nebo tématu. Ideální pro zvládnutí strategií motivace a upoutání pozornosti, které roznítí skutečnou zvědavost a efektivně připraví žáky na následující obsah.",
+    titleCs: "Úvod, který zaujme",
+    shortDescCs: "3 až 5 účinných úvodních aktivit k tématu.",
+    descriptionCs: "Tento Gem pomáhá učiteli navrhnout 3 až 5 účinných úvodních aktivit nebo podnětů k tématu. Zaměřuje se na probuzení zájmu, aktivaci předchozích znalostí a smysluplné naladění žáků na obsah hodiny.",
     category: "planning",
     categories: ["planning", "engagement"],
-    gemUrl: "https://www.edugems.ai/gem/lesson-hooks"
+    gemUrl: "https://gemini.google.com/gem/17RkQ-yIwcef8bMVNFJy6IywIElNSVRlj?usp=sharing"
   },
   "lesson-plan": {
     slug: "lesson-plan",
