@@ -282,12 +282,12 @@ window.GEMS_DATA = {
     slug: "ai-samr-activity",
     emoji: "🤖",
     title: "AI + SAMR Activity",
-    titleCs: "AI + SAMR aktivita",
-    shortDescCs: "Aktivity integrující AI podle SAMR modelu.",
-    descriptionCs: "Tento Gem pomáhá navrhovat učební zkušenosti, v nichž je AI používána bezpečně, eticky a efektivně k posílení žáků. Zakotven v „AI optimismu“ využívá model SAMR k rozšíření standardních hodin na příležitosti, kde AI funguje nejen jako nástroj, ale jako myšlenkový partner (Modifikace) nebo spoluhráč/spolutvůrce (Redefinice) pro maximalizaci žákovské agentury.",
+    titleCs: "AI + SAMR v hodině",
+    shortDescCs: "AI ve výuce podle modelu SAMR.",
+    descriptionCs: "Tento Gem pomáhá učitelům navrhovat výukové aktivity, ve kterých je umělá inteligence využívána bezpečně, eticky a smysluplně k podpoře učení a samostatnosti žáků. Vychází z modelu SAMR, který ukazuje, jak může technologie ve výuce fungovat od prostého nahrazení běžné činnosti až po proměnu úkolu nebo vznik zcela nových aktivit. Gem pomáhá posouvat školní práci od jednoduchého využití AI jako nástroje k situacím, v nichž AI funguje také jako partner pro přemýšlení, tvorbu a rozvoj žákovské aktivity.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/ai-samr-activity"
+    gemUrl: "https://gemini.google.com/gem/1WldGqhdyzirI4Vqdpt2AiuqwznAyX-tI?usp=sharing"
   },
   "bell-ringer-by-date": {
     slug: "bell-ringer-by-date",
