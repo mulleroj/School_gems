@@ -370,12 +370,12 @@ window.GEMS_DATA = {
     slug: "lesson-plan",
     emoji: "📋",
     title: "Lesson Plan",
-    titleCs: "Plán hodiny",
-    shortDescCs: "Obecný plán hodiny.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat podrobný, na standardy navázaný a vývojově přiměřený plán hodiny. Zajišťuje, že plán obsahuje jasné instrukce, strategie diferenciace a vhodné hodnocení, vše přizpůsobené kontextu vaší třídy.",
+    titleCs: "Generátor příprav na hodinu",
+    shortDescCs: "Příprava na hodinu v souladu s cíli výuky.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit podrobnou, srozumitelnou a věkově přiměřenou přípravu na vyučovací hodinu v souladu s cíli výuky a očekávanými výstupy. Zajišťuje, aby plán obsahoval jasné pokyny pro práci ve třídě, možnosti diferenciace podle potřeb žáků i vhodné způsoby ověřování porozumění a hodnocení.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/lesson-plan"
+    gemUrl: "https://gemini.google.com/gem/1CtkZ5YZ8-XJZ6m4Z7sXx9Zd9FzrdXheV?usp=sharing"
   },
   "real-world-examples": {
     slug: "real-world-examples",
