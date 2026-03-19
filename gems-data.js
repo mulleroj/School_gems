@@ -460,7 +460,9 @@ window.GEMS_DATA = {
     title: "Graphic Novel Maker",
     titleCs: "Scénárista komiksů",
     shortDescCs: "Scénáře pro komiksy a grafické romány v NotebookLM.",
-    descriptionCs: "Tento Gem pomáhá převést libovolný příběh, článek nebo jiný zdrojový text do profesionálně zpracovaného scénáře pro komiks nebo grafický román. V roli zkušeného komiksového scénáristy a vizuálního režiséra vytváří přehlednou strukturu vhodnou pro snadný převod do vizuální podoby v NotebookLM, hlídá návaznost děje i vzhledu postav opakováním jejich popisů v každém panelu a navrhuje rozvržení scén v kinematografickém formátu 16:9 včetně působivé titulní stránky. K danému scénáři lze navázat pomocí navazujícího Gemu, který umožňuje vytvořit voice over pro Vids aplikaci a následnou tvorbu videa: https://gemini.google.com/gem/1pmqciZdlQnYqkYmsVWMp2q417CD35dn-?usp=sharing",
+    descriptionCs: "Tento Gem pomáhá převést libovolný příběh, článek nebo jiný zdrojový text do profesionálně zpracovaného scénáře pro komiks nebo grafický román. V roli zkušeného komiksového scénáristy a vizuálního režiséra vytváří přehlednou strukturu vhodnou pro snadný převod do vizuální podoby v NotebookLM, hlídá návaznost děje i vzhledu postav opakováním jejich popisů v každém panelu a navrhuje rozvržení scén v kinematografickém formátu 16:9 včetně působivé titulní stránky. K danému scénáři lze navázat pomocí navazujícího Gemu, který umožňuje vytvořit voice over pro Vids aplikaci a následnou tvorbu videa.",
+    relatedGemUrl: "https://gemini.google.com/gem/1pmqciZdlQnYqkYmsVWMp2q417CD35dn-?usp=sharing",
+    relatedGemLabel: "Voice over pro Vids ↗",
     category: "materials",
     categories: ["materials", "literacy"],
     gemUrl: "https://gemini.google.com/gem/164vmd5wgZAT2-GHMFcHOtz1nJBvFnH4H?usp=sharing"

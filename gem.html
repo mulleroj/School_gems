@@ -46,7 +46,10 @@
 
           <section class="gem-section">
             <h2>Popis</h2>
-            <p class="gem-description" id="gem-description"></p>
+            <div class="gem-description-wrap">
+              <p class="gem-description" id="gem-description"></p>
+              <a href="#" target="_blank" rel="noopener" class="btn-related-gem" id="gem-related-link" style="display:none"></a>
+            </div>
           </section>
 
           <section class="gem-section">
@@ -125,6 +128,15 @@
       document.getElementById("gem-title").textContent = gem.titleCs;
       document.getElementById("gem-subtitle").textContent = gem.title;
       document.getElementById("gem-description").textContent = gem.descriptionCs || gem.shortDescCs || "Popis není k dispozici. Pro detail použijte odkaz níže.";
+
+      var relatedLink = document.getElementById("gem-related-link");
+      if (gem.relatedGemUrl && gem.relatedGemLabel) {
+        relatedLink.href = gem.relatedGemUrl;
+        relatedLink.textContent = gem.relatedGemLabel;
+        relatedLink.style.display = "inline-block";
+      } else {
+        relatedLink.style.display = "none";
+      }
 
       var categoryLabels = {
         planning: "Plánování výuky",
