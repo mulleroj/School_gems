@@ -403,12 +403,12 @@ window.GEMS_DATA = {
     slug: "station-rotations",
     emoji: "🔄",
     title: "Station Rotations",
-    titleCs: "Stanoviště",
-    shortDescCs: "Plánování rotací stanovišť.",
-    descriptionCs: "Tento Gem pomáhá rychle navrhnout soudržnou, výzkumem podloženou hodinu se stanovišti v souladu s osvědčenými postupy blended learningu. Ideální pro vytváření poutavých, diferencovaných hodin, generuje kompletně rozpracovaný plán hodiny včetně podrobných profilů stanovišť, průběhu a rutin, strategií diferenciace a dat a tipů pro škálování a implementaci.",
+    titleCs: "Stanovištní výuka na míru",
+    shortDescCs: "Plán stanovištní výuky pro českou školu.",
+    descriptionCs: "Tento gem pomáhá rychle navrhnout promyšlenou a prakticky použitelnou hodinu se stanovišti pro českou školu. Vytváří kompletní plán stanovištní výuky včetně cílů hodiny, popisu jednotlivých stanovišť, organizace práce, časového rozvržení, instrukcí pro žáky, diferenciace i doporučení pro řízení třídy, aby byla výuka aktivní, přehledná a zvládnutelná v běžné školní praxi.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/station-rotations"
+    gemUrl: "https://gemini.google.com/gem/1P7XxKmhLg0Rs_AM7wH9BGDcz7GdZah7E?usp=sharing"
   },
   "unit-plan": {
     slug: "unit-plan",
