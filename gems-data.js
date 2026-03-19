@@ -390,14 +390,14 @@ window.GEMS_DATA = {
   },
   "standards-unpacker": {
     slug: "standards-unpacker",
-    emoji: "📦",
-    title: "Standards Unpacker",
-    titleCs: "Rozbory standardů",
-    shortDescCs: "Rozbor vzdělávacích standardů.",
-    descriptionCs: "Tento Gem pomáhá převádět složité akademické standardy na využitelné, pro třídu připravené součásti hodiny. Jako expertní návrhář kurikula rozkládá konkrétní standardy na jejich podstatné dovednosti (slovesa), znalosti (podstatná jména) a koncepty a poskytuje jasnou cestovní mapu pro efektivní výuku, hodnocení a žákovské mistrovství.",
-    category: "planning",
-    categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/standards-unpacker"
+    emoji: "🎤",
+    title: "Vids Voiceover CZ",
+    titleCs: "Vids hlas ke slidům CZ",
+    shortDescCs: "Český voiceover pro slidové prezentace do Google Vids.",
+    descriptionCs: "Tento gem převádí slidy, PDF prezentace a výstupy z Google Slides na hotový český voiceover pro jednotlivé scény ve videu. Pro každý slide vytváří samostatný text pro namluvení, odhaduje délku řeči, doporučuje délku scény a připravuje názvy audio souborů pro snadné generování hlasu v AI Studiu a následné vložení do Google Vids. Umožňuje také zvolit styl vyprávění, například roli vypravěče, hlavní postavy, rozhovoru nebo učitele-průvodce, takže se hodí jak pro výuková videa, tak pro příběhové či dialogické prezentace. Je ideální pro učitele, kteří chtějí rychle proměnit prezentaci v české mluvené video bez zdlouhavého ručního psaní komentáře ke každému slidu.",
+    category: "materials",
+    categories: ["materials"],
+    gemUrl: "https://gemini.google.com/gem/1pmqciZdlQnYqkYmsVWMp2q417CD35dn-?usp=sharing"
   },
   "station-rotations": {
     slug: "station-rotations",
