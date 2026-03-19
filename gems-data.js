@@ -337,12 +337,12 @@ window.GEMS_DATA = {
     slug: "field-trip-plan",
     emoji: "🚌",
     title: "Field Trip Plan",
-    titleCs: "Plán exkurze",
-    shortDescCs: "Plánování školních výletů a exkurzí.",
-    descriptionCs: "Tento Gem pomáhá rychle naplánovat kreativní, spolehlivou a poutavou exkurzi, která zajistí, že žáci prožijí své učení v reálném světě. Ideální pro navrhování zážitkových, praktických učebních aktivit s konkrétní destinací a poskytuje vše potřebné pro úspěšný výlet.",
+    titleCs: "Exkurze bez chaosu",
+    shortDescCs: "Plánování školních exkurzí v souladu s výukou.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle naplánovat smysluplnou, dobře organizačně zvládnutou a poutavou školní exkurzi v souladu s cíli výuky. Hodí se pro přípravu zážitkových a prakticky zaměřených aktivit s konkrétním místem, programem i návazností na školní vzdělávání a nabídne přehled všeho důležitého pro úspěšný průběh akce.",
     category: "planning",
     categories: ["planning", "professional"],
-    gemUrl: "https://www.edugems.ai/gem/field-trip-plan"
+    gemUrl: "https://gemini.google.com/gem/17k99zZAzq0KzZweFix9oeR0drTR-hthW?usp=sharing"
   },
   "jigsaw-activity": {
     slug: "jigsaw-activity",
