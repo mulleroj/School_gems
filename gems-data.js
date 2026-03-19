@@ -304,12 +304,12 @@ window.GEMS_DATA = {
     slug: "choice-board",
     emoji: "🔠",
     title: "Choice Board",
-    titleCs: "Výběrová tabule",
-    shortDescCs: "Tabulka výběrových aktivit pro žáky.",
-    descriptionCs: "Tento Gem pomáhá rychle generovat podrobnou, přístupnou a poutavou výběrovou tabuli pro libovolný žákovský úkol. Navržen specialistou na UDL nabízí maximální žákovskou agenturu a různou náročnost tím, že zahrnuje možnosti napříč třemi principy UDL: Reprezentace, Akce a vyjadřování a Zapojení.",
+    titleCs: "UDL Výběr úkolů",
+    shortDescCs: "Nabídka úkolů podle principů UDL.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet přístupnou a motivující nabídku úkolů, ze které si žáci mohou vybírat podle svých možností, zájmů a preferovaného způsobu práce. Vychází z principů UDL, podporuje diferenciaci výuky, žákovskou samostatnost a nabízí aktivity v různých úrovních náročnosti i formách zapojení.",
     category: "planning",
     categories: ["planning", "support"],
-    gemUrl: "https://www.edugems.ai/gem/choice-board"
+    gemUrl: "https://gemini.google.com/gem/1NmJmKTpFvKqNrcOF07bZ6FosuYpjTROh?usp=sharing"
   },
   "class-syllabus": {
     slug: "class-syllabus",
