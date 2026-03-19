@@ -326,12 +326,12 @@ window.GEMS_DATA = {
     slug: "emergency-sub-plan",
     emoji: "🚨",
     title: "Emergency Sub Plan",
-    titleCs: "Nouzový plán pro suplování",
-    shortDescCs: "Plán hodiny pro náhradní učitele.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat podrobný, nenáročný na přípravu a samostatný nouzový plán pro suplování. Ideální pro vytváření „neprůstřelných\“ hodin při neočekávaných absencích, zajišťuje, že plán těsně odpovídá vašemu obsahu, ale nevyžaduje žádná specifická přihlášení, složitou technologii ani specializované znalosti od náhradního učitele.",
+    titleCs: "Pohotový plán na suplování",
+    shortDescCs: "Plán hodiny pro suplování bez speciálních požadavků.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit podrobný, snadno použitelný a samostatně realizovatelný plán hodiny pro suplování. Hodí se pro nečekané absence i předem plánované zastupování a připravuje „bezpečnou“ hodinu, která navazuje na probírané učivo, ale nevyžaduje žádná speciální přihlášení, složité technologie ani odbornou znalost předmětu ze strany zastupujícího učitele.",
     category: "planning",
     categories: ["planning", "professional"],
-    gemUrl: "https://www.edugems.ai/gem/emergency-sub-plan"
+    gemUrl: "https://gemini.google.com/gem/16iuM3LDcCUwtJMpdL7P-8OM_xhaIvjpH?usp=sharing"
   },
   "field-trip-plan": {
     slug: "field-trip-plan",
