@@ -293,12 +293,12 @@ window.GEMS_DATA = {
     slug: "bell-ringer-by-date",
     emoji: "🔔",
     title: "Bell Ringer by Date",
-    titleCs: "Zahřívací aktivita podle data",
-    shortDescCs: "Krátké úvodní aktivity podle historického data.",
-    descriptionCs: "Tento Gem pomáhá začínat každou hodinu energií a relevancí generováním včasné „zahřívací aktivity podle data“. Jako expertní specialista na zapojení žáků propojuje historické události, svátky nebo zajímavosti daného dne přímo s vaším předmětem (např. propojení „Národního dne pizzy“ se zlomky v hodině matematiky) a zároveň zajišťuje, že veškerý obsah je přiměřený ročníku a „bezpečný pro školu\“.",
+    titleCs: "Rozjezd hodiny",
+    shortDescCs: "Zahřívací aktivity podle data pro české školství.",
+    descriptionCs: "Tento Gem vytváří krátké zahřívací aktivity do úvodu hodiny podle aktuálního data. Propojuje události, výročí, svátky nebo zajímavosti dne s konkrétním předmětem a připravuje věkově přiměřený, bezpečný a pro české školství dobře použitelný vstup do výuky.",
     category: "planning",
     categories: ["planning", "engagement"],
-    gemUrl: "https://www.edugems.ai/gem/bell-ringer-by-date"
+    gemUrl: "https://gemini.google.com/gem/1oKUhpKmjXi8s1j-kZxN9L3nxmf2HduID?usp=sharing"
   },
   "choice-board": {
     slug: "choice-board",
