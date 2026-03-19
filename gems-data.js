@@ -271,12 +271,12 @@ window.GEMS_DATA = {
     slug: "accelerated-learning",
     emoji: "🚀",
     title: "Accelerated Learning",
-    titleCs: "Zrychlené učení",
-    shortDescCs: "Lekce využívající principy kognitivních věd.",
-    descriptionCs: "Tento Gem pomáhá navrhovat náročné, kvalitní rozšiřující aktivity pro pokročilé žáky, kteří již zvládli současný obsah. Jako specialista na nadané a diferenciaci vytváří přizpůsobené plány pro vertikální akceleraci (následující ročník) nebo horizontální obohacení (hlubší složitost) a nabízí vygenerování Smlouvy o učení žáka pro zajištění samostatné autonomie žáka.",
+    titleCs: "Učení o krok dál",
+    shortDescCs: "Rozšiřující aktivity pro nadané a pokročilé žáky.",
+    descriptionCs: "Tento Gem pomáhá učitelům připravovat smysluplné a náročnější rozšiřující aktivity pro nadané, pokročilé nebo rychleji postupující žáky, kteří už zvládli aktuální učivo. Zaměřuje se na diferenciaci výuky a navrhuje přizpůsobené plány buď pro postup do složitějšího či navazujícího učiva, nebo pro hlubší obohacení tématu. Součástí může být i návrh individuální smlouvy o učení žáka, která podporuje samostatnost, odpovědnost a smysluplnou autonomii při práci.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/accelerated-learning"
+    gemUrl: "https://gemini.google.com/gem/1gSVdLSSPRDUdby26TPc5TqdCxuKXLwMD?usp=sharing"
   },
   "ai-samr-activity": {
     slug: "ai-samr-activity",
