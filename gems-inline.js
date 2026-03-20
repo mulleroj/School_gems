@@ -500,12 +500,12 @@ window.GEMS_DATA={
     slug: "sentence-starters",
     emoji: "✍️",
     title: "Sentence Starters",
-    titleCs: "Začátky vět",
-    shortDescCs: "Začátky vět pro psaní a diskuzi.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit sadu konkrétních, relevantních a ročníku přiměřených začátků vět pro lešení akademického jazyka pro vaše žáky. Ideální pro zlepšení žákovského sebevědomí a akademického výkonu v psaní a cílené diskuzi tím, že jim pomáhá efektivně artikulovat nápady, používat důkazy nebo přecházet mezi myšlenkami.",
+    titleCs: "Opory pro vyjadřování",
+    shortDescCs: "Formulace a začátky vět pro mluvený i písemný projev napříč předměty.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet sady vhodných formulací a začátků vět, které žákům usnadňují mluvený i písemný projev v různých předmětech. Podporuje rozvoj akademického jazyka, argumentace, práce s důkazy, vysvětlování postupů i zapojení do řízené diskuse, a to způsobem přiměřeným věku, ročníku i úrovni žáků. Je vhodný pro běžnou výuku, diferenciaci i podporu žáků, kteří potřebují větší jazykové lešení při odpovědích, psaní nebo prezentaci vlastních myšlenek.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/sentence-starters"
+    gemUrl: "https://gemini.google.com/gem/1fCusQFwl_uz-WdLV4lqXPt0VcyouXmV0?usp=sharing"
   },
   "slideshow-maker": {
     slug: "slideshow-maker",
