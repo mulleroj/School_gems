@@ -443,12 +443,12 @@ window.GEMS_DATA={
     slug: "discussion-prompts",
     emoji: "🗣️",
     title: "Discussion Prompts",
-    titleCs: "Diskusní podněty",
-    shortDescCs: "Podněty pro diskuzi ve třídě.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit sadu hutných, otevřených otázek určených ke stimulaci smysluplných třídních diskusí. Otázky jsou navrženy tak, aby byly přiměřené ročníku, podporovaly divergentní myšlení, zvaly k více perspektivám a vyžadovaly od žáků hluboké ponoření do obsahu s využitím důkazů.",
+    titleCs: "Otázky do hloubky",
+    shortDescCs: "Otevřené otázky pro diskuzi – věk žáků, kritické myšlení, opření o důkazy.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet promyšlené, otevřené otázky pro smysluplnou třídní diskusi. Otázky jsou přizpůsobené věku žáků, podporují více úhlů pohledu, rozvíjejí kritické a divergentní myšlení a vedou žáky k tomu, aby své názory opírali o text, učivo, fakta nebo konkrétní důkazy.",
     category: "materials",
     categories: ["materials", "engagement", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/discussion-prompts"
+    gemUrl: "https://gemini.google.com/gem/1roZngCXzzglakOK3gffbdUHb-juFLxd2?usp=sharing"
   },
   "graphic-novel-maker": {
     slug: "graphic-novel-maker",
