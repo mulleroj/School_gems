@@ -588,12 +588,12 @@ window.GEMS_DATA={
     slug: "2-truths-a-lie-game",
     emoji: "🫢",
     title: "2 Truths & a Lie Game",
-    titleCs: "Hra 2 pravdy a lež",
-    shortDescCs: "Výroky ke konkrétnímu tématu – žáci hádají lež.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní kolo hry „Dvě pravdy a lež\“ pro libovolné téma. Ideální pro podporu zapojení žáků, kritického myšlení a diagnostického opakování generováním tří výroků přiměřených věku – dvou faktů a jedné věrohodné, přesvědčivé lži – k prověření žákovského porozumění a zacílení na běžné omyly.",
+    titleCs: "Generátor hry Dvě pravdy a lež",
+    shortDescCs: "Tři výroky (dvě pravdy + jedna lež) k libovolnému tématu – aktivizace, opakování, kritické myšlení.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet vlastní kola hry Dvě pravdy a lež pro libovolné téma, předmět i věkovou skupinu. Generuje tři výroky přiměřené žákům – dva pravdivé a jeden záměrně věrohodný nepravdivý – a je vhodný pro aktivizaci třídy, opakování učiva, odhalování miskoncepcí i rozvoj kritického myšlení.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/2-truths-a-lie-game"
+    gemUrl: "https://gemini.google.com/gem/1y6x7wCdU3itTJTOpsleCgHirngupwL8M?usp=sharing"
   },
   "20-questions-game": {
     slug: "20-questions-game",
