@@ -432,12 +432,12 @@ window.GEMS_DATA={
     slug: "decodable-texts",
     emoji: "📖",
     title: "Decodable Texts",
-    titleCs: "Dekódovatelné texty",
-    shortDescCs: "Texty pro nácvik čtení.",
-    descriptionCs: "Tento Gem pomáhá rychle napsat vlastní, poutavý a přístupný dekódovatelný text v souladu s vědou o čtení. Ideální pro budování základních čtenářských dovedností a sebevědomí vytvářením textu, který je přísně kontrolovaný, cílí na konkrétní fonologickou dovednost a používá pouze dříve naučené vzory a frekventovaná slova.",
+    titleCs: "Tvůrce dekódovatelných textů",
+    shortDescCs: "Dekódovatelné texty pro 1. stupeň – jen procvičené jevy a častá slova.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet vlastní dekódovatelné texty pro začínající čtenáře na 1. stupni ZŠ. Texty jsou přizpůsobené konkrétní hláskové, fonologické nebo pravopisné dovednosti, pracují jen s již procvičenými jevy a častými slovy a podporují plynulé čtení, porozumění i jistotu při čtenářských začátcích.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/decodable-texts"
+    gemUrl: "https://gemini.google.com/gem/1EZFbHvyGuGWGjbrrCTOyAIFzZOaJOPjX?usp=sharing"
   },
   "discussion-prompts": {
     slug: "discussion-prompts",
