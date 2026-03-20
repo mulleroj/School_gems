@@ -581,12 +581,12 @@ window.GEMS_DATA = {
     slug: "worksheet",
     emoji: "📝",
     title: "Worksheet",
-    titleCs: "Pracovní list",
-    shortDescCs: "Pracovní listy s úlohami a řešeními.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvářet vysoce přizpůsobené pracovní listy pro jakoukoli učební zkušenost, přičemž zajišťuje formátování vhodné pro snadný export do Google Docs nebo jiných textových procesorů. Ideální pro návrh materiálů k procvičování, opakování nebo hodnocení přesně navázaných na vaše výukové cíle. Povedete s Gemini spolupracující rozhovor – začnete uvedením cíle pracovního listu, cílového obsahu (standard, téma nebo cíl), ročníku žáků, typů otázek/položek (např. výběr z možností, krátká odpověď) a požadované úrovně obtížnosti nebo počtu aktivit. Gemini vás provede procesem, položí upřesňující otázky a nabídne návrhy k vylepšení.",
+    titleCs: "Tvůrce pracovních listů",
+    shortDescCs: "Listy pro českou školu podle cílů, ŠVP a žáků; snadný export do Google Dokumentů.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet přehledné a vysoce přizpůsobené pracovní listy pro české školství – k procvičování, opakování i ověřování znalostí v souladu s cíli výuky, tematickým plánem, ŠVP nebo očekávanými výstupy. Výstup je připravený tak, aby se dal snadno zkopírovat do Google Dokumentů nebo jiného textového editoru. Na začátku společně upřesníte cíl pracovního listu, téma nebo učivo, ročník či úroveň žáků, typy úloh, obtížnost a rozsah. Gemini vás pak provede dalším postupem, položí doplňující otázky a pomůže pracovní list doladit tak, aby odpovídal vašim žákům i stylu výuky.",
     category: "materials",
     categories: ["materials"],
-    gemUrl: "https://www.edugems.ai/gem/worksheet"
+    gemUrl: "https://gemini.google.com/gem/1CQ2aAs1pnxyAwvsUJpxEUio1UEsFkHQC?usp=sharing"
   },
   "2-truths-a-lie-game": {
     slug: "2-truths-a-lie-game",
