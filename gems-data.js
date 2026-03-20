@@ -482,12 +482,12 @@ window.GEMS_DATA = {
     slug: "informational-text",
     emoji: "📃",
     title: "Informational Text",
-    titleCs: "Informační text",
-    shortDescCs: "Tvorba informačních textů pro výuku.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit jasný, podrobný a fakticky přesný informační text přeměnou složitého akademického obsahu na přístupný a poutavý formát pro žáky K-12. Ideální pro generování vlastních čtených pasáží těsně navázaných na učební cíl a přizpůsobených konkrétním čtenářským potřebám žáků.",
+    titleCs: "Výukový text na míru",
+    shortDescCs: "Srozumitelné výukové texty podle cíle, věku a čtenářské úrovně v české škole.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvářet srozumitelné, věcně přesné a čtivě napsané výukové texty na míru konkrétnímu vzdělávacímu cíli. Převádí složitý odborný nebo učební obsah do podoby, která odpovídá věku, úrovni čtenářských dovedností i potřebám žáků v českém školním prostředí, a hodí se pro přípravu vlastních textů k četbě, pracovním listům i navazujícím aktivitám.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/informational-text"
+    gemUrl: "https://gemini.google.com/gem/1n0kILKFR7ns-CpWP5S7bpsxmYOLGYxa5?usp=sharing"
   },
   "reading-list": {
     slug: "reading-list",
