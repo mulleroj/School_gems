@@ -522,12 +522,12 @@ window.GEMS_DATA={
     slug: "song-lyrics",
     emoji: "🎵",
     title: "Song Lyrics",
-    titleCs: "Texty písní",
-    shortDescCs: "Texty písní pro výuku.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit originální, kontextově relevantní texty písní pro přeměnu akademického obsahu na poutavou multimodální učební zkušenost. Ideální pro vytváření zapamatovatelných háčků, nástrojů pro opakování nebo kreativních hodnoticích podnětů, které u žáků rezonují.",
+    titleCs: "Textař výukových písní",
+    shortDescCs: "Učivo jako chytlavé texty písní – motivace, opakování, kreativní výstupy.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvářet originální texty písní, které převádějí učivo do chytlavé a zapamatovatelné podoby. Hodí se pro motivační úvod, opakování, procvičování i kreativní výstupy žáků a pomáhá proměnit akademický obsah v poutavou multimodální učební zkušenost.",
     category: "materials",
     categories: ["materials", "engagement", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/song-lyrics"
+    gemUrl: "https://gemini.google.com/gem/1vnCrF7vguQo7pMIDkmd1cCXebp1P-wC8?usp=sharing"
   },
   "story-writer": {
     slug: "story-writer",
