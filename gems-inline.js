@@ -489,12 +489,12 @@ window.GEMS_DATA={
     slug: "reading-list",
     emoji: "📗",
     title: "Reading List",
-    titleCs: "Seznam četby",
-    shortDescCs: "Doporučené seznamy knih.",
-    descriptionCs: "Tento Gem pomáhá rychle sestavit poutavý, na kurikulum navázaný seznam četby tím, že zajišťuje, že všechny doporučené knihy, články a texty jsou přesné, publikované díla podporující vaše výukové cíle. Ideální pro navrhování literárních kroužků, výběru pro samostatné čtení nebo komplexních souborů textů, které roznítí lásku ke čtení u všech žáků.",
+    titleCs: "Tvůrce seznamu četby",
+    shortDescCs: "Seznam četby pro českou školu podle věku, cílů a předmětu.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit smysluplný a didakticky promyšlený seznam četby pro české školní prostředí tak, aby doporučené knihy, články, ukázky i další texty odpovídaly věku žáků, výukovým cílům a zaměření předmětu. Hodí se pro sestavování povinné i doporučené četby, čtenářských dílen, tematických souborů textů i podpory samostatného čtení a pomáhá vybírat texty, které rozvíjejí čtenářskou gramotnost a skutečný vztah ke čtení.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/reading-list"
+    gemUrl: "https://gemini.google.com/gem/1R6UmNmJHcgFwq5ZiQoUZmeCnTNr9pc6N?usp=sharing"
   },
   "sentence-starters": {
     slug: "sentence-starters",
