@@ -515,12 +515,12 @@ window.GEMS_DATA = {
     slug: "slideshow-maker",
     emoji: "🖼️",
     title: "Slideshow Maker",
-    titleCs: "Tvůrce prezentací",
-    shortDescCs: "Tvorba slideshow prezentací.",
-    descriptionCs: "Tento Gem pomáhá přeměnit surové informace – jako články, poznámky nebo nahrané soubory – na poutavé, kompletní prezentace. Jako expertní návrhář prezentací a vizuální vypravěč využívá funkci Canvas k vygenerování hotového produktu včetně jasných názvů slidů, strukturovaného obsahu, vhodných obrázků a podrobných poznámek pro prezentujícího.",
+    titleCs: "Prezentace na klíč",
+    shortDescCs: "Z materiálů na hotový návrh prezentace v Canvasu včetně slidů a poznámek.",
+    descriptionCs: "Tento Gem převádí surové informace – například články, poznámky nebo nahrané soubory – do přehledné, poutavé a kompletně strukturované prezentace. Funguje jako expertní návrhář prezentací a vizuální vypravěč: v Canvasu připraví hotový návrh včetně názvů slidů, obsahu jednotlivých částí, doporučení k vizuálům a poznámek pro prezentujícího.",
     category: "materials",
     categories: ["materials"],
-    gemUrl: "https://www.edugems.ai/gem/slideshow-maker"
+    gemUrl: "https://gemini.google.com/gem/18e__4wbSKo0uEsLOvQLk3swj_NoYqV9j?usp=sharing"
   },
   "song-lyrics": {
     slug: "song-lyrics",
