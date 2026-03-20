@@ -410,12 +410,12 @@ window.GEMS_DATA={
     slug: "unit-plan",
     emoji: "📋",
     title: "Unit Plan",
-    titleCs: "Plán jednotky",
-    shortDescCs: "Souvislá výuková jednotka s cíli a hodinami.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit podrobný, na standardy navázaný plán jednotky pro efektivní zmapování učební cesty vašich žáků. Výsledný plán je komplexní, jasně formátovaný a obsahuje nezbytné součásti jako učební cíle, standardy, klíčovou slovní zásobu a doporučený časový harmonogram.",
+    titleCs: "Plánovač výukového celku",
+    shortDescCs: "Plán výukového celku podle českého školství.",
+    descriptionCs: "Tento Gem pomáhá rychle vytvořit přehledný a propracovaný plán výukového celku podle požadavků českého školství. Výstup obsahuje vzdělávací cíle, návaznost na očekávané výstupy a školní vzdělávací program, klíčové učivo a slovní zásobu, návrh aktivit i doporučený časový harmonogram, aby měl učitel jasnou mapu celé výuky.",
     category: "planning",
     categories: ["planning"],
-    gemUrl: "https://www.edugems.ai/gem/unit-plan"
+    gemUrl: "https://gemini.google.com/gem/1vxBcPRQ0JFsqkBvNhL9J6CrmoBezaWW3?usp=sharing"
   },
   "coloring-page-maker": {
     slug: "coloring-page-maker",
