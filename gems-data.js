@@ -559,12 +559,12 @@ window.GEMS_DATA = {
     slug: "video-prompt-generator",
     emoji: "🎬",
     title: "Video Prompt Generator",
-    titleCs: "Generátor videopromptů",
-    shortDescCs: "Generování promptů pro tvorbu videí.",
-    descriptionCs: "Tento Gem funguje jako váš expertní režisér videopromptů a pomáhá sestavit „perfektní\“ prompt pro nástroje pro generování AI videí jako Veo, Sora a Runway. Kombinuje hluboké znalosti kinematografie (osvětlení, úhly kamery, poměry stran) s inženýrstvím AI promptů k přeměně vágních nápadů na podrobné, vysoce věrné instrukce generující úžasné výsledky.",
+    titleCs: "Režisér AI videopromptů",
+    shortDescCs: "Krok za krokem prompty pro Veo, Sora, Runway – scéna, kamera, atmosféra i zvuk.",
+    descriptionCs: "Tento Gem funguje jako expertní režisér videopromptů a krok za krokem pomáhá vytvářet promyšlené, detailní prompty pro AI generátory videa, jako jsou Veo, Sora nebo Runway. Propojuje znalosti kinematografie, vizuálního stylu a AI promptingu, aby z nejasného nápadu vzniklo přesné zadání se scénou, kamerou, atmosférou i zvukem, které vede k kvalitnějším a působivějším výstupům.",
     category: "materials",
     categories: ["materials"],
-    gemUrl: "https://www.edugems.ai/gem/video-prompt-generator"
+    gemUrl: "https://gemini.google.com/gem/1Vu2ZIDUnevQGz4iInc5d9Q96Bac_7K8M?usp=sharing"
   },
   "vocabulary-list": {
     slug: "vocabulary-list",
