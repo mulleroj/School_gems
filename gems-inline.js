@@ -544,12 +544,12 @@ window.GEMS_DATA={
     slug: "text-rewriter",
     emoji: "✍️",
     title: "Text Rewriter",
-    titleCs: "Přepisovač textů",
-    shortDescCs: "Příprava textů v různých úrovních obtížnosti.",
-    descriptionCs: "Tento Gem pomáhá okamžitě analyzovat a přizpůsobit libovolný text specifickým potřebám vašich žáků. Jako expertní specialista na gramotnost zachovává jádro významu původního materiálu a zároveň umožňuje přesně upravit čtenářskou úroveň, délku, tón, styl, formát a prvky přístupnosti (jako odstranění idiomů nebo členění textu).",
+    titleCs: "Text na míru",
+    shortDescCs: "Úprava libovolného textu podle žáků – úroveň, délka, tón, styl, přístupnost.",
+    descriptionCs: "Tento Gem pomáhá rychle analyzovat a upravit libovolný text tak, aby odpovídal potřebám konkrétních žáků. Zachovává hlavní význam původního sdělení, ale zároveň umožňuje přizpůsobit obtížnost, délku, tón, styl, formát i prvky přístupnosti, například zjednodušení jazyka, odstranění idiomů nebo přehlednější členění textu.",
     category: "materials",
     categories: ["materials", "support", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/text-rewriter"
+    gemUrl: "https://gemini.google.com/gem/1ttdfSY09yey-nNtGAqYhIAGpSgoZ6tPC?usp=sharing"
   },
   "video-prompt-generator": {
     slug: "video-prompt-generator",
