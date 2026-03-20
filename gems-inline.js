@@ -533,12 +533,12 @@ window.GEMS_DATA={
     slug: "story-writer",
     emoji: "📖",
     title: "Story Writer",
-    titleCs: "Tvůrce příběhů",
-    shortDescCs: "Generování příběhů pro výuku.",
-    descriptionCs: "Tento Gem pomáhá vytvářet kvalitní, poutavé příběhy přizpůsobené konkrétním potřebám vaší třídy. Jako profesionální spisovatel příběhů a instruktážní návrhář vytváří narativy přísně navázané na vámi specifikovaný ročník, žánr a učební účel (např. výuka o zlaté horečce nebo procvičování inference). Umožňuje nahrát zdrojové materiály nebo připojit soubory z Google Disku pro vedení narativu a zajištění souladu obsahu s kurikulem.",
+    titleCs: "Tvůrce školních příběhů na míru",
+    shortDescCs: "Příběhy podle ročníku, žánru a vzdělávacího cíle; včetně práce se zdroji.",
+    descriptionCs: "Tento Gem pomáhá vytvářet kvalitní a poutavé příběhy přizpůsobené konkrétním potřebám žáků a výuky v českém školním prostředí. Funguje jako zkušený autor vzdělávacích textů a metodický pomocník, který připravuje příběhy podle zadaného ročníku, žánru, tématu i vzdělávacího cíle – například pro rozvoj čtenářské gramotnosti, porozumění textu, vyvozování, slohu nebo propojení s učivem dějepisu, občanské výchovy či českého jazyka. Umožňuje pracovat také se zdrojovými materiály nebo nahranými soubory, aby výsledný příběh odpovídal obsahu výuky a byl využitelný přímo v hodině.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/story-writer"
+    gemUrl: "https://gemini.google.com/gem/1c7N8-iZxb8ag0w9ETmbLjlgd73mL3kZm?usp=sharing"
   },
   "text-rewriter": {
     slug: "text-rewriter",
