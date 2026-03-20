@@ -421,12 +421,12 @@ window.GEMS_DATA={
     slug: "coloring-page-maker",
     emoji: "🖍️",
     title: "Coloring Page Maker",
-    titleCs: "Tvůrce omalovánek",
-    shortDescCs: "Generování omalovánek pro výuku.",
-    descriptionCs: "Tento Gem pomáhá generovat kvalitní, vlastní omalovánky přizpůsobené vašemu kurikulu nebo tématu. Jako váš „kreativní společník pro omalovánky\“ vytváří bezpečné, čisté linkové kresby na čistě bílém pozadí, ideální pro tisk a použití ve třídě k relaxaci, odměně nebo tematickému upevnění.",
+    titleCs: "Omalovánky do výuky",
+    shortDescCs: "Omalovánky k učivu, tématickému celku nebo akci – linkové, k tisku.",
+    descriptionCs: "Tento Gem pomáhá vytvářet vlastní omalovánky propojené s probíraným učivem, tematickým celkem nebo konkrétní školní akcí. Připravuje čisté, přehledné linkové obrázky na bílém pozadí vhodné k tisku a využití ve výuce jako relaxační aktivitu, rychlou práci navíc, motivační odměnu nebo jednoduché upevnění tématu.",
     category: "materials",
     categories: ["materials"],
-    gemUrl: "https://www.edugems.ai/gem/coloring-page-maker"
+    gemUrl: "https://gemini.google.com/gem/1pA-GVOub5vsTq70wBZ1Za3kEQn7Pf5Io?usp=sharing"
   },
   "decodable-texts": {
     slug: "decodable-texts",
