@@ -467,12 +467,12 @@ window.GEMS_DATA={
     slug: "guided-notes",
     emoji: "🧭",
     title: "Guided Notes",
-    titleCs: "Řízené poznámky",
-    shortDescCs: "Strukturované poznámky pro žáky.",
-    descriptionCs: "Tento Gem pomáhá rychle přeměnit libovolný zdrojový text (přepis videa, článek, povídku nebo kapitolu učebnice) na komplexní řízené poznámky fungující jako cenný studijní materiál. Na rozdíl od jednoduchých odrážkových seznamů vytváří vysoce strukturované vyprávěcí shrnutí odrážející průběh a hutnost původního materiálu, včetně doplňovaček s frekventovanými výrazy, syntetizačních reflexních otázek a klíče pro učitele.",
+    titleCs: "Studijní poznámky z textu",
+    shortDescCs: "Ze zdrojového textu přehledné studijní poznámky se shrnutím, doplňovačkami a otázkami.",
+    descriptionCs: "Tento Gem pomáhá rychle převést libovolný zdrojový text — například přepis videa, článek, literární ukázku nebo text z učebnice — na přehledné a obsahově bohaté studijní poznámky pro žáky. Výstup zachovává logiku a strukturu původního materiálu, obsahuje souvislé shrnutí, doplňovačky s klíčovými pojmy, otázky k porozumění a reflexi i řešení pro učitele, takže usnadňuje výuku, opakování i samostatnou přípravu.",
     category: "materials",
     categories: ["materials", "support"],
-    gemUrl: "https://www.edugems.ai/gem/guided-notes"
+    gemUrl: "https://gemini.google.com/gem/1BLpgLK0NUU_Bw5vKlCNi4ZvUVbEdlRnN?usp=sharing"
   },
   "informational-text": {
     slug: "informational-text",
