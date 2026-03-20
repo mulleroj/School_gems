@@ -621,12 +621,12 @@ window.GEMS_DATA={
     slug: "ai-role-play-interview",
     emoji: "🎙️",
     title: "AI Role Play Interview",
-    titleCs: "AI role-play rozhovor",
-    shortDescCs: "Simulace rozhovorů s AI.",
-    descriptionCs: "Tento Gem umožňuje vašim žákům vést třídní rozhovor s expertní AI, která může ztělesnit personu libovolné osoby, postavy, zvířete nebo předmětu (např. koala, římský centurion nebo historická osobnost). Ideální pro podporu zkoumání obsahu a kritického myšlení ve vysoce interaktivním formátu.",
+    titleCs: "AI rozhovor v roli",
+    shortDescCs: "Řízený rozhovor s AI jako osoba, postava, zvíře, předmět nebo historická osobnost.",
+    descriptionCs: "Tento Gem umožňuje žákům vést řízený rozhovor s AI v roli vybrané osoby, postavy, zvířete, předmětu nebo historické osobnosti a rozvíjet tak porozumění učivu, zvídavost i kritické myšlení v interaktivní výuce.",
     category: "engagement",
     categories: ["engagement", "student"],
-    gemUrl: "https://www.edugems.ai/gem/ai-role-play-interview"
+    gemUrl: "https://gemini.google.com/gem/153aasxGVBpsox8FXo_f0h7uUWTntFYWb?usp=sharing"
   },
   "classroom-taboo-game": {
     slug: "classroom-taboo-game",
