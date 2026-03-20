@@ -599,12 +599,12 @@ window.GEMS_DATA={
     slug: "20-questions-game",
     emoji: "🤔",
     title: "20 Questions Game",
-    titleCs: "Hra 20 otázek",
-    shortDescCs: "Klasická hra 20 otázek pro výuku.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní, poutavé a náročné kolo hry „20 otázek\“. Ideální pro podporu kritického myšlení, diagnostického opakování a systematického dotazování, když žáci spolupracují na hádání klíčového slova, významné osobnosti nebo základního konceptu z vaší hodiny.",
+    titleCs: "Detektiv 20 otázek",
+    shortDescCs: "Vlastní kolo hry 20 otázek – kritické myšlení, opakování, systematické dotazování.",
+    descriptionCs: "Tento Gem vám pomůže rychle vytvořit vlastní poutavé a promyšlené kolo hry 20 otázek pro výuku. Hodí se pro rozvoj kritického myšlení, opakování učiva i trénink logického a systematického dotazování, když žáci společně odhalují klíčové slovo, významnou osobnost, pojem nebo důležitý koncept z hodiny.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/20-questions-game"
+    gemUrl: "https://gemini.google.com/gem/1YAscCt8jxB2GCG_UaSRj8Gdq_XId9m2V?usp=sharing"
   },
   "ai-debate": {
     slug: "ai-debate",
