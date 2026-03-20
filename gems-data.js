@@ -570,12 +570,12 @@ window.GEMS_DATA = {
     slug: "vocabulary-list",
     emoji: "📋",
     title: "Vocabulary List",
-    titleCs: "Slovní zásoba",
-    shortDescCs: "Seznamy slovní zásoby pro výuku.",
-    descriptionCs: "Tento Gem pomáhá rychle generovat kvalitní materiály slovní zásoby přizpůsobené čtenářské úrovni vašich žáků. Jako užitečný asistent pedagoga vytváří seznamy obsahující slovo, definici přiměřenou ročníku a kontextovou větu ukazující, jak se slovo skutečně používá. Může čerpat slovní zásobu z konkrétního textu, který vložíte nebo nahrajete, nebo generovat relevantní termíny na základě obecného tématu.",
+    titleCs: "Tvůrce slovní zásoby",
+    shortDescCs: "Materiály ke slovní zásobě podle věku, ročníku, textu nebo tématu.",
+    descriptionCs: "Tento Gem pomáhá učitelům rychle vytvářet kvalitní materiály ke slovní zásobě přizpůsobené věku, ročníku a jazykové úrovni žáků. Umí připravit přehledy slov se srozumitelnou definicí, ukázkovou větou v kontextu a dalšími užitečnými prvky pro výuku. Může vycházet z vloženého nebo nahraného textu, nebo samostatně navrhnout vhodnou slovní zásobu podle tématu, předmětu či vzdělávacího cíle.",
     category: "materials",
     categories: ["materials", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/vocabulary-list"
+    gemUrl: "https://gemini.google.com/gem/15QQ4pURI7lIQ7M8knS0pBOmYGL_OJj0S?usp=sharing"
   },
   "worksheet": {
     slug: "worksheet",
