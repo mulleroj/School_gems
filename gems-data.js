@@ -614,12 +614,12 @@ window.GEMS_DATA = {
     slug: "ai-debate",
     emoji: "⚖️",
     title: "AI Debate",
-    titleCs: "AI debata",
-    shortDescCs: "Debata s AI na různá témata.",
-    descriptionCs: "Tento Gem umožňuje vašim žákům zapojit se do náročné, strukturované debaty bod proti bodu s expertní AI. Ideální pro podporu kritického myšlení, logické argumentace a respektující diskuse, protože žáci musí přímo reagovat na stručný, promyšlený protichůdný názor.",
+    titleCs: "Argumentační sparing s AI",
+    shortDescCs: "Strukturovaná debata s AI oponentem – kritické myšlení, argumentace, respekt.",
+    descriptionCs: "Tento Gem umožňuje žákům vést strukturovanou debatu s AI oponentem, která rozvíjí kritické myšlení, logickou argumentaci a kultivovanou diskusi, protože žáci musí reagovat na promyšlené protiargumenty a obhajovat vlastní stanovisko věcně a s respektem.",
     category: "engagement",
     categories: ["engagement", "student"],
-    gemUrl: "https://www.edugems.ai/gem/ai-debate"
+    gemUrl: "https://gemini.google.com/gem/1XLLf9mifSVxw7Abo3tEx4UoS51w-MeYn?usp=sharing"
   },
   "ai-role-play-interview": {
     slug: "ai-role-play-interview",
