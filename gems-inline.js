@@ -1254,5 +1254,16 @@ window.GEMS_DATA={
     category: "stem",
     categories: ["stem"],
     gemUrl: "https://www.edugems.ai/gem/science-lab-experiment"
+  },
+  "notebooklm-cinematic-overview-prompt": {
+    slug: "notebooklm-cinematic-overview-prompt",
+    emoji: "🎬",
+    title: "NotebookLM Cinematic Overview Prompt Guide",
+    titleCs: "Průvodce prompty pro NotebookLM Cinematic Overview",
+    shortDescCs: "Prompty pro NotebookLM Cinematic Overview – přesné, didaktické, zdrojově ukotvené zadání.",
+    descriptionCs: "Specializovaný Gem pro tvorbu a zpřesňování promptů pro NotebookLM Cinematic Overview. Pomáhá převést nejasné zadání na přesný, didakticky promyšlený a zdrojově ukotvený prompt, který respektuje strukturu výkladu, cílovou skupinu, omezení obsahu i vizuální strategii.",
+    category: "materials",
+    categories: ["materials", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1y5_RICNODtOrqlhkca6-rlQU1oQcdLQS?usp=sharing"
   }
 }
