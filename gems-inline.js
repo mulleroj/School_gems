@@ -632,166 +632,166 @@ window.GEMS_DATA={
     slug: "classroom-taboo-game",
     emoji: "🤐",
     title: "Classroom Taboo Game",
-    titleCs: "Třídní hra Taboo",
-    shortDescCs: "Hra Taboo přizpůsobená výuce.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat zábavné a náročné kolo hry „Třídní Taboo\“ pro libovolné téma. Ideální pro upevnění klíčové slovní zásoby a konceptů, protože žáci musí kriticky myslet, aby uhodli tajné slovo na základě nápověd od Gemini, přičemž se vyhýbají seznamu běžných, „tabu\“ souvisejících výrazů.",
+    titleCs: "Mistr nápověd",
+    shortDescCs: "Taboo ve třídě – nápovědy bez zakázaných slov, odhalení pojmu a učební moment.",
+    descriptionCs: "Tento Gem funguje jako moderátor hry ve stylu Taboo pro školní výuku a pomáhá učitelům procvičovat slovní zásobu, pojmy a porozumění tématu zábavnou formou. Na základě zadaného okruhu a věku žáků si vybere vhodné tajné slovo, interně si k němu vytvoří široký okruh zakázaných souvisejících slov a potom nabídne nápovědu, která je vede k uhodnutí správného pojmu bez použití nejběžnějších výrazů. Po hádání odhalí správnou odpověď a ukáže i část zakázaných slov, takže hra funguje zároveň jako učební moment. Hodí se do jazyků, přírodovědných i humanitních předmětů, k opakování pojmů, rozvoji vyjadřování i aktivizaci třídy. Gem je vhodný pro mladší i starší žáky, protože přizpůsobuje náročnost tématu i nápověd věku a úrovni třídy.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/classroom-taboo-game"
+    gemUrl: "https://gemini.google.com/gem/1M0PIOAl-n-WoUDLjKe5AWbPP3z22QrD6?usp=sharing"
   },
   "cyoa-story": {
     slug: "cyoa-story",
     emoji: "🔠",
     title: "CYOA Story",
-    titleCs: "Příběh typu Vyber si vlastní dobrodružství",
-    shortDescCs: "Interaktivní příběhy s volbami.",
-    descriptionCs: "Tento Gem přeměňuje standardní hodiny na ponořující, interaktivní narativy, které umožňují žákům „prožít\“ historické události, vědecké procesy nebo literární scénáře. Jako expertní průvodce vzdělávacím dobrodružstvím usnadňuje kolo za kolem hru „Vyber si vlastní dobrodružství\“ přísně navázanou na vaše učební cíle a ročník, zajišťuje, že zábava slouží pedagogickému účelu.",
+    titleCs: "Dobrodružství ve výuce",
+    shortDescCs: "Interaktivní příběh po kolech – tři volby, důsledky rozhodnutí, závěrečné ověření učiva.",
+    descriptionCs: "Tento Gem funguje jako vypravěč a herní průvodce interaktivním výukovým dobrodružstvím, ve kterém žáci postupují příběhem krok za krokem a svými rozhodnutími ovlivňují další vývoj. Nejde jen o napsání příběhu předem, ale o skutečnou hru vedenou po kolech, kde Gem reaguje na volby uživatele a podle nich rozvíjí další část děje. Učitel zadá ročník, téma, klíčové cíle výuky, délku hry a případně i roli, za kterou budou žáci hrát. Gem pak vytváří krátké, věkově přiměřené části příběhu, vždy nabídne tři možnosti volby a čeká na rozhodnutí. Příběh přirozeně propojuje učivo s dějem a ukazuje, že rozhodnutí mají důsledky. Po skončení hry přechází do ověřovací části a klade otázky k porozumění a naplnění výukových cílů. Hodí se pro dějepis, přírodopis, občanskou nauku, jazyky, zeměpis i další předměty, kde učitel chce spojit obsah s aktivním zapojením žáků.",
     category: "engagement",
     categories: ["engagement", "student"],
-    gemUrl: "https://www.edugems.ai/gem/cyoa-story"
+    gemUrl: "https://gemini.google.com/gem/1vi7lQUaj8-NWgMsvgK7Y8EoTftjkdVhT?usp=sharing"
   },
   "emoji-definition-game": {
     slug: "emoji-definition-game",
     emoji: "📓",
     title: "Emoji Definition Game",
-    titleCs: "Hra emoji definice",
-    shortDescCs: "Hádání pojmů pomocí emoji.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit zábavnou, vizuální a vysoce poutavou hru „Emoji definice\“ pro upevnění klíčové slovní zásoby, významných osobností nebo základních konceptů z libovolného tématu. Ideální pro podporu nadšené třídní diskuse a opakování prostřednictvím zapamatovatelné, kolaborativní hádanky.",
+    titleCs: "Emoji hádanky do výuky",
+    shortDescCs: "Hádej pojem jen z emoji – slovní zásoba, význam, rychlá aktivizace hodiny.",
+    descriptionCs: "Tento Gem funguje jako moderátor výukové hry, ve které se pojmy, osobnosti nebo důležité koncepty hádají jen podle emoji nápovědy. Na základě zadaného tématu, typu hráče a věku nebo ročníku vybere vhodné tajné slovo a vytvoří k němu krátkou nápovědu složenou pouze z emoji, bez použití slov, písmen nebo čísel. Hra tak rozvíjí slovní zásobu, porozumění pojmům, schopnost spojovat významy a zároveň přináší rychlou a zábavnou aktivizaci do hodiny. Po každém kole Gem odhalí správnou odpověď, vysvětlí význam pojmu srozumitelně pro žáky a ukáže, jak jednotlivé emoji souvisely s významem. Hodí se do jazyků, dějepisu, přírodopisu, zeměpisu, občanské nauky i dalších předmětů, kde chce učitel opakovat klíčové pojmy hravě a bez zbytečné omáčky.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/emoji-definition-game"
+    gemUrl: "https://gemini.google.com/gem/1ZGCMB0wjTVY6kIC2_KaZp1CKWEDAWKbd?usp=sharing"
   },
   "gamified-learning": {
     slug: "gamified-learning",
     emoji: "🎲",
     title: "Gamified Learning",
-    titleCs: "Gamifikované učení",
-    shortDescCs: "Gamifikace výukových aktivit.",
-    descriptionCs: "Tento Gem pomáhá rychle navrhnout jedinečnou, kreativní herní učební zkušenost pro gamifikaci nadcházející hodiny nebo opakování obsahu. Ideální pro podporu zapojení a motivace žáků slaďováním herních mechanik s vašimi učebními cíli a poskytováním podrobných instrukcí k materiálům, postupům učitele a žákovským instrukcem.",
+    titleCs: "Hra do hodiny",
+    shortDescCs: "Gamifikace podle tématu, času a třídy – pravidla, pomůcky, kroky učitele i žáků.",
+    descriptionCs: "Tento Gem pomáhá učitelům navrhovat gamifikované vyučovací aktivity a výukové hry tak, aby nebyly jen efektní, ale skutečně podporovaly učení. Nejprve si vyžádá důležité informace o tématu, ročníku, cílech výuky, časových možnostech, dostupných pomůckách i preferovaném typu hry. Poté připraví návrh aktivity, který je přizpůsobený konkrétní třídě a skutečným podmínkám školy. Součástí výstupu může být herní princip, pravidla, potřebné pomůcky, příprava před hodinou, učitelské kroky během hry, instrukce pro žáky i návrhy úprav pro slabší nebo silnější žáky. Gem se hodí pro učitele, kteří chtějí z běžného učiva udělat aktivní a zapamatovatelnou zkušenost, ale zároveň si chtějí udržet výukový cíl pevně v ruce.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/gamified-learning"
+    gemUrl: "https://gemini.google.com/gem/1SRBaInkm8vIoXfRmvJ-PSp_YUGdMX5V2?usp=sharing"
   },
   "historical-what-if": {
     slug: "historical-what-if",
     emoji: "⌛",
     title: "Historical What If?",
-    titleCs: "Historické Co kdyby?",
-    shortDescCs: "Alternativní historické scénáře.",
-    descriptionCs: "Tento Gem pomáhá učitelům společenských věd vytvářet náročné, věrohodné a poutavé scénáře „alternativní historie\“ pro výuku kauzality a historického významu. Jako „Chrono-Shift historik\“ přesahuje jednoduché vyprávění a generuje komplexní zprávu zakotvující fikci v realitě, vytváří hlubokou analýzu vlnových efektů napříč společností, ekonomikou a geopolitikou.",
+    titleCs: "Historie jinak",
+    shortDescCs: "Alternativní dějiny s kauzalitou – bod zlomu, dopady, prameny, otázky do hodiny.",
+    descriptionCs: "Tento Gem pomáhá učitelům společenských věd a dějepisu vytvářet věrohodné scénáře alternativní historie typu „co kdyby“, které nejsou jen hrou s fantazií, ale skutečným nástrojem pro hlubší pochopení dějin. Nejde mu o pouhé vymýšlení příběhů, ale o promyšlenou práci s historickou kauzalitou, významem událostí a systémovým myšlením. Učitel zadá původní historickou událost, bod odchylky, věk žáků, časový horizont a případné tematické zaměření. Gem pak vytvoří strukturovaný report: stručně připomene skutečný historický vývoj, určí bod zlomu, popíše novou alternativní linii, doplní fiktivní dobové prameny, rozebere dopady do společnosti, politiky, ekonomiky, technologií či kultury a nabídne i otázky a aktivity pro práci ve třídě. Hodí se pro dějepis, občanskou nauku i mezioborovou výuku tam, kde chce učitel dostat žáky od pasivního memorování k opravdovému přemýšlení nad tím, proč se dějiny vyvíjely právě tak, jak se vyvíjely.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/historical-what-if"
+    gemUrl: "https://gemini.google.com/gem/16VbpC7O6AEnUG7svjx2nz4eHRv1RRhX3?usp=sharing"
   },
   "jeopardy-game": {
     slug: "jeopardy-game",
     emoji: "❓",
     title: "Jeopardy Game",
-    titleCs: "Kvíz Jeopardy",
-    shortDescCs: "Otázky a kategorie ve stylu Jeopardy.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat kompletní obsah pro opakovací hru ve stylu Jeopardy pro gamifikaci akademického obsahu a maximalizaci zapojení žáků. Funguje jako architekt herní show a zajišťuje, že kategorie jsou relevantní, otázky odpovídají vašim standardům nebo zdrojovému textu a obtížnost logicky postupuje od 100 do 500 bodů.",
+    titleCs: "Hra Riskuj ve výuce",
+    shortDescCs: "Kategorie a otázky 100–500 bodů podle učiva – připraveno na prezentaci nebo hodinu.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet kompletní obsah pro opakovací hru ve stylu Riskuj tak, aby byla zábavná, přehledná a skutečně navázaná na učivo. Nezačne hned bezhlavě sypat otázky, ale nejprve si vyžádá téma, ročník, cíle výuky, případný zdrojový text, počet kategorií i důležité informace o třídě. Poté vytvoří herní obsah rozdělený do kategorií, s bodovými úrovněmi 100 až 500 a postupně rostoucí obtížností od základního vybavení znalostí po náročnější porozumění, vysvětlení a souvislosti. Výstup obsahuje zadání nápověd i správné odpovědi ve formátu vhodném pro učitele, který chce hru rychle převést do prezentace, tabulky nebo použít přímo při hodině. Hodí se pro opakování před testem, závěrečné shrnutí tématu, aktivizaci třídy i procvičování na základě textu, videa nebo prezentace.",
     category: "engagement",
     categories: ["engagement"],
-    gemUrl: "https://www.edugems.ai/gem/jeopardy-game"
+    gemUrl: "https://gemini.google.com/gem/1LtQGj8eILGNMB_4TwzQI4L_68yrcjpx8?usp=sharing"
   },
   "readers-theater": {
     slug: "readers-theater",
     emoji: "🎭",
     title: "Reader's Theater",
-    titleCs: "Drama – čtení rolí",
-    shortDescCs: "Scénky a role pro dramatické čtení.",
-    descriptionCs: "Tento Gem pomáhá přeměnit konkrétní téma, text nebo koncept na poutavý scénář pro čtení rolí pro budování čtenářské plynulosti a porozumění. Jako expertní specialista na gramotnost zajišťuje, že scénáře jsou vývojově přiměřené, přesně odrážejí předmět a poskytují jasné role podporující výraz bez vyžadování memorování nebo rekvizit.",
+    titleCs: "Čtenářské divadlo do třídy",
+    shortDescCs: "Scénář s rolemi k čtení nahlas – plynulost, výraz, bez učení nazpaměť.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet scénáře čtenářského divadla z příběhů, historických událostí, vědeckých témat i jiných výukových textů tak, aby byly použitelné přímo ve třídě a odpovídaly věku žáků. Nejde o klasické divadlo s učením rolí nazpaměť a sháněním rekvizit, ale o čtení rolí nahlas, při kterém žáci procvičují plynulost, výraz, porozumění textu a spolupráci. Gem se nejprve doptá na téma, ročník, předmět, počet rolí, případná povinná slovíčka i další požadavky. Poté vytvoří přehledný scénář se srozumitelnými rolemi, případně i s vypravěčem nebo společnou sborovou částí, aby se mohli zapojit i slabší čtenáři nebo větší skupina žáků. Hodí se do češtiny, cizích jazyků, dějepisu, přírodovědných předmětů i mezipředmětové výuky tam, kde chce učitel oživit text a dostat žáky od tichého čtení k aktivnímu prožitku.",
     category: "engagement",
     categories: ["engagement", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/readers-theater"
+    gemUrl: "https://gemini.google.com/gem/1L4ebH_WKJVkqBUgg-fA6tC4tbcFTZuMj?usp=sharing"
   },
   "story-cowriter": {
     slug: "story-cowriter",
     emoji: "✍️",
     title: "Story Co-Writer",
-    titleCs: "Spolutvůrce příběhů",
-    shortDescCs: "Společné psaní příběhů s AI.",
-    descriptionCs: "Tento Gem usnadňuje kolaborativní aktivitu „round robin\“ nebo „řetězového psaní\“ s vaší třídou. Jako „kreativní spolutvůrce\“ píše střídavě příběh po částech se žáky. Tento přístup povzbuzuje kreativitu, modeluje dobré psací návyky a zajišťuje, že narativ plyne logicky při zachování vývojové přiměřenosti.",
+    titleCs: "Příběhová štafeta",
+    shortDescCs: "Společné psaní po odstavcích – AI a třída, návaznost děje, žánr a věk.",
+    descriptionCs: "Tento Gem funguje jako spolutvůrce příběhu, který s žáky a učitelem píše příběh formou štafety – odstavec po odstavci. Nejde o jednorázové vygenerování celého textu, ale o skutečnou společnou tvorbu, ve které se střídá AI a třída. Gem hlídá návaznost děje, přizpůsobuje jazyk věku žáků, drží zvolený žánr i téma a pomáhá, aby příběh dával smysl od začátku do konce. Hodí se pro češtinu, cizí jazyky, tvůrčí psaní i mezipředmětové aktivity, kde chce učitel podpořit fantazii, spolupráci a práci s textem. Výstup je veden krok za krokem, takže žáci nepíší do prázdna, ale vždy navazují na konkrétní předchozí část příběhu. Gem je vhodný jak pro mladší žáky, tak pro starší studenty, protože průběžně přizpůsobuje slovní zásobu, tón i obsah věku a úrovni skupiny.",
     category: "engagement",
     categories: ["engagement", "student", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/story-cowriter"
+    gemUrl: "https://gemini.google.com/gem/1cQoV7IuXB9cCHev8i6pHJtPK0Ess-SWF?usp=sharing"
   },
   "accommodation-suggestions": {
     slug: "accommodation-suggestions",
     emoji: "🔑",
     title: "Accommodation Suggestions",
-    titleCs: "Návrhy úprav",
-    shortDescCs: "Návrhy úprav pro žáky se SVP.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat sadu konkrétních, na důkazech založených úprav a modifikací pro žáka s učebními potřebami. Návrhy vycházejí z principů diferenciace a univerzálního designu pro učení (UDL), jsou vývojově přiměřené a proveditelné pro implementaci ve třídě.",
+    titleCs: "Podpůrná opatření na míru",
+    shortDescCs: "Konkrétní úpravy výuky podle žáka a předmětu – ne obecné fráze.",
+    descriptionCs: "Tento Gem pomáhá učitelům navrhovat konkrétní podpůrná opatření a úpravy výuky pro žáky, kteří potřebují cílenou podporu. Nepracuje s obecnými frázemi typu „více času“ nebo „individuální přístup“, ale nejprve si vyžádá důležité informace o žákovi, předmětu, situaci, silných stránkách i dosavadních zkušenostech s podporou. Teprve potom navrhne několik konkrétních, věkově přiměřených a reálně proveditelných opatření pro běžnou školní praxi. Výstup může pomoci při plánování podpory v hodině, při úpravě zadání, hodnocení, pracovních materiálů nebo organizace prostředí. Gem je vhodný pro učitele, kteří chtějí podporu nastavovat smysluplně, citlivě a tak, aby opravdu odpovídala potřebám konkrétního žáka, ne jen papíru.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/accommodation-suggestions"
+    gemUrl: "https://gemini.google.com/gem/1p45SjgviC9yRf8C2i8OP8bPO2Ga1GMRF?usp=sharing"
   },
   "ai-tutor": {
     slug: "ai-tutor",
     emoji: "🧑‍🏫",
     title: "AI Tutor",
-    titleCs: "AI tutor",
-    shortDescCs: "Bezpečný AI tutor pro žáky.",
-    descriptionCs: "Tento Gem funguje jako sokratovský a povzbuzující studijní partner, který pomáhá žákům rozvíjet hluboké porozumění a dovednosti. Trpělivě provádí žáky strukturovaným učebním procesem – od diagnostiky jejich současných znalostí po podporu cílenými otázkami – přísně se vyhýbá přímým odpovědím, aby zachoval akademickou čestnost a aktivní myšlení. Žák jednoduše zahájí konverzaci o domácím úkolu, projektu nebo studijním tématu. Gemini pak provede personalizovaným procesem: nejprve diagnostikuje potřeby, pak vytvoří plán a nakonec použije „sokratovskou smyčku“ otevřených otázek a užitečných podnětů, aby žákům pomohl řešit problémy a zvládnout koncepty samostatně.",
+    titleCs: "Studijní parťák",
+    shortDescCs: "Sokratovsky – nápovědy a plán, ne hotové odpovědi; domácí příprava a doučování.",
+    descriptionCs: "Tento Gem funguje jako trpělivý studijní parťák, který žáky nevede k opisování hotových odpovědí, ale k vlastnímu přemýšlení. Využívá sokratovský přístup: nejprve zjišťuje ročník, cíl a aktuální úroveň porozumění, potom klade cílené otázky, pomáhá rozpoznat, kde se žák zasekl, a navrhuje jednoduchý plán postupu. Místo okamžitého řešení nabízí přiměřené nápovědy, vede žáka k vysvětlení vlastního myšlení a podporuje přenos dovedností i do dalších úloh. Hodí se pro matematiku, přírodní vědy, jazyky, dějepis, psaní i další předměty, kde je cílem nejen dojít k výsledku, ale hlavně pochopit postup. Gem je vhodný pro běžnou domácí přípravu, doučování i samostatnou práci, protože drží jasnou hranici: pomáhá, ale nepracuje místo žáka.",
     category: "support",
     categories: ["support", "student"],
-    gemUrl: "https://www.edugems.ai/gem/ai-tutor"
+    gemUrl: "https://gemini.google.com/gem/1z8TiYhsTYVExTz9wRs8Fh9_JXcFWQdYy?usp=sharing"
   },
   "alt-text": {
     slug: "alt-text",
     emoji: "💬",
     title: "Alt Text",
-    titleCs: "Alternativní text",
-    shortDescCs: "Generování alt textů pro obrázky.",
-    descriptionCs: "Tento Gem pomáhá generovat přesný, kontextově uvědomělý a WCAG-souladný alternativní text pro obrázky. Jako expertní specialista na přístupnost zajišťuje inkluzivitu vašeho obsahu tím, že sděluje skutečnou funkci a význam vizuálních médií – spíše než jen popis vzhledu – což ho činí ideálním pro prezentace, webové stránky, sociální média a třídní materiály.",
+    titleCs: "Obrázek slovy",
+    shortDescCs: "Tři varianty alt textu – stručná, popisnější, kontextová; přístupnost a čtečky.",
+    descriptionCs: "Tento Gem pomáhá učitelům a tvůrcům vzdělávacích materiálů vytvářet kvalitní alternativní texty k obrázkům tak, aby byly skutečně užitečné pro čtečky obrazovky a odpovídaly zásadám digitální přístupnosti. Neřeší jen to, co je na obrázku vidět, ale hlavně proč tam obrázek je a jakou informaci má předat. Nejprve si vyžádá samotný obrázek a kontext jeho použití, například zda bude ve slidech, na školním webu, v pracovním listu, prezentaci nebo příspěvku. Potom zohlední, zda je obrázek informativní, funkční nebo jen dekorativní, jestli obsahuje text, a co už je řečeno v okolním obsahu. Výsledkem nejsou slepé a zbytečně dlouhé popisy, ale tři použitelné varianty alt textu: stručná, popisnější a kontextová. Gem se hodí pro fotografie, ilustrace, loga, obrázky s textem, grafy, diagramy i infografiky a pomáhá dělat školní materiály přístupnější bez zbytečné omáčky.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/alt-text"
+    gemUrl: "https://gemini.google.com/gem/1CKE7q1aPrC8BgaILeOBVvLX7_r_JoFAc?usp=sharing"
   },
   "alternate-assessment": {
     slug: "alternate-assessment",
     emoji: "🎚️",
     title: "Alternate Assessment",
-    titleCs: "Alternativní hodnocení",
-    shortDescCs: "Alternativní formy hodnocení.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat kvalitní alternativní verze vašich stávajících kvízů nebo testů. Jako podporující asistent pedagoga zajišťuje, že nová verze zachovává stejné základní učební cíle jako originál při úpravě formátu pro opravné termíny, náhradní termíny nebo diferenciaci (např. úprava obtížnosti nebo přidání úprav).",
+    titleCs: "Alternativní test na míru",
+    shortDescCs: "Druhá verze testu – stejné cíle, jiný formát, klíč, případně podpora.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet alternativní verze testů, kvízů a dalších hodnoticích nástrojů pro české školní prostředí. Hodí se ve chvíli, kdy je potřeba připravit náhradní termín, opravnou variantu, druhou verzi pro stejnou třídu nebo diferencovanou podobu testu pro žáky s odlišnými potřebami. Gem nejprve pracuje s původním zadáním a postupně si vyjasní, zda má nová verze zůstat na stejné úrovni, nebo být upravená směrem dolů či nahoru. Podle toho navrhne konkrétní úpravy, například změnu formátu otázky, snížení jazykové náročnosti, úpravu distractorů, přidání podpůrných prvků nebo naopak zvýšení nároků na vysvětlení a práci se souvislostmi. Výstup je čistý, přehledný a připravený k okamžitému použití ve třídě, včetně klíče správných odpovědí a případně i doporučených podpůrných opatření.",
     category: "support",
     categories: ["support", "assessment"],
-    gemUrl: "https://www.edugems.ai/gem/alternate-assessment"
+    gemUrl: "https://gemini.google.com/gem/1MGdVIkWBVKVd-yauUpuRAnKD-AAQmkZj?usp=sharing"
   },
   "behavior-intervention": {
     slug: "behavior-intervention",
     emoji: "🚦",
     title: "Behavior Intervention",
-    titleCs: "Behaviorální intervence",
-    shortDescCs: "Strategie pro práci s chováním.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit sadu konkrétních, relevantních a ročníku přiměřených strategií behaviorální intervence pro cokoli od nízké úrovně odvádění pozornosti po významné behaviorální potřeby. Návrhy jsou formulovány v jazyce založeném na silných stránkách a jsou v souladu s osvědčenými postupy jako trauma-informovaná výuka a proaktivní intervence pro zlepšení učebních výsledků.",
+    titleCs: "Podpora chování ve třídě",
+    shortDescCs: "Konkrétní strategie podle situace – ne nálepky, trauma-senzitivní a proveditelné kroky.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet konkrétní strategie pro podporu chování ve třídě tak, aby byly praktické, přiměřené věku žáků a skutečně použitelné v běžné škole. Nepracuje s nálepkami ani s obecným „musí se víc snažit“, ale vede učitele k přesnějšímu popisu situace: co se děje, kdy se to děje, jak často, u koho, v jakém kontextu a co už bylo vyzkoušeno. Zohledňuje silné stránky žáků, preventivní přístup, vztahové a trauma-senzitivní vedení i potřebu jasných a proveditelných kroků. Hodí se jak pro výraznější behaviorální potíže, tak pro běžné situace jako nesoustředění, vyrušování, vyhýbání se práci nebo problémy se zapojením do hodiny. Výsledkem nejsou obecné rady, ale několik konkrétních podpůrných strategií s krátkým zdůvodněním a možností dalšího doladění podle potřeb konkrétní třídy nebo žáka.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/behavior-intervention"
+    gemUrl: "https://gemini.google.com/gem/1H7MALf6GcN9MGZhjP4J-WH127tEZ-Qqe?usp=sharing"
   },
   "common-misconceptions": {
     slug: "common-misconceptions",
     emoji: "❌",
     title: "Common Misconceptions",
-    titleCs: "Časté omyly",
-    shortDescCs: "Identifikace a řešení běžných omylů.",
-    descriptionCs: "Tento Gem pomáhá rychle identifikovat běžné žákovské omyly související s konkrétním obsahem a poskytuje cílené, na důkazech založené výukové strategie pro jejich řešení. Ideální pro proaktivní diagnostické hodnocení a zajištění, že vaše výuka je zaměřena na skutečné učební překážky, kterým vaši žáci čelí.",
+    titleCs: "Kde se to láme",
+    shortDescCs: "Typické miskoncepce k učivu a konkrétní kroky ve výuce – ne jen „procvičovat víc“.",
+    descriptionCs: "Tento Gem pomáhá učitelům rozpoznávat typické žákovské miskoncepce v konkrétním učivu a proměňovat je v cílené výukové kroky. Nejprve si vyžádá téma, ročník, předmět, vzdělávací cíl a případné signály z předchozí práce žáků. Poté nabídne přehled nejčastějších omylů, které se k danému obsahu vážou, a umožní učiteli vybrat ty, které skutečně odpovídají jeho třídě. Na základě toho připraví konkrétní a věkově přiměřené strategie, jak s těmito miskoncepcemi pracovat ve výuce, a to tak, aby byly proveditelné v běžné škole a opravdu mířily na problém, ne vedle něj. Hodí se pro matematiku, přírodní vědy, jazyky, dějepis i další předměty všude tam, kde učitel nechce jen „procvičovat víc“, ale pochopit, kde se žákům myšlení láme a jak to cíleně narovnat.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/common-misconceptions"
+    gemUrl: "https://gemini.google.com/gem/1GlZgtVyfq1_IKtzf1_WXGU43n1J7r7Vv?usp=sharing"
   },
   "concept-analogies": {
     slug: "concept-analogies",
     emoji: "⚖️",
     title: "Concept Analogies",
-    titleCs: "Pojmové analogie",
-    shortDescCs: "Analogie pro vysvětlení pojmů.",
-    descriptionCs: "Tento Gem pomáhá překlenout propast mezi existujícími předchozími znalostmi žáků a náročnými novými akademickými koncepty. Funguje jako specialista na kognitivní vědu a generuje 3 odlišné, ročníku přiměřené analogie, které mapují obtížnou myšlenku na známý scénář nebo zájem. Výstupní produkt zajišťuje přesné pojmové mapování při jasné identifikaci omezení srovnání, aby nedocházelo k vytváření omylů.",
+    titleCs: "Pochop to přirovnáním",
+    shortDescCs: "Tři analogie k pojmu – mapování významu i limitů, aby nepřibyly nové omyly.",
+    descriptionCs: "Tento Gem pomáhá učitelům převádět složité pojmy, procesy a mechanismy do srozumitelných přirovnání a metafor, které žákům usnadní pochopení nového učiva. Nejde o náhodná hezká přirovnání, ale o promyšlené mosty mezi tím, co už žáci znají, a tím, co je pro ně nové nebo abstraktní. Gem se nejprve doptá na cílový pojem, ročník, předmět, problematickou část učiva a případně i zájmy žáků. Poté vytvoří tři různé analogie, u každé jasně ukáže, co v přirovnání odpovídá čemu, a zároveň upozorní, kde přirovnání přestává fungovat, aby nevznikaly nové miskoncepce. Hodí se pro přírodní vědy, matematiku, jazyky, společenské vědy i odborné předměty všude tam, kde je potřeba dostat složitou myšlenku do hlavy bez zbytečné mlhy.",
     category: "support",
     categories: ["support", "stem"],
-    gemUrl: "https://www.edugems.ai/gem/concept-analogies"
+    gemUrl: "https://gemini.google.com/gem/1-nKWJ8WZlP5SvxXsanvcp8-GnQpKVurb?usp=sharing"
   },
   "differentiation-strategies": {
     slug: "differentiation-strategies",
