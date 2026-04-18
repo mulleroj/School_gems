@@ -70,36 +70,16 @@
             </div>
           </div>
 
-          <aside class="hero-panel" aria-label="Ukázkové gemy">
+          <aside class="hero-panel hero-panel--visual" aria-label="Ilustrace GemForge">
             <div class="hero-panel-inner">
-              <div class="hero-panel-header">
-                <div>Nejnovější gemy</div>
-                <div class="status-pill">
-                  <span class="status-dot"></span>
-                  Stále přibývají
-                </div>
-              </div>
-
-              <div class="gem-carousel" id="gem-carousel">
-                <a href="gem.html?slug=3-step-reflection" class="gem-card">
-                  <div class="gem-emoji">🪞</div>
-                  <div>
-                    <div class="gem-meta-title">3-kroková reflexe</div>
-                    <div class="gem-meta-sub">Metakognice a sebereflexe</div>
-                    <div class="gem-footer"><span class="badge-small badge-small-accent">Nový gem</span><span class="badge-small">Pro žáky</span></div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="gem-controls">
-                <button class="cycle-btn" id="prev-gem" aria-label="Předchozí">‹</button>
-                <button class="cycle-btn" id="next-gem" aria-label="Další">›</button>
-                <span class="cycle-indicator" id="gem-indicator">1 / 4</span>
-              </div>
-
-              <div class="hero-tip">
-                Kliknutím na kartu přejdete k související kategorii gemů níže na stránce.
-              </div>
+              <figure class="hero-forge-visual">
+                <img
+                  src="images/hero-gemforge.jpg"
+                  alt="Kovář s kybernetickou paží kuje zářící modrý krystal na kovadlině; u cedule GemForge a holografického rozhraní s údaji o krystalu."
+                  loading="eager"
+                  decoding="async"
+                />
+              </figure>
             </div>
           </aside>
         </div>
@@ -439,7 +419,7 @@
     <footer>
       <div class="inner footer-inner">
         <div>
-          GemForge – sbírka gemů pro Google Gemini.
+          GemForge – sbírka gemů pro Gemini inspirovaných nejen Ericem Curts, upravených pro český vzdělávací systém.
         </div>
         <div class="footer-links">
           <a href="#planning" class="footer-link">Plánování</a>
@@ -531,32 +511,6 @@
 
     renderAllSections();
     renderNewest("all");
-
-    var newestSlugs = Object.keys(GEMS).filter(function (s) { return GEMS[s].categories && GEMS[s].categories.indexOf("newest") !== -1; });
-    var carouselData = newestSlugs.slice(0, 6).map(function (slug) {
-      var g = GEMS[slug];
-      return { slug: slug, emoji: g.emoji, title: g.titleCs, sub: g.shortDescCs, badge: "Nový gem", category: categoryLabels[g.category] || g.category };
-    });
-    if (carouselData.length === 0) carouselData = [{ slug: "3-step-reflection", emoji: "🪞", title: "3-kroková reflexe", sub: "Metakognice a sebereflexe", badge: "Nový", category: "Pro žáky" }];
-    var currentIndex = 0;
-
-    function renderCarouselItem() {
-      var container = document.getElementById("gem-carousel");
-      if (!container) return;
-      var item = carouselData[currentIndex];
-      container.innerHTML = '<a href="gem.html?slug=' + (item.slug || "3-step-reflection") + '" class="gem-card">' +
-        '<div class="gem-emoji">' + item.emoji + "</div>" +
-        '<div><div class="gem-meta-title">' + item.title + "</div><div class="gem-meta-sub">" + item.sub + "</div>" +
-        '<div class="gem-footer"><span class="badge-small badge-small-accent">' + item.badge + "</span><span class="badge-small">" + item.category + "</span></div></div></a>";
-      var ind = document.getElementById("gem-indicator");
-      if (ind) ind.textContent = (currentIndex + 1) + " / " + carouselData.length;
-    }
-
-    var prevBtn = document.getElementById("prev-gem");
-    var nextBtn = document.getElementById("next-gem");
-    if (prevBtn) prevBtn.addEventListener("click", function () { currentIndex = (currentIndex - 1 + carouselData.length) % carouselData.length; renderCarouselItem(); });
-    if (nextBtn) nextBtn.addEventListener("click", function () { currentIndex = (currentIndex + 1) % carouselData.length; renderCarouselItem(); });
-    renderCarouselItem();
   </script>
 </body>
 </html>

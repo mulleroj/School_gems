@@ -404,6 +404,23 @@ a.btn-ghost {
   z-index: 1;
 }
 
+.hero-panel--visual {
+  padding: 12px;
+}
+
+.hero-forge-visual {
+  margin: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.hero-forge-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .hero-panel-header {
   display: flex;
   align-items: center;
