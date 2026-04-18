@@ -20,7 +20,7 @@
           <a class="nav-link active" href="all-gems.html">Všechny gemy</a>
         </nav>
 
-        <a class="nav-cta" href="index.html#student-tools">
+        <a class="nav-cta" href="all-gems.html#student">
           Nástroje pro žáky
           <span>↗</span>
         </a>
@@ -88,7 +88,7 @@
         <div class="footer-links">
           <a href="index.html" class="footer-link">Úvod</a>
           <a href="index.html#planning" class="footer-link">Plánování</a>
-          <a href="index.html#student-tools" class="footer-link">Pro žáky</a>
+          <a href="all-gems.html#student" class="footer-link">Pro žáky</a>
         </div>
       </div>
     </footer>
@@ -166,18 +166,53 @@
         if (countEl) countEl.textContent = shown;
       }
 
+      var VALID_FILTERS = ["all", "planning", "materials", "engagement", "support", "assessment", "literacy", "stem", "student", "professional"];
+
+      function filterFromUrl() {
+        var hash = (location.hash || "").replace(/^#/, "");
+        if (hash && VALID_FILTERS.indexOf(hash) !== -1) return hash;
+        try {
+          var q = new URLSearchParams(location.search).get("filter");
+          if (q && VALID_FILTERS.indexOf(q) !== -1) return q;
+        } catch (err) { /* ignore */ }
+        return "all";
+      }
+
+      function setHashForFilter(f) {
+        var base = location.pathname + location.search;
+        if (f === "all") {
+          if (location.hash) history.replaceState(null, "", base);
+        } else {
+          history.replaceState(null, "", base + "#" + f);
+        }
+      }
+
       var bar = document.getElementById("filter-bar");
+
+      function applyFilterFromUrl() {
+        var f = filterFromUrl();
+        if (bar) {
+          bar.querySelectorAll(".chip").forEach(function(c) { c.classList.remove("active"); });
+          var chip = bar.querySelector('.chip[data-filter="' + f + '"]');
+          if (chip) chip.classList.add("active");
+        }
+        renderGrid(f);
+      }
+
       if (bar) {
         bar.addEventListener("click", function(e) {
           var chip = e.target.closest(".chip");
           if (!chip) return;
           bar.querySelectorAll(".chip").forEach(function(c) { c.classList.remove("active"); });
           chip.classList.add("active");
-          renderGrid(chip.dataset.filter || "all");
+          var f = chip.dataset.filter || "all";
+          renderGrid(f);
+          setHashForFilter(f);
         });
       }
 
-      renderGrid("all");
+      applyFilterFromUrl();
+      window.addEventListener("hashchange", applyFilterFromUrl);
     })();
   </script>
 </body>
