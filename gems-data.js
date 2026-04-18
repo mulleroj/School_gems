@@ -1175,23 +1175,23 @@ window.GEMS_DATA = {
     slug: "email-to-parents",
     emoji: "📧",
     title: "Email to Parents",
-    titleCs: "E-mail rodičům",
-    shortDescCs: "Profesionální e-maily rodičům.",
-    descriptionCs: "Tento Gem pomáhá rychle napsat efektivní a profesionální e-mail zákonným zástupcům konkrétního žáka pro sdílení pozorování, poskytnutí zpětné vazby, aktualizace nebo oslavu úspěchu. Ideální pro zajištění včasné, personalizované a pozitivní komunikace mezi školou a domovem.",
+    titleCs: "Tvůrce e-mailů rodičům a zákonným zástupcům",
+    shortDescCs: "Profesionální e-maily pro českou školu – situace, tón, věcně i lidsky; zpětná vazba i citlivá témata.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet promyšlené a profesionální e-maily rodičům a zákonným zástupcům žáků pro české školní prostředí. Hodí se pro sdělení pozorování z výuky, zpětné vazby, upozornění na problém, průběžné informování o pokroku i pochvalu za úspěch. Nechrlí univerzální školní omáčku, ale nejprve si vyžádá důležité informace o situaci, cíli sdělení, předchozí komunikaci i tónu, který má e-mail mít. Poté připraví text, který je jasný, lidský, profesionální a přiměřený konkrétní situaci. Gem umí pomoci s citlivou komunikací i s pozitivním oceněním a dokáže držet rovnováhu mezi věcností, empatií a srozumitelností. Je vhodný pro učitele, třídní učitele i další pedagogy, kteří chtějí komunikovat s rodiči rozumně, bez zbytečné tvrdosti i bez vatových frází.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/email-to-parents"
+    gemUrl: "https://gemini.google.com/gem/1Ah5GiBeFJygpRGfv6cjhjiUcmOWGxCsN?usp=sharing"
   },
   "pd-plan": {
     slug: "pd-plan",
     emoji: "💡",
     title: "PD Plan",
-    titleCs: "Plán profesního rozvoje",
-    shortDescCs: "Plánování profesního vzdělávání.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat podrobný, na dopad zaměřený plán profesního rozvoje přizpůsobený SMART cíli s opatřeními směrovanými jak k žákům, tak k učitelům. Ideální pro pedagogické kouče, kteří potřebují jasnou strategickou sekvenci týdenních koučovacích akcí (např. podněty pro schůzky a hledání při pozorování) a kroků pro učitele, vše v souladu s osvědčenými postupy vzdělávání dospělých.",
+    titleCs: "Tvůrce plánu profesního rozvoje učitelů",
+    shortDescCs: "Týdenní plán PD – SMART cíl, mentoring, úkoly pro učitele, reflexe, dopad na výuku i na žáky.",
+    descriptionCs: "Tento Gem pomáhá vedení škol, mentorům, metodikům i zkušenějším kolegům vytvářet promyšlené plány profesního rozvoje pro jednotlivé učitele i celé skupiny pedagogů. Nechrlí obecné fráze o zlepšování výuky, ale nejprve si vyžádá důležité informace o cíli, cílové skupině, časovém horizontu, podobě podpory i stylu mentoringu. Poté připraví konkrétní plán rozvoje členěný po týdnech, včetně SMART cíle, navržených kroků mentora, týdenních úkolů pro učitele, vhodných otázek pro reflektivní rozhovor a jasného způsobu sledování pokroku. Důraz klade jak na ukazatele dopadu na výuku učitele, tak na dopad na žáky. Výstup je přehledný, srozumitelný a prakticky použitelný v českém školním prostředí, ať už jde o mentoring začínajícího učitele, podporu konkrétní pedagogické dovednosti nebo systematický profesní růst.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/pd-plan"
+    gemUrl: "https://gemini.google.com/gem/1BFPipK2e9i0JcfAAOgt27mexco08459A?usp=sharing"
   },
   "recommendation-letter": {
     slug: "recommendation-letter",
