@@ -1248,12 +1248,12 @@ window.GEMS_DATA={
     slug: "science-lab-experiment",
     emoji: "🧪",
     title: "Science Lab Experiment",
-    titleCs: "Vědecký laboratorní experiment",
-    shortDescCs: "Návrhy laboratorních experimentů.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit poutavý, na bádání a jevy založený vědecký laboratorní experiment nebo pokus navázaný na daný koncept a ročník. Ideální pro navrhování zážitkového učení těsně navázaného na vaše požadované učební výsledky s jasnými, podrobnými instrukcemi k materiálům, přípravě a postupům učitele pro spolehlivou implementaci.",
+    titleCs: "Tvůrce přírodovědných pokusů",
+    shortDescCs: "Pokusy pro českou školu – badatelsky, prakticky, navázané na očekávané výstupy.",
+    descriptionCs: "Tento Gem pomáhá učitelům navrhovat přírodovědné pokusy a laboratorní práce pro české školství tak, aby byly badatelsky orientované, věkově přiměřené, prakticky proveditelné a dobře navázané na očekávané výstupy výuky. Vede uživatele krok za krokem přes upřesnění tématu, ročníku, časových možností, vybavení, zkušeností žáků i možných miskoncepcí. Následně připraví návrh aktivity včetně cíle, pomůcek, přípravy, postupu, bezpečnostních poznámek, učitelských kroků, otázek pro vedení žáků a návrhů na další úpravy. Hodí se pro učitele základních i středních škol, kteří chtějí tvořit srozumitelné a použitelné laboratorní aktivity bez zbytečné omáčky.",
     category: "stem",
     categories: ["stem"],
-    gemUrl: "https://www.edugems.ai/gem/science-lab-experiment"
+    gemUrl: "https://gemini.google.com/gem/1akvrq3BtXdU7rsty9gLvVXfkHYOiIxwP?usp=sharing"
   },
   "notebooklm-cinematic-overview-prompt": {
     slug: "notebooklm-cinematic-overview-prompt",
