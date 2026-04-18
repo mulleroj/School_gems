@@ -933,177 +933,177 @@ window.GEMS_DATA = {
     slug: "act-reading-generator",
     emoji: "📖",
     title: "ACT Reading Generator",
-    titleCs: "Generátor ACT Reading",
-    shortDescCs: "Generování cvičení ACT Reading.",
-    descriptionCs: "Tento Gem pomáhá hladce vložit přípravu na ACT Reading do vašeho stávajícího kurikula bez narušení průběhu hodin. Jako expertní specialista na integraci kurikula ACT generuje kvalitní, standardizované pasáže a otázky založené na vašich konkrétních obsahových tématech (např. Hedvábná stezka, kovalentní vazby, Jako zabít ptáčka), umožňuje cílenou přípravu na testy v libovolném předmětu.",
+    titleCs: "Nenápadné čtení ve výuce",
+    shortDescCs: "Krátký text + MC z tématu hodiny – gramotnost v předmětu, klíč se zdůvodněním.",
+    descriptionCs: "Tento Gem pomáhá učitelům středních škol a vyšších ročníků základní školy zapojovat rozvoj čtenářské gramotnosti přímo do běžné výuky, aniž by museli zastavit probírané téma a dělat z hodiny samostatný blok „na čtení“. Na základě tématu z dějepisu, literatury, biologie, občanské nauky, fyziky nebo jiného předmětu vytvoří krátký, obsahově hutný text a navazující testovou otázku se čtyřmi možnostmi odpovědi. Učitel si zároveň rovnou odnáší i klíč se zdůvodněním, takže materiál může hned použít v hodině, jako rychlé procvičení, opakování, mini test nebo nenápadný trénink čtení s porozuměním.\n\nGem pracuje s oblastmi čtenářské gramotnosti, jako jsou:\n\nhlavní myšlenka a klíčové detaily,\nvyvozování a práce se souvislostmi,\nvýznam slov v kontextu,\nautorův záměr, perspektiva a stavba textu,\npráce s tvrzeními, argumenty a důkazy,\nrozlišování mezi faktem, názorem a interpretací.\n\nVýsledkem není jen „nějaká otázka k textu“, ale materiál, který odpovídá konkrétnímu obsahu výuky a zároveň rozvíjí dovednosti potřebné pro hlubší porozumění textům napříč předměty.",
     category: "assessment",
     categories: ["assessment", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/act-reading-generator"
+    gemUrl: "https://gemini.google.com/gem/1oRst6dopwIpTuBEOyyEqn2rmlb6F0q-9?usp=sharing"
   },
   "assessment-data-analyzer": {
     slug: "assessment-data-analyzer",
     emoji: "📊",
     title: "Assessment Data Analyzer",
-    titleCs: "Analýza dat z testů",
-    shortDescCs: "Analýza výsledků testů a trendů.",
-    descriptionCs: "Tento Gem pomáhá analyzovat výsledky žákovských hodnocení pro odvození konkrétních pedagogických poznatků a určení úrovní žákovských výkonů. Funguje jako expertní diagnostický specialista a zajišťuje, že vaše analýza dat vede přímo k využitelným strategiím jako diferenciace, skupinování a cílené plánování hodin, spíše než jen k seznamu skóre.",
+    titleCs: "Výsledky pod rukama",
+    shortDescCs: "Z výsledků testů k pedagogickým krokům, miskoncepcím a skupinám – ne jen skóre.",
+    descriptionCs: "Tento Gem pomáhá učitelům převádět výsledky testů, písemek, pracovních listů a dalších hodnocení do konkrétních pedagogických kroků. Nezůstává u suchého popisu úspěšnosti, ale hledá, v čem žáci nejvíc tápou, co už zvládají, jaké se objevují miskoncepce, které dovednosti mají největší potenciál pro rychlé zlepšení a jak lze žáky smysluplně rozdělit do skupin pro podporu, procvičení nebo rozšíření. Gem se nejprve doptá na kontext hodnocení, cíle výuky, podobu zadání, klíč nebo rubriku i samotná data. Poté vytvoří přehlednou analýzu zaměřenou na to, co z výsledků skutečně plyne pro další výuku. Hodí se pro běžné školní testy, formativní ověřování, tematické prověrky, krátké kvízy i větší srovnávací přehledy tam, kde učitel nechce jen vědět, kdo kolik měl, ale hlavně co dělat dál.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/assessment-data-analyzer"
+    gemUrl: "https://gemini.google.com/gem/1gX0cjG7IGMdo43isTqHxnhaAfTqFTvet?usp=sharing"
   },
   "dok-analysis": {
     slug: "dok-analysis",
     emoji: "📊",
     title: "DOK Analysis",
-    titleCs: "DOK analýza",
-    shortDescCs: "Analýza úrovní DOK.",
-    descriptionCs: "Tento Gem pomáhá rychle analyzovat libovolné hodnocení pro určení úrovně hloubky znalostí (DOK) u každé otázky pomocí rámce DOK 1–4. Ideální pro získání jasného porozumění kognitivním nárokům vašich materiálů, identifikaci klíčových sloves a zajištění, že vaše hodnocení podporují odpovídající úroveň žákovské náročnosti.",
+    titleCs: "Otázky do hloubky",
+    shortDescCs: "Každá otázka podle DOK 1–4 – odůvodnění, přehled a procenta; vyvážení testu.",
+    descriptionCs: "Tento Gem pomáhá učitelům rozebírat testy, pracovní listy a další zadání podle úrovní DOK tak, aby bylo jasné, jakou kognitivní náročnost jednotlivé otázky skutečně mají. DOK je zkratka pro Depth of Knowledge, tedy hloubku myšlení, kterou úloha od žáka vyžaduje. Nejde jen o to, jestli je otázka lehká nebo těžká, ale hlavně o to, jaký typ myšlení po žákovi chce.\n\nGem pracuje se čtyřmi úrovněmi:\n\nDOK 1 – vybavení znalosti a základní reprodukce, například vyjmenování, rozpoznání nebo jednoduché doplnění,\nDOK 2 – vysvětlení, porovnání, třídění a jednoduchá aplikace,\nDOK 3 – strategické myšlení, zdůvodnění, práce s důkazy a obhajoba postupu,\nDOK 4 – rozšířené myšlení, propojování více zdrojů, přenos do nové situace a komplexnější úkoly.\n\nGem se nejprve doptá na ročník, předmět, podobu hodnocení a případné doprovodné materiály. Poté rozebere každou otázku zvlášť: ocituje ji, určí hlavní sloveso nebo kognitivní úkol, přiřadí odpovídající úroveň DOK a vysvětlí, proč právě tato úroveň dává smysl. Nakonec přidá souhrnný přehled, kolik otázek spadá do jednotlivých úrovní a jaké je jejich procentuální zastoupení. Hodí se pro učitele, kteří chtějí lépe vyvážit náročnost testu, porovnat výuku s hodnocením nebo zjistit, jestli jejich zadání vede i k hlubšímu myšlení, nebo jen k mechanickému vybavování.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/dok-analysis"
+    gemUrl: "https://gemini.google.com/gem/14JXUxIimdmjTya5gg-wgXVWjXtCFGT-r?usp=sharing"
   },
   "dok-questions": {
     slug: "dok-questions",
     emoji: "❓",
     title: "DOK Questions",
-    titleCs: "DOK otázky",
-    shortDescCs: "Otázky různých úrovní DOK.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit sadu otázek výslovně navázaných na všechny čtyři úrovně hloubky znalostí (DOK). Ideální pro navrhování náročné třídní diskuse, hodnocení nebo žákovských úkolů, které povzbuzují k postupně hlubšímu myšlení od vybavení (DOK 1) po rozšířené uvažování (DOK 4).",
+    titleCs: "Mysli do hloubky",
+    shortDescCs: "Sada otázek DOK 1–4 – od vybavení znalostí po hlubší argumentaci a přenos.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet otázky podle čtyř úrovní DOK tak, aby výuka nekončila u prostého vybavení znalostí, ale vedla i k vysvětlování, argumentaci a hlubšímu přemýšlení. DOK je zkratka pro Depth of Knowledge, tedy hloubku myšlení, kterou úloha od žáka vyžaduje. Nejde jen o to, jestli je otázka lehká nebo těžká, ale hlavně o to, jaký typ myšlení po žákovi chce.\n\nGem pracuje se čtyřmi úrovněmi:\n\nDOK 1 – vybavení znalosti a základní reprodukce, například vyjmenování, rozpoznání nebo jednoduché doplnění,\nDOK 2 – vysvětlení, porovnání, třídění a jednoduchá aplikace,\nDOK 3 – strategické myšlení, zdůvodnění, práce s důkazy a obhajoba postupu,\nDOK 4 – rozšířené myšlení, propojování více zdrojů, přenos do nové situace a komplexnější úkoly.\n\nGem se nejprve doptá na téma, ročník, cíl výuky, plánované použití i počet otázek. Poté připraví přehlednou sadu otázek rozdělenou podle úrovní DOK 1–4 a přizpůsobenou věku i potřebám žáků. Hodí se pro diskusi ve třídě, pracovní listy, domácí úkoly, formativní ověřování i testové zadání. Je užitečný hlavně pro učitele, kteří chtějí vědomě pracovat s různou hloubkou myšlení a neskončit pořád u otázek typu „vyjmenuj, definuj, doplň“.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/dok-questions"
+    gemUrl: "https://gemini.google.com/gem/1KynKDyrfFMBeBVTtNemOd9VpwKlTQvA9?usp=sharing"
   },
   "exemplar-non-exemplar-responses": {
     slug: "exemplar-non-exemplar-responses",
     emoji: "🔠",
     title: "Exemplar & Non-Exemplar",
-    titleCs: "Exemplární a neexemplární odpovědi",
-    shortDescCs: "Příklady dobrých a slabých odpovědí.",
-    descriptionCs: "Tento Gem pomáhá rychle generovat diferencované modelové žákovské odpovědi, včetně kvalitních (exemplárních) i nekvalitních (neexemplárních), na základě vašeho úkolu a rubriky. Ideální pro ukázání žákům, jak vypadá úspěch, a pomáhá jim identifikovat běžné omyly a chyby před odevzdáním vlastní práce.",
+    titleCs: "Vzory a omyly",
+    shortDescCs: "Modelové a nevzorové odpovědi k úkolu – rozbor ve třídě, rubrika, kalibrace hodnocení.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet modelové a záměrně nevzorové žákovské odpovědi k zadanému úkolu tak, aby přesně odpovídaly zadání, věku žáků a hodnoticím kritériím. Vznikají tak promyšlené ukázky, které lze využít při výuce, společném rozboru, sebehodnocení žáků, kalibraci hodnocení i práci s rubrikou. Gem se nejprve doptá na zadání, cíle výuky, ročník, délku odpovědi, jazykovou úroveň i konkrétní podobu úspěšné a neúspěšné práce. Poté vytvoří vzorovou odpověď a jednu nebo více nevzorových variant, které ukazují typické slabiny, chyby nebo miskoncepce. Výsledkem je praktický materiál, na kterém žáci i učitelé dobře uvidí rozdíl mezi silným a slabým výkonem.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/exemplar-non-exemplar-responses"
+    gemUrl: "https://gemini.google.com/gem/16m_K74vUR2BwiyewslAVcIUXJGgJHP47?usp=sharing"
   },
   "inaccurate-text": {
     slug: "inaccurate-text",
     emoji: "❌",
     title: "Inaccurate Text",
-    titleCs: "Nepřesný text",
-    shortDescCs: "Texty s chybami pro kritické čtení.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit podrobný text na libovolné téma obsahující záměrné a ověřitelné chyby pro žáky k identifikaci a opravě. Ideální pro zapojení žáků do identifikace chyb, kritické analýzy a hlubokého opakování obsahu, přeměňuje běžné omyly nebo cvičení v editaci na náročnou aktivitu.",
+    titleCs: "Lovci chyb v textu",
+    shortDescCs: "Texty se záměrnými chybami podle ročníku – pravopis, gramatika, fakta, kritické čtení.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet texty se záměrně vloženými chybami pro české školní prostředí tak, aby odpovídaly věku žáků, cíli výuky i požadované náročnosti. Nejde o nahodilé nasázení překlepů, ale o promyšlený materiál, ve kterém mohou žáci hledat a opravovat pravopisné chyby, gramatické nedostatky, interpunkční chyby, věcné nepřesnosti nebo jiné záměrně vložené problémy. Gem se nejprve doptá na téma, ročník, typ chyb, jejich hustotu i délku textu a teprve potom vytvoří výstup na míru. Hodí se pro češtinu, cizí jazyky, dějepis, přírodopis i další předměty, kde chce učitel rozvíjet pečlivé čtení, ověřování faktů a schopnost text kriticky zkoumat. Výsledkem je použitelný materiál pro samostatnou práci, dvojice, společnou opravu ve třídě i formativní ověřování.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/inaccurate-text"
+    gemUrl: "https://gemini.google.com/gem/1mIzRBr5lfMxdaOyT-1n6iQKf3oU-NuVk?usp=sharing"
   },
   "nwea-map-analysis": {
     slug: "nwea-map-analysis",
     emoji: "🗺️",
     title: "NWEA MAP Analysis",
-    titleCs: "Analýza NWEA MAP",
-    shortDescCs: "Analýza výsledků NWEA MAP.",
-    descriptionCs: "Tento Gem pomáhá rychle analyzovat vaše zprávy NWEA MAP Class Profile pro vygenerování jediného, sjednoceného a využitelného „datového příběhu\“ pro vaši třídu. Ideální pro získání jasného porozumění potřebám vašich žáků identifikací celotřídních trendů, mezipředmětových vzorců a konkrétních žákovských skupin pro diferenciaci, vše strukturované pro okamžité plánování výuky.",
+    titleCs: "Třída v číslech",
+    shortDescCs: "Z výsledků a reportů obraz třídy – trendy, slabiny, skupiny pro diferenciaci.",
+    descriptionCs: "Tento Gem pomáhá učitelům, třídním učitelům, metodikům i vedení školy převádět výsledky testů, diagnostiky a dalších hodnoticích přehledů do srozumitelného obrazu třídy. Nejde jen o výpis čísel, ale o jejich smysluplnou interpretaci pro další pedagogickou práci. Gem pomáhá odhalit hlavní trendy, porovnat výsledky napříč oblastmi, pojmenovat silné i slabé stránky třídy a vytipovat skupiny žáků pro cílenou podporu nebo rozšíření výuky. Hodí se pro práci se školními testy, externí diagnostikou, gramotnostními přehledy i jinými výsledkovými reporty. Výstup je přehledný, věcný a zaměřený na to, co z dat opravdu plyne pro další výuku.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/nwea-map-analysis"
+    gemUrl: "https://gemini.google.com/gem/1_k4m-Bn_1id1tu3eO-EO3swLZwJGHhn4?usp=sharing"
   },
   "rubric": {
     slug: "rubric",
     emoji: "📋",
     title: "Rubric",
-    titleCs: "Hodnoticí rubrika",
-    shortDescCs: "Rubriky pro hodnocení projektů a prací.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat podrobnou rubriku pro libovolný úkol. Zajišťuje, že kritéria rubriky jsou konkrétní a měřitelná, úrovně výkonu jsou odlišné a celkový design podporuje spravedlivé a transparentní hodnocení pro žáky.",
+    titleCs: "Tvůrce hodnoticích rubrik pro výuku",
+    shortDescCs: "Měřitelné rubriky podle zadání – konkrétní kritéria, jasné úrovně, férové hodnocení.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet kvalitní hodnoticí rubriky pro české školní prostředí tak, aby byly srozumitelné, měřitelné a skutečně použitelné při hodnocení. Nezačne bezhlavě chrlit tabulku kritérií, ale nejprve si vyžádá důležité informace o zadání, cílech výuky, věku žáků, typu rubriky, počtu kritérií i preferované škále hodnocení. Poté navrhne rubriku, ve které jsou kritéria konkrétní, úrovně výkonu jasně odlišené a celý systém odpovídá tomu, co mají žáci opravdu umět nebo prokázat. Hodí se pro projekty, prezentace, slohové práce, praktické úkoly, laboratorní práce, ústní vystoupení i další školní výstupy. Gem je užitečný pro učitele, kteří chtějí hodnotit férově, transparentně a bez mlhavých formulací typu „docela dobré, ale něco tomu chybělo“.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/rubric"
+    gemUrl: "https://gemini.google.com/gem/1d35qYSjckkyR-0kdSaE18EGPOlLxpyOR?usp=sharing"
   },
   "text-dependent-questions": {
     slug: "text-dependent-questions",
     emoji: "❓",
     title: "Text-dependent Questions",
-    titleCs: "Textově závislé otázky",
-    shortDescCs: "Otázky vázané na text.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat sadu náročných, textově závislých otázek přímo navázaných na libovolný poskytnutý text nebo výukový obsah. Otázky jsou navázány na konkrétní čtenářské standardy, jsou vývojově přiměřené a navrženy pro hodnocení cílených dovedností a znalostí.",
+    titleCs: "Otázky přímo k textu",
+    shortDescCs: "Textově ukotvené otázky – obsah, jazyk, struktura, čtenářské dovednosti.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet textově ukotvené otázky k literárním i naučným textům pro české školní prostředí. Nechrlí obecné dotazy typu „co si o tom myslíš“, ale soustředí se na otázky, které skutečně vycházejí z dodaného textu a vedou žáky k práci s obsahem, jazykem, strukturou i argumentací. Nejprve si vyžádá důležité informace o textu, ročníku, cíli výuky, požadovaných dovednostech, typu otázek i počtu úloh. Poté vytvoří sadu otázek přiměřenou věku žáků a zaměřenou na konkrétní čtenářské dovednosti, například vyvozování, určování hlavní myšlenky, práci s perspektivou, rozpoznání autorova záměru, analýzu jazykových prostředků nebo hodnocení argumentů. Hodí se pro běžnou práci s textem, čtenářské dílny, testy, exit ticket, přípravu na debatu i formativní ověřování porozumění.",
     category: "assessment",
     categories: ["assessment", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/text-dependent-questions"
+    gemUrl: "https://gemini.google.com/gem/1eb5hg8h1WVSGkGlhqxMdwq3uR_VMRocQ?usp=sharing"
   },
   "youtube-quiz": {
     slug: "youtube-quiz",
     emoji: "▶️",
     title: "YouTube Quiz",
-    titleCs: "YouTube kvíz",
-    shortDescCs: "Kvízy k YouTube videím.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit chronologicky uspořádaný kvíz z libovolného poskytnutého přepisu videa. Přeměňuje pasivní konzumaci médií na náročný hodnoticí nástroj, zajišťuje, že otázky sledují časovou osu videa pro podporu sledování žáků v reálném čase a cíleného opakování přesně prezentovaného obsahu.",
+    titleCs: "Tvůrce kvízů z video přepisu",
+    shortDescCs: "Kvíz z přepisu v časové ose, volitelně s časovými značkami a klíčem odpovědí.",
+    descriptionCs: "Tento Gem pomáhá učitelům převádět přepisy videí do přehledných a pedagogicky použitelných kvízů pro české školní prostředí. Nezačne bezhlavě generovat otázky, ale nejprve si vyžádá přepis a upřesní cílovou skupinu, typ otázek, počet úloh, náročnost i případné potřeby žáků. Poté vytvoří kvíz, který přesně kopíruje časovou posloupnost videa, takže se hodí jak pro průběžné sledování porozumění během videa, tak pro opakování po zhlédnutí. Pokud přepis obsahuje časové značky, Gem je automaticky připojí ke každé otázce, takže učitel i žák snadno dohledají příslušné místo. Výstup vzniká přímo v chatu, přehledně, s odděleným klíčem správných odpovědí a možností dalších úprav podle konkrétní třídy nebo stylu výuky.",
     category: "assessment",
     categories: ["assessment"],
-    gemUrl: "https://www.edugems.ai/gem/youtube-quiz"
+    gemUrl: "https://gemini.google.com/gem/1UaSLz-SY_1KA4V6XOmK-Pj4ah9F8yMmi?usp=sharing"
   },
   "act-english-practice": {
     slug: "act-english-practice",
     emoji: "📓",
     title: "ACT English Practice",
-    titleCs: "ACT English procvičování",
-    shortDescCs: "Procvičování ACT English pro žáky.",
-    descriptionCs: "Tento Gem pomáhá žákům připravit se na sekci ACT English tím, že funguje jako expertní interaktivní tutor. Poskytuje individuální procvičovací otázky, okamžitou zpětnou vazbu a jasná vysvětlení napříč klíčovými obsahovými oblastmi včetně tvorby psaní, znalosti jazyka a konvencí standardní angličtiny (gramatika, interpunkce a použití).",
+    titleCs: "Trenér psané angličtiny pro školy",
+    shortDescCs: "Psaná angličtina v chatu – MC, vysvětlení chyb; gramatika, styl, interpunkce.",
+    descriptionCs: "Tento Gem funguje jako interaktivní tutor psané angličtiny pro české školní prostředí a pomáhá žákům zlepšovat jazykovou správnost, styl i práci s textem. Zadává krátké věty nebo odstavce s navazující otázkou a čtyřmi možnostmi odpovědi, průběžně vyhodnocuje správnost a po chybě vysvětluje, proč je správná právě daná volba. Procvičuje oblasti jako stavba a rozvoj textu, slovní zásoba a styl, gramatika, interpunkce i běžné chyby v psané angličtině. Hodí se pro výuku angličtiny na druhém stupni ZŠ, na střední škole i pro maturitní přípravu, zejména tam, kde je potřeba posílit přesnost vyjadřování a cit pro jazyk. Výstup probíhá přímo v chatu, přehledně, bez zbytečné omáčky a s důrazem na skutečné pochopení chyb, ne jen na tipování odpovědí.",
     category: "student",
     categories: ["student", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/act-english-practice"
+    gemUrl: "https://gemini.google.com/gem/19d2kGu-RGjVGz_WijXKwa0mxZoQRfJO7?usp=sharing"
   },
   "act-math-practice": {
     slug: "act-math-practice",
     emoji: "🔢",
     title: "ACT Math Practice",
-    titleCs: "ACT Math procvičování",
-    shortDescCs: "Procvičování ACT Math pro žáky.",
-    descriptionCs: "Tento Gem pomáhá žákům připravit se na sekci ACT Math tím, že funguje jako expertní tutor. Poskytuje procvičovací otázky, okamžitou zpětnou vazbu a jasná vysvětlení napříč všemi klíčovými obsahovými oblastmi včetně algebry, geometrie, statistiky, číselných operací a trigonometrie.",
+    titleCs: "Lektor matematiky a testových úloh",
+    shortDescCs: "Matematika v chatu – úlohy s výběrem, okamžitá zpětná vazba, procvičení podobného typu.",
+    descriptionCs: "Tento Gem funguje jako interaktivní tutor matematiky pro české školní prostředí a pomáhá žákům procvičovat klíčové oblasti matematiky formou krátkých testových úloh s výběrem odpovědi. Zadává úlohy přímo v chatu, bez obrázků a bez dalších rozhraní, takže se hodí pro rychlé samostatné procvičování i cílenou přípravu na školní testy, přijímací zkoušky nebo maturitu. Po každé odpovědi okamžitě vyhodnotí správnost, při chybě nabídne krokové vysvětlení a naváže další podobnou úlohou, aby se problém opravdu procvičil. Umí pracovat s oblastmi jako čísla a výrazy, algebra, funkce, geometrie, statistika a pravděpodobnost a přizpůsobuje náročnost úrovni žáka. Výstup je přehledný, textový a prakticky použitelný bez zbytečných kudrlinek.",
     category: "student",
     categories: ["student", "stem"],
-    gemUrl: "https://www.edugems.ai/gem/act-math-practice"
+    gemUrl: "https://gemini.google.com/gem/1LCMOIISbhnGREhPNDvMy40JKUFGCEIT7?usp=sharing"
   },
   "act-reading-practice": {
     slug: "act-reading-practice",
     emoji: "📖",
     title: "ACT Reading Practice",
-    titleCs: "ACT Reading procvičování",
-    shortDescCs: "Procvičování ACT Reading pro žáky.",
-    descriptionCs: "Tento Gem pomáhá žákům připravit se na sekci ACT Reading tím, že funguje jako interaktivní expertní tutor. Simuluje koučovací sezení v reálném čase generováním krátkých, hutných pasáží napříč různými obory (humanitní vědy, společenské vědy, přírodní vědy a literární narativ) a kladením náročných otázek zaměřených na klíčové myšlenky, řemeslo a strukturu a integraci znalostí.",
+    titleCs: "Lektor čtenářské gramotnosti a práce s textem",
+    shortDescCs: "Texty a otázky v chatu – porozumění, vyvozování, jazyk textu; přijímačky a maturita.",
+    descriptionCs: "Tento Gem funguje jako interaktivní tutor čtenářské gramotnosti a práce s textem pro české školní prostředí. Zadává krátké texty a navazující otázky s výběrem odpovědí, průběžně vyhodnocuje správnost, vysvětluje chyby a pomáhá žákům zlepšovat porozumění hlavní myšlence, vyvozování, práci s jazykem, stavbou textu i argumentací. Nejde o slepý testovač bez mozku — po chybě nabídne jasné vysvětlení a další procvičení stejného typu, po správné odpovědi stručně pojmenuje dovednost, která byla ověřována, a pokračuje dál. Hodí se pro běžnou výuku češtiny, rozvoj čtenářské gramotnosti napříč předměty, přípravu na přijímací zkoušky i maturitní práci s textem. Výstup probíhá přímo v chatu, přehledně a bez zbytečných kudrlinek.",
     category: "student",
     categories: ["student", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/act-reading-practice"
+    gemUrl: "https://gemini.google.com/gem/14bQwyhIYanl1G8rtCdeYDmLpwynuzzZ9?usp=sharing"
   },
   "career-explorer": {
     slug: "career-explorer",
     emoji: "💼",
     title: "Career Explorer",
-    titleCs: "Průzkumník kariéry",
-    shortDescCs: "Objevování povolání podle zájmů.",
-    descriptionCs: "Tento Gem pomáhá žákům objevovat a zkoumat potenciální kariérní cesty, které odpovídají jejich jedinečným zájmům, dovednostem a hodnotám. Jako přátelský a povzbuzující průvodce přesahuje jednoduché seznamy a inspiruje k sebereflexi a akci prostřednictvím personalizovaných kariérních návrhů.",
+    titleCs: "Kariérní průvodce pro žáky",
+    shortDescCs: "Směřování podle zájmů a hodnot – profese, dovednosti, cesty ke studiu a práci v ČR.",
+    descriptionCs: "Tento Gem pomáhá žákům a studentům promýšlet jejich budoucí studijní a profesní směřování tak, aby nešlo jen o náhodný seznam povolání, ale o smysluplné hledání cesty, která odpovídá jejich zájmům, schopnostem a hodnotám. Nejprve vede krátký, přirozený rozhovor a postupně zjišťuje, co žáka baví, v čem je dobrý, jaký styl práce mu vyhovuje a co od budoucí práce vlastně očekává. Teprve potom nabídne několik vhodných profesních směrů a každý z nich vysvětlí srozumitelně a konkrétně: co taková práce obnáší, proč by mohla sedět právě tomuto žákovi, jaké dovednosti jsou pro ni důležité, jaké prostředí je pro ni typické a jaké studijní nebo praktické cesty k ní v českém prostředí vedou. Gem je vhodný pro kariérové poradenství, třídnické hodiny, volbu střední či vysoké školy i pro individuální přemýšlení žáků o tom, kam dál.",
     category: "student",
     categories: ["student"],
-    gemUrl: "https://www.edugems.ai/gem/career-explorer"
+    gemUrl: "https://gemini.google.com/gem/1qioljtBHnS7iJJV1kuPW4wNHoWdOyy5H?usp=sharing"
   },
   "devils-advocate": {
     slug: "devils-advocate",
     emoji: "😈",
     title: "Devil's Advocate",
-    titleCs: "Ďáblův advokát",
-    shortDescCs: "Kritické zpochybňování argumentů.",
-    descriptionCs: "Tento Gem umožňuje vést vysoce náročnou kolaborativní konverzaci s „Ďáblovým advokátem\“. Ideální pro posílení vašich argumentů, identifikaci slepých míst a zvážení tématu z více perspektiv pomocí sokratovské metody, aktivně zpochybňuje předpoklady, vyžaduje důkazy a představuje silné, dobře odůvodněné protinázory.",
+    titleCs: "Oponent pro kritické myšlení",
+    shortDescCs: "Sokratovský oponent – slabá místa, předpoklady, logika; debata, esej, seminárka.",
+    descriptionCs: "Tento Gem funguje jako věcný oponent a partner pro kritické myšlení. Jeho úkolem není souhlasit, ale pomáhat uživateli zpřesňovat argumenty, odhalovat slabá místa v uvažování, hledat nevyřčené předpoklady a promýšlet téma z různých úhlů. Hodí se pro přípravu na debatu, úvahu, esej, seminární práci, obhajobu stanoviska i běžnou výuku argumentace v českém školním prostředí. Neútočí, neuráží a nehádá se pro efekt. Místo toho vede rozhovor sokratovskou metodou, klade cílené otázky, žádá důkazy a upozorňuje na logické chyby, zkreslení nebo opomenuté perspektivy. Výsledkem je hlubší promyšlení tématu, silnější argumentace a menší riziko, že si člověk splete pevný názor s nedotaženou zkratkou.",
     category: "student",
     categories: ["student", "professional"],
-    gemUrl: "https://www.edugems.ai/gem/devils-advocate"
+    gemUrl: "https://gemini.google.com/gem/17LXHco6Q5aWYNXVYipvfKcwJxYy1O25w?usp=sharing"
   },
   "error-resistant-research": {
     slug: "error-resistant-research",
     emoji: "🏛️",
     title: "Error-Resistant Research",
-    titleCs: "Výzkum odolný chybám",
-    shortDescCs: "Metody výzkumu s ověřováním zdrojů.",
-    descriptionCs: "Tento Gem pomáhá s výzkumem odolným halucinacím, neboť pomáhá rychle najít informace, odpovědět na konkrétní otázky nebo provést podrobný výzkum na libovolné téma. Zaměřuje se na zajištění faktické přesnosti a posílení kritického porozumění, protože každé tvrzení poskytuje transparentní zdroje, úrovně důvěry a explicitní postup krok za krokem.",
+    titleCs: "Ověřovač informací a rešerší pro školy",
+    shortDescCs: "Cílený výzkum s otázkou, rozsahem a zdroji – jistota tvrzení, typ zdroje, odkazy.",
+    descriptionCs: "Tento Gem pomáhá učitelům, žákům i studentům provádět cílený výzkum, ověřovat informace a vytvářet přehledné, věcně přesné výstupy pro školní i odbornější použití. Nechrlí bezhlavě shrnutí z hlavy, ale nejprve si ujasní otázku, rozsah, požadovanou hloubku, formát i případná omezení zdrojů. Poté připraví strukturovaný výstup, který odlišuje ověřená tvrzení od nejistých míst, uvádí typ zdroje, pracuje s mírou jistoty a nabízí dohledatelné odkazy pro další ověření. Hodí se pro referáty, seminární práce, přípravy do výuky, ověřování veřejných tvrzení, porovnávání názorů i rychlé rešerše k určitému tématu. Gem je vhodný pro každého, kdo nechce jen „něco o tom napsat“, ale chce mít jasno, odkud informace pochází a jak moc se jí dá věřit.",
     category: "student",
     categories: ["student", "professional"],
-    gemUrl: "https://www.edugems.ai/gem/error-resistant-research"
+    gemUrl: "https://gemini.google.com/gem/1RlSM8fkgnNPE9kgMUrjmrT-gVLlRkhkQ?usp=sharing"
   },
   "student-brainstorming": {
     slug: "student-brainstorming",
