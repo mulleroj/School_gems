@@ -1230,12 +1230,12 @@ window.GEMS_DATA = {
     slug: "math-spiral-review",
     emoji: "🔄",
     title: "Math Spiral Review",
-    titleCs: "Matematické spirálové opakování",
-    shortDescCs: "Spirálové opakování matematiky.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit vlastní plán spirálového opakování a sadu úloh pro zajištění dlouhodobého uchování dovedností a znalostí žáků. Ideální pro podporu dlouhodobého mistrovství a poskytování diagnostických hodnoticích příležitostí se směsí úloh povzbuzujících žáky k určení nejlepších dovedností a přístupů k použití.",
+    titleCs: "Tvůrce spirálového opakování z matematiky",
+    shortDescCs: "Spirálové opakování pro českou školu – ročník, témata, časté chyby, promíchaná praxe.",
+    descriptionCs: "Tento Gem pomáhá učitelům matematiky vytvářet promyšlené spirálové opakování pro české školství, aby si žáci průběžně upevňovali dříve probírané učivo, dokázali volit vhodné postupy a nezapomínali to, co už jednou zvládli. Nejede stylem „tady máš deset příkladů a neotravuj“, ale nejprve si vyžádá důležité informace o ročníku, tématech, cílech výuky, počtu úloh, frekvenci opakování, požadované obtížnosti i častých chybách žáků. Poté připraví návrh spirálového opakování nebo konkrétní sadu úloh tak, aby odpovídaly úrovni třídy, stylu výuky i tomu, zda učitel chce procvičovat izolovaně jedno téma, nebo kombinovat více typů úloh v promíchané praxi. Gem se hodí pro učitele, kteří chtějí z matematiky udělat méně jednorázovou akci a víc systematické budování jistoty. Což je mimochodem přesně to, co ve škole často zoufale chybí.",
     category: "stem",
     categories: ["stem"],
-    gemUrl: "https://www.edugems.ai/gem/math-spiral-review"
+    gemUrl: "https://gemini.google.com/gem/1tKz3irc3l6ULcZiRY0JqNdeQjNSX_fEP?usp=sharing"
   },
   "math-story-problems": {
     slug: "math-story-problems",
