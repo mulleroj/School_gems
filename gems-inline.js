@@ -1105,67 +1105,67 @@ window.GEMS_DATA={
     slug: "student-brainstorming",
     emoji: "🧠",
     title: "Student Brainstorming",
-    titleCs: "Žákovský brainstorming",
-    shortDescCs: "Kreativní partner pro nápady.",
-    descriptionCs: "Tento Gem pomáhá žákům začít a pokročit v jejich konkrétních akademických úkolech tím, že funguje jako kouč kreativní jiskry a účelný akademický myšlenkový partner. Jeho hlavní poslání je cílený brainstorming, zajišťuje, že každá otázka a nápad je odrazovým můstkem vedoucím přímo k finálnímu produktu žáka (např. esej, experiment nebo prototyp).",
+    titleCs: "Kouč nápadů pro školní úkoly",
+    shortDescCs: "Nápady k úkolu bez psaní za žáka – naváděcí otázky, vlastní myšlení, zadání nebo soubor.",
+    descriptionCs: "Tento Gem funguje jako podpůrný myšlenkový partner pro žáky, kteří se potřebují rozjet při práci na školním úkolu, ale nemají dost nápadů, neví, jak začít, nebo se ztrácejí v zadání. Nevypracovává úkol za žáka a nepíše hotové odevzdatelné texty. Místo toho vede krátký, cílený rozhovor, ve kterém nejprve zjistí, jaký je přesný výstup úkolu, co už žák ví a kam má práce směřovat. Poté pomáhá po malých krocích: klade naváděcí otázky, nabízí několik směrů k promyšlení a pomáhá žákovi rozvíjet vlastní nápady. Hodí se pro eseje, referáty, experimenty, projekty, modely, prezentace i další školní výstupy na základní i střední škole. Velkou výhodou je, že umí pracovat i se zadáním, rubrikou nebo jiným vloženým souborem, ale stále drží jasnou hranici: podporuje myšlení, ne opisování.",
     category: "student",
     categories: ["student"],
-    gemUrl: "https://www.edugems.ai/gem/student-brainstorming"
+    gemUrl: "https://gemini.google.com/gem/1T7oB1lumH7HWZQLV3vf60N2OD4urUs8g?usp=sharing"
   },
   "world-language-conversation": {
     slug: "world-language-conversation",
     emoji: "🉑",
     title: "World Language Conversation",
-    titleCs: "Konverzace v cizím jazyce",
-    shortDescCs: "Procvičování konverzace v cizím jazyce.",
-    descriptionCs: "Tento Gem funguje jako váš imerzní konverzační partner pro cizí jazyky, pomáhá žákům procvičovat mluvení v přirozeném prostředí s nízkým stresem. Jako přátelský kulturní velvyslanec se přizpůsobuje jakékoli úrovni pokročilosti (od začátečníka A1 po pokročilého C2) a přijímá konkrétní personu – jako „Pierre z Paříže\“ nebo „Sofia z Buenos Aires\" – aby byla rolová hra autentická a kulturně bohatá.",
+    titleCs: "Jazykový konverzační partner pro školy",
+    shortDescCs: "Konverzace v cizím jazyce A1–C2 – opravy, zpětná vazba, role rodilého mluvčího.",
+    descriptionCs: "Tento Gem slouží jako konverzační partner pro výuku cizích jazyků v českém školním prostředí. Vede přirozený rozhovor v cílovém jazyce, přizpůsobuje slovní zásobu i větnou stavbu úrovni žáka od A1 do C2 a zároveň citlivě poskytuje průběžnou zpětnou vazbu k chybám v gramatice nebo slovní zásobě. Nezačne hned mluvit naslepo, ale nejprve si vyžádá důležité informace o cílovém jazyce, jazykové úrovni, tématu, preferovaném jazyce oprav a případně i věku nebo ročníku žáka. Poté si vytvoří uvěřitelnou roli rodilého mluvčího z odpovídajícího jazykového a kulturního prostředí a vede rozhovor tak, aby byl jazykově přiměřený, podporující a motivující. Gem je vhodný pro samostatné procvičování mluvení, nácvik témat k maturitě či běžné školní konverzaci i pro rozvoj kulturního povědomí v hodinách cizích jazyků.",
     category: "student",
     categories: ["student", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/world-language-conversation"
+    gemUrl: "https://gemini.google.com/gem/161KUksKht4XFIz_Sm2DL_dHZoWb3dleW?usp=sharing"
   },
   "ai-prompt-architect": {
     slug: "ai-prompt-architect",
     emoji: "📐",
     title: "AI Prompt Architect",
-    titleCs: "AI architekt promptů",
-    shortDescCs: "Návrh efektivních AI promptů.",
-    descriptionCs: "Tento Gem pomáhá vytvořit zcela nový, kvalitní AI prompt od základu. Funguje jako expertní architekt a zajišťuje, že váš prompt je komplexní a dobře strukturovaný, definuje jasnou roli, konkrétní úkol a explicitní pravidla interakce. Ideální pro vytváření vlastních nástrojů produkujících konzistentní, pedagogicky kvalitní interakce pro vaše žáky.",
+    titleCs: "Tvůrce promptů od nuly pro výuku.",
+    shortDescCs: "Nový prompt od začátku – role AI, úkol, výstup, pravidla; použitelný v praxi.",
+    descriptionCs: "Tento Gem pomáhá učitelům a tvůrcům vzdělávacích aktivit vytvořit nový AI prompt úplně od začátku, a to tak, aby byl promyšlený, dobře strukturovaný a pedagogicky použitelný. Nezačne bezhlavě psát první verzi, ale nejprve si krok za krokem vyjasní roli AI, konkrétní úkol, cílového uživatele, způsob interakce, požadovaný výstup i případná omezení a pravidla. Díky tomu vzniká prompt, který není jen hezky napsaný, ale hlavně funguje v praxi a vede ke stabilnějším, přesnějším a užitečnějším výsledkům. Hodí se pro učitele, kteří chtějí vytvářet prompty pro přípravy, pracovní listy, hry, hodnocení, role-play, debaty, tvorbu materiálů i další výukové scénáře. Výsledkem je kompletní prompt připravený ke kopírování a okamžitému použití.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/ai-prompt-architect"
+    gemUrl: "https://gemini.google.com/gem/1_t1vRpcILXe0pxo1ac38E-LuD1mFwKv3?usp=sharing"
   },
   "ai-prompt-doctor": {
     slug: "ai-prompt-doctor",
     emoji: "💊",
     title: "AI Prompt Doctor",
-    titleCs: "AI doktor promptů",
-    shortDescCs: "Vylepšování existujících promptů.",
-    descriptionCs: "Tento Gem pomáhá analyzovat, diagnostikovat a vylepšovat vaše stávající AI prompty, aby byly jasné, efektivní a v souladu s vašimi cíli. Ideální pro přeměnu hrubých nápadů nebo prvních návrhů na kvalitní, strukturované instrukce, které konzistentně produkují požadovaný výstup z AI.",
+    titleCs: "Prompt doktor pro učitele",
+    shortDescCs: "Diagnostika a vylepšení existujících promptů – cíl, publikum, chyby, přepsaná verze s vysvětlením.",
+    descriptionCs: "Tento Gem pomáhá učitelům a tvůrcům vzdělávacích materiálů diagnostikovat a vylepšovat už existující AI prompty. Nezačne prompt hned přepisovat naslepo, ale nejprve si vyžádá původní verzi a krok za krokem zjišťuje, jaký je skutečný cíl, pro koho má být výstup určen, jaký styl a strukturu má mít, co v promptu chybí a jaké chyby se ve výstupech opakují. Poté navrhne přepracovanou verzi promptu a stručně vysvětlí, proč udělal konkrétní změny. Hodí se pro učitele, kteří chtějí zlepšit prompty pro tvorbu pracovních listů, příprav, testů, prezentací, e-mailů, Gemů i dalších výukových materiálů. Výsledkem je kvalitnější, stabilnější a praktičtější prompt připravený k okamžitému použití.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/ai-prompt-doctor"
+    gemUrl: "https://gemini.google.com/gem/1NQNhTa2pUErUXEVeUBHoISk3R3TRhOp_?usp=sharing"
   },
   "class-newsletter": {
     slug: "class-newsletter",
     emoji: "📰",
     title: "Class Newsletter",
-    titleCs: "Třídní newsletter",
-    shortDescCs: "Newsletter pro rodiče a žáky.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit poutavý a zajímavý třídní newsletter pro žáky, rodiny a školní personál. Ideální pro jasné sdílení důležitých oznámení, oslavu pozoruhodných žákovských úspěchů a uznání vynikajících příspěvků z vaší třídní komunity.",
+    titleCs: "Tvůrce třídního zpravodaje a newsletteru",
+    shortDescCs: "Třídní zpravodaje a newslettery pro českou školu – přehledně, věcně, pro rodiče, žáky i kolegy.",
+    descriptionCs: "Tento Gem pomáhá učitelům připravovat třídní zpravodaje a newslettery pro české školní prostředí tak, aby byly přehledné, věcné, pozitivní a dobře použitelné v praxi. Hodí se pro pravidelné třídní přehledy, měsíční souhrny, informační e-maily i slavnostněji laděné školní zpravodaje. Nezačne bezhlavě psát obecné oznámení, ale nejprve si vyžádá důležité informace o adresátech, cíli sdělení, hlavních novinkách, úspěších žáků, plánovaných akcích i stylu komunikace. Poté připraví návrh newsletteru, který může informovat, ocenit práci žáků, připomenout důležité termíny a posílit propojení mezi školou, rodinou a třídou. Výstup je srozumitelný, jazykově čistý a přizpůsobený tomu, zda má být text určen rodičům, žákům, kolegům nebo kombinaci těchto skupin. Gem je vhodný pro učitele, kteří chtějí komunikovat pravidelně a profesionálně, ale bez suchopárné školní omáčky.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/class-newsletter"
+    gemUrl: "https://gemini.google.com/gem/1CH5CQWLnzqkHSVUxbDm5jOphjZuB-8ix?usp=sharing"
   },
   "edugem-generator": {
     slug: "edugem-generator",
     emoji: "💎",
     title: "EduGem Generator",
-    titleCs: "Generátor EduGemů",
-    shortDescCs: "Tvorba vlastních EduGem promptů.",
-    descriptionCs: "Tento Gem pomáhá vytvořit systémové instrukce (prompt) pro vaše vlastní vlastní Gemy. Jako architekt EduGem vás provádí strukturovaným návrhovým procesem, aby zajistil, že váš nový nástroj následuje „zlatý standard\“ architektury nalezené v kolekci GemForge. Pomáhá definovat personu, pravidla interakce a formáty výstupu potřebné k tomu, aby byl váš Gem spolehlivý a efektivní.",
+    titleCs: "Architekt Gemů pro učitele",
+    shortDescCs: "Systémové prompty pro vlastní Gemy – účel, role, vstupy, výstup; strukturované zadání ke kopírování.",
+    descriptionCs: "Tento Gem pomáhá učitelům a tvůrcům vzdělávacích asistentů navrhovat promyšlené systémové prompty pro vlastní Gemy. Nezačne hned vyrábět hotový prompt z ničeho, ale nejprve si krok za krokem vyžádá klíčové informace o účelu Gemu, jeho roli, cílovém uživateli, vstupních datech, způsobu práce i požadovaném výstupu. Díky tomu vytváří strukturované a použitelné zadání, které vede Gem k lepším odpovědím, menší chaotičnosti a větší spolehlivosti. Hodí se pro učitele, kteří chtějí budovat vlastní sadu specializovaných Gemů pro výuku, přípravy, hodnocení, tvoření materiálů nebo podporu žáků. Výsledkem je přehledný prompt připravený ke kopírování, doplněný o vysvětlení struktury a návrhy dalších úprav.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/edugem-generator"
+    gemUrl: "https://gemini.google.com/gem/1QEj-izB3vo_fyqNdzuM90zl3_SemzAVQ?usp=sharing"
   },
   "email-to-parents": {
     slug: "email-to-parents",
