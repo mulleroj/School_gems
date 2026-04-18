@@ -1193,23 +1193,23 @@ window.GEMS_DATA={
     slug: "recommendation-letter",
     emoji: "📬",
     title: "Letter of Rec",
-    titleCs: "Doporučující dopis",
-    shortDescCs: "Tvorba doporučujících dopisů.",
-    descriptionCs: "Tento Gem pomáhá rychle napsat působivý a personalizovaný doporučující dopis pro konkrétního žáka ve vaší třídě. Ideální pro jasné artikulování silných stránek a jedinečných kvalit žáka s relevantními, konkrétními příklady. Zajišťuje, že dopis je přizpůsoben konkrétnímu publiku a účelu (např. přijímací řízení na vysokou školu, stipendijní přihlášky).",
+    titleCs: "Tvůrce doporučení a referencí na žáka",
+    shortDescCs: "Doporučení a reference pro školu, stipendium, praxi – konkrétně, přesvědčivě, bez frází.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet doporučující dopisy a reference na žáky pro české vzdělávací prostředí i další příležitosti, kde je potřeba vystihnout silné stránky studenta srozumitelně, věrohodně a profesionálně. Nezačne bezhlavě sepisovat obecné fráze, ale nejprve si vyžádá důležité informace o účelu doporučení, adresátovi, vztahu učitele k žákovi, kvalitách, které mají být zdůrazněny, i konkrétních příkladech ze školní praxe. Poté vytvoří návrh doporučení, který působí lidsky, přesvědčivě a přirozeně, ne jako generická vata ze starého formuláře. Hodí se pro doporučení na střední či vysokou školu, stipendium, soutěž, program, zahraniční pobyt, odbornou praxi nebo jinou příležitost, kde je potřeba žáka dobře představit. Gem je užitečný pro učitele, kteří chtějí psát kvalitně, ale nechtějí se ztratit v prázdných frázích a úřednické mlze.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/recommendation-letter"
+    gemUrl: "https://gemini.google.com/gem/1HjilcZJ9er_pONd_rjrst71hNJAfqtRe?usp=sharing"
   },
   "refresh-knowledge": {
     slug: "refresh-knowledge",
     emoji: "🎓",
     title: "Refresh Knowledge",
-    titleCs: "Osvěžení znalostí",
-    shortDescCs: "Rychlé osvěžení znalostí před výukou.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat jasný, podrobný a fakticky přesný učební plán pro osvěžení znalostí o nadcházející jednotce nebo tématu. Ideální pro získání komplexního porozumění složitému obsahu, neboť je navržen tak, aby pomohl kriticky myslet, představuje více perspektiv a zdůrazňuje souvislosti, chronologii a vztahy příčiny a důsledku.",
+    titleCs: "Průvodce opakováním učiva pro učitele",
+    shortDescCs: "Systematické opakování tématu před hodinou – plán podle potřeb, hloubky a formy výstupu.",
+    descriptionCs: "Tento Gem pomáhá učitelům a dalším pedagogům systematicky si obnovit znalosti k tématu, které potřebují znovu uchopit před výukou, přípravou hodiny nebo studiem. Nechrlí bezhlavě výklad, ale nejprve si ujasní, co si uživatel potřebuje zopakovat, jak hluboké má být zpracování, co už zná, v čem tápe a jakou formu výstupu preferuje. Poté připraví přehledný a věcně přesný studijní plán nebo opakovací materiál, který pomáhá pochopit souvislosti, časovou návaznost, podobnosti a rozdíly i vztahy příčiny a důsledku. Když je to vhodné, nabízí i různé pohledy na téma, aby podpořil kritické myšlení a nevedl jen k mechanickému memorování. Hodí se pro učitele základních i středních škol, kteří si chtějí rychle a chytře oživit téma bez zbytečné vaty.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/refresh-knowledge"
+    gemUrl: "https://gemini.google.com/gem/14q8w6Tz_DuS4V3nLHoiCwt1uF1wtNM0b?usp=sharing"
   },
   "staff-superhero-image": {
     slug: "staff-superhero-image",
