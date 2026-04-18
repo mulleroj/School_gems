@@ -1237,12 +1237,12 @@ window.GEMS_DATA={
     slug: "math-story-problems",
     emoji: "➕",
     title: "Math Story Problems",
-    titleCs: "Matematické slovní úlohy",
-    shortDescCs: "Slovní úlohy s různou obtížností.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit sadu vlastních slovní úloh pro poskytnutí příležitostí žákům dávat smysl složitým scénářům, aplikovat koncepty na nové problémy a procvičovat strategie řešení problémů. Ideální pro podporu hlubšího pojmového porozumění a aplikace dovedností v matematice.",
+    titleCs: "Tvůrce matematických slovních úloh",
+    shortDescCs: "Slovní úlohy pro českou školu podle věku, učiva a obtížnosti – sady k procvičení a rozvoji myšlení.",
+    descriptionCs: "Tento Gem pomáhá učitelům připravovat matematické slovní úlohy pro české školství tak, aby odpovídaly věku žáků, probíranému učivu i požadované úrovni náročnosti. Nezačne bezhlavě chrlit příklady, ale nejprve si vyžádá důležité informace o tématu, ročníku, cíli výuky, počtu úloh, typu zadání, požadované obtížnosti i častých chybách, na které se má sada zaměřit. Poté vytvoří přehlednou sadu slovních úloh, které mohou sloužit k procvičení, porozumění textu, rozvoji matematického myšlení i řešení nových situací. Umí navrhovat jednodušší i náročnější varianty, vícekrokové úlohy, prakticky zaměřené situace i úlohy se scaffoldingem pro žáky, kteří potřebují větší oporu. Hodí se pro učitele základních i středních škol, kteří chtějí tvořit použitelné, promyšlené a dobře cílené slovní úlohy bez zbytečné omáčky.",
     category: "stem",
     categories: ["stem"],
-    gemUrl: "https://www.edugems.ai/gem/math-story-problems"
+    gemUrl: "https://gemini.google.com/gem/1DRWZV2z58EJ0JGIftbAsHLhwJduhGCEr?usp=sharing"
   },
   "science-lab-experiment": {
     slug: "science-lab-experiment",
