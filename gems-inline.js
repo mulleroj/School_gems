@@ -797,133 +797,122 @@ window.GEMS_DATA={
     slug: "differentiation-strategies",
     emoji: "🔠",
     title: "Differentiation Strategies",
-    titleCs: "Strategie diferenciace",
-    shortDescCs: "Strategie pro diferenciaci výuky.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit sadu konkrétních, na důkazech založených strategií diferenciace a úprav přizpůsobených hodině, hodnocení nebo učebnímu materiálu. Ideální pro zajištění, že uspokojíte potřeby všech žáků – ať už se specifickými poruchami učení, vícejazyčnými žáky nebo žáky pracujícími pod nebo nad úrovní ročníku – slaďováním s principy UDL a osvědčenými postupy.",
+    titleCs: "Diferenciace na míru",
+    shortDescCs: "Tři konkrétní strategie k hodině, zadání nebo materiálu – ne obecné rady.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet konkrétní a proveditelné strategie diferenciace pro běžnou školní výuku tak, aby lépe odpovídala různým potřebám žáků ve třídě. Hodí se pro situace, kdy je potřeba upravit hodinu, zadání, pracovní list, test nebo jiný výukový materiál pro žáky se specifickými vzdělávacími potřebami, pro žáky pod úrovní či nad úrovní ročníku, pro vícejazyčné žáky nebo pro smíšenou třídu s různou mírou podpory. Gem se nejprve doptá na ročník, předmět, konkrétní aktivitu a potřeby žáků, případně pracuje i s nahranými materiály. Poté navrhne tři velmi konkrétní strategie diferenciace včetně stručného zdůvodnění, proč právě v této situaci dávají smysl. Výsledkem nejsou obecné rady typu „více času“ nebo „individuální přístup“, ale praktické kroky, které lze skutečně použít ve třídě.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/differentiation-strategies"
+    gemUrl: "https://gemini.google.com/gem/1vb_Wq2eVI3T6501sMgSKyjWLHb7I1kRh?usp=sharing"
   },
   "ell-conversation": {
     slug: "ell-conversation",
     emoji: "💬",
     title: "ELL Conversation",
-    titleCs: "Konverzace pro ELL",
-    shortDescCs: "Jazyková podpora pro žáky s odlišným mateřským jazykem.",
-    descriptionCs: "Tento Gem funguje jako podporující a trpělivý tutor angličtiny, pomáhá žákům procvičovat konverzaci a překlenuje propast mezi jejich mateřským jazykem a angličtinou. Umí přizpůsobit slovní zásobu a rychlost jakékoli úrovni pokročilosti (WIDA 1–6), využívá žákův první jazyk (L1) pro nastavení a obtížná vysvětlení při maximalizaci imerze do angličtiny během konverzace.",
+    titleCs: "Angličtina s oporou",
+    shortDescCs: "Konverzace v angličtině s L1 pro nastavení a vysvětlení – bezpečný ponor do jazyka.",
+    descriptionCs: "Tento Gem funguje jako trpělivý konverzační partner pro angličtinu, který pomáhá žákům mluvit co nejvíc anglicky, ale v případě potřeby využívá jejich první jazyk jako oporu při vysvětlování a nastavování práce. Hodí se pro vícejazyčné žáky i pro žáky, kteří si v angličtině ještě nevěří a potřebují bezpečný prostor pro mluvení. Na začátku nabídne jednoduché jazykové menu, aby si žák vybral svůj jazyk, a teprve potom přepne do tohoto jazyka pro úvodní nastavení. Zjišťuje úroveň angličtiny, ročník, téma konverzace i to, v jakém jazyce si žák přeje vysvětlování chyb. Samotná komunikace pak probíhá hlavně v angličtině, aby zůstal zachovaný ponor do jazyka, ale tutor se přizpůsobuje věku, úrovni i školnímu kontextu. Umí jemně opravovat chyby, nabízet větné kostry, používat více vizuální opory u začátečníků a vést rozhovor tak, aby žák mluvil co nejvíc sám. Je vhodný pro běžnou školní výuku, samostatné procvičování i podporu žáků, kteří potřebují bezpečnější a srozumitelnější vstup do angličtiny.",
     category: "support",
     categories: ["support", "student", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/ell-conversation"
+    gemUrl: "https://gemini.google.com/gem/1TUiu4xGWrGKHtYOlvzRHm1FKGoqcjyxG?usp=sharing"
   },
   "iep504-smart-goal": {
     slug: "iep504-smart-goal",
     emoji: "🎯",
     title: "IEP/504 SMART Goal",
-    titleCs: "SMART cíle pro IEP/504",
-    shortDescCs: "Konkrétní cíle pro IVP.",
-    descriptionCs: "Tento Gem funguje jako podporující mentor pro učitele speciální pedagogiky, učitele všeobecného vzdělávání a specialisty, pomáhá přeměnit surová žákovská data – dokonce i „chaotický výlev\" – na právně správné, na silných stránkách založené SMART cíle. Zajišťuje, že cíle jsou Specifické, Měřitelné, Dosažitelné, Relevantní a Časově vymezené, a zároveň navrhuje relevantní úpravy a konkrétní metody sběru dat pro sledování pokroku.",
+    titleCs: "SMART cíle pro podporu žáka",
+    shortDescCs: "Z poznámek a podkladů měřitelný SMART cíl – IVP, podpora, sběr dat.",
+    descriptionCs: "Tento Gem pomáhá učitelům, speciálním pedagogům, třídním učitelům i dalším pracovníkům školy převádět neuspořádané poznámky, výsledky, pozorování a další podklady o žákovi do srozumitelných a použitelných SMART cílů. Hodí se pro situace, kdy je potřeba zformulovat jasný a měřitelný cíl pro IVP, plán pedagogické podpory, podpůrná opatření nebo cílenou práci se žákem. Gem nejprve vytěží z dodaných podkladů to podstatné: kde se žák právě nachází, v čem potřebuje podporu, co jsou jeho silné stránky a jak může vypadat realistický posun.\n\nSMART znamená, že cíl má být:\n\nS – specifický, tedy jasně a konkrétně popsaný,\nM – měřitelný, aby bylo možné poznat, jestli žák dělá pokrok,\nA – dosažitelný, tedy realistický vzhledem k výchozí úrovni žáka,\nR – relevantní, takže odpovídá skutečné potřebě žáka a smyslu výuky,\nT – časově vymezený, aby bylo jasné, do kdy má být cíle dosaženo.\n\nGem poté navrhne samotný SMART cíl, případně i krátkodobé dílčí kroky, doporučená podpůrná opatření a vhodný způsob sběru dat o pokroku. Nepracuje s domněnkami ani si nevymýšlí čísla, ale drží se pouze toho, co učitel dodá. Výsledkem není úřednická mlha, ale konkrétní, přehledný a školně použitelný návrh, který může sloužit jako základ pro další odbornou práci se žákem.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/iep504-smart-goal"
+    gemUrl: "https://gemini.google.com/gem/1-a2v4x_GKGXs5hPeR1zlNJTIOK8PB_yg?usp=sharing"
   },
   "learner-scaffolds": {
     slug: "learner-scaffolds",
     emoji: "🪜",
     title: "Learner Scaffolds",
     titleCs: "Opory pro učení",
-    shortDescCs: "Scaffolding pro žáky.",
-    descriptionCs: "Tento Gem pomáhá rychle vytvořit strukturovanou, komplexní a na důkazech založenou sadu učebních opor pokrývajících celý učební cyklus (přední, distribuované a zadní podpory). Ideální pro navrhování podpor, které jsou vývojově přiměřené a těsně navázané na konkrétní ročník a učební cíl/dovednost, zajišťuje, že všichni žáci mohou obsahu přistupovat a zvládnout ho.",
+    shortDescCs: "Systém opor před, během i po činnosti – postupně ke samostatnosti.",
+    descriptionCs: "Tento Gem pomáhá učitelům navrhovat ucelený systém opor pro učení tak, aby žáci nezůstali viset mezi zadáním a očekávaným výkonem bez pomoci. Nejde jen o jednu pomůcku nebo rychlý tip, ale o promyšlenou sadu podpůrných kroků pro celý proces učení: před začátkem práce, během nácviku i po dokončení činnosti. Gem se nejprve doptá na ročník, předmět, cílovou dovednost, konkrétní kontext použití i potřeby žáků. Poté vytvoří přehled konkrétních opor, například pro nastavování cílů, cílený nácvik, front-end opory před učením, průběžné otázky a nápovědy, závěrečné upevnění, vzájemnou podporu mezi žáky i postupné odbourávání opor směrem k samostatnosti. Hodí se pro běžnou výuku, psaní, matematiku, projektové úkoly, přípravu na hodnocení i dlouhodobější rozvoj dovedností všude tam, kde učitel nechce žáky jen „nechat zkusit“, ale promyšleně je dovést k úspěchu.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/learner-scaffolds"
-  },
-  "ohio-idea-guidance": {
-    slug: "ohio-idea-guidance",
-    emoji: "🧭",
-    title: "Ohio IDEA Guidance",
-    titleCs: "Ohio IDEA návod",
-    shortDescCs: "Návod pro speciální vzdělávání (Ohio IDEA).",
-    descriptionCs: "Tento Gem pomáhá rychle odpovídat na provozní a compliance otázky zakotvené v ohijském a federálním právu speciálního vzdělávání. Ideální pro vytváření praktických artefaktů jako kontrolní seznamy, časové osy, oznámení rodičům a návrhy jazyka IEP, které udržují okresy v souladu s požadavky, s použitím specifických ohijských termínů (ETR, PR-01) a citací.",
-    category: "support",
-    categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/ohio-idea-guidance"
+    gemUrl: "https://gemini.google.com/gem/1v4chA7IDhMWM2SrfFUGQq5fZo24Fjd0e?usp=sharing"
   },
   "project-breakdown": {
     slug: "project-breakdown",
     emoji: "📋",
     title: "Project Breakdown",
-    titleCs: "Rozdělení projektu",
-    shortDescCs: "Rozdělení projektu na kroky.",
-    descriptionCs: "Tento Gem funguje jako vřelý, organizovaný mentor pro žáky čelící velkým, ohromujícím úkolům. Pomáhá žákům zvládat jejich pracovní zátěž rozdělením složitých projektů na zvládnutelné „mikrokroky\“ s jasným časovým harmonogramem. Klíčově dodržuje „průvodcovskou\“ zábradlí, zajišťuje, že poskytuje opory, osnovy a strukturu, místo aby za žáka psal obsah.",
+    titleCs: "Projekt bez paniky",
+    shortDescCs: "Velké zadání na malé kroky, termíny a pětiminutový rozjezd – ne psaní za žáka.",
+    descriptionCs: "Tento Gem funguje jako podporující průvodce při plánování větších školních úkolů a projektů. Pomáhá žákům zvládnout zadání, které na první pohled působí příliš velké, nepřehledné nebo stresující. Nepracuje za žáka, ale pomáhá mu rozdělit projekt na malé a konkrétní kroky, navrhnout průběžné termíny, zohlednit rušné dny a najít první jednoduchý start, aby se žák nezasekl hned na začátku. Gem se postupně doptává na ročník, předmět, název úkolu, termín odevzdání, zadání, hodnoticí kritéria, obavy žáka i jeho časové možnosti. Poté vytvoří přehledný projektový plán po malých krocích a přidá i krátký „pětiminutový rozjezd“, který pomůže překonat počáteční odpor. Hodí se pro referáty, seminární práce, prezentace, dlouhodobé úkoly, čtenářské projekty i jiné větší školní zadání tam, kde žák potřebuje oporu v organizaci práce, ne někoho, kdo to odmaká za něj.",
     category: "support",
     categories: ["support", "student"],
-    gemUrl: "https://www.edugems.ai/gem/project-breakdown"
+    gemUrl: "https://gemini.google.com/gem/1i_-Hs5IU9ql-aO2qwjTNlAtVRwJAL_Y_?usp=sharing"
   },
   "re-level-text": {
     slug: "re-level-text",
     emoji: "🔀",
     title: "Re-level Text",
-    titleCs: "Přeúrovňování textů",
-    shortDescCs: "Texty v různých úrovních obtížnosti.",
-    descriptionCs: "Tento Gem pomáhá rychle přeúrovnit daný text nebo pasáž pro přesné přizpůsobení specifickým čtenářským potřebám žáka, souboru dovedností nebo učebnímu cíli. Ideální pro zajištění, že váš akademický obsah je přístupný všem žákům úpravou slovní zátěže, složitosti vět a celkové struktury při zachování původního významu.",
+    titleCs: "Čtení na míru",
+    shortDescCs: "Úprava textu na čtenářskou úroveň – význam zůstane, věty a slovní zásoba se přizpůsobí.",
+    descriptionCs: "Tento Gem pomáhá učitelům upravovat odborné i výukové texty tak, aby odpovídaly konkrétní čtenářské úrovni, potřebám žáků a cíli výuky. Nejde o pouhé zkrácení nebo „zjednodušení“, ale o promyšlenou úpravu textu tak, aby si zachoval původní význam a učivo, ale byl lépe zvládnutelný pro konkrétního čtenáře nebo skupinu žáků. Gem se nejprve doptá na původní text, ročník, předmět, cílovou úroveň, konkrétní čtenářské potřeby a případná omezení. Poté vytvoří upravenou verzi textu a stručně vysvětlí, jaké didaktické úpravy provedl — například zjednodušení větné stavby, snížení náročnosti slovní zásoby, lepší členění, omezení délky nebo větší oporu pro porozumění. Hodí se pro práci s žáky se slabší čtenářskou úrovní, vícejazyčnými žáky, žáky se specifickými vzdělávacími potřebami i pro běžnou diferenciaci ve třídě. Výsledkem není obecná rada, ale konkrétní text připravený k použití.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/re-level-text"
+    gemUrl: "https://gemini.google.com/gem/18VVGjOLO9mX1RCWdw_4M0EIECFpk3oJi?usp=sharing"
   },
   "restorative-justice-circle": {
     slug: "restorative-justice-circle",
     emoji: "🤝",
     title: "Restorative Justice Circle",
-    titleCs: "Kruh restorativní justice",
-    shortDescCs: "Restorativní přístupy ve třídě.",
-    descriptionCs: "Tento Gem pomáhá efektivně usnadňovat řešení konfliktů vedením žáků strukturovaným restorativním procesem. Jako zkušený koordinátor restorativní justice generuje kompletní scénář pro facilitátora určený k napravení újmy a obnovení vztahů. Zajišťuje, že všechny hlasy jsou slyšeny v bezpečném, neutrálním prostředí a přesouvá pozornost od trestu k porozumění a dohodě.",
+    titleCs: "Kruh obnovy",
+    shortDescCs: "Scénář obnovujícího kruhu po konfliktu – otázky, fáze, dohoda, neutrální tón.",
+    descriptionCs: "Tento Gem pomáhá učitelům, třídním učitelům, výchovným poradcům, školním metodikům prevence i vedení školy připravit scénář obnovujícího kruhu po konfliktu nebo narušení vztahů ve třídě. Nepracuje s trestající logikou, ale s obnovujícím přístupem: co se stalo, koho se to dotklo, jaký to mělo dopad a co je potřeba udělat, aby se situace mohla bezpečně posunout dál. Gem se nejprve doptá na typ incidentu, účastníky, věk žáků a aktuální emoční stav situace. Poté vytvoří přehledný scénář pro facilitátora včetně úvodního nastavení, pravidel kruhu, otázek pro jednotlivé fáze, návrhu dohody a závěrečného uzavření. Hodí se pro řešení sporů mezi žáky, napětí ve skupině, narušených vztahů, vylučování z kolektivu, opakovaného vyrušování i dalších situací, kde škola nechce jen „udělit opatření“, ale skutečně pracovat s dopadem a obnovou vztahů. Výstup je veden neutrálně, věkově přiměřeně a tak, aby byl použitelný v reálném školním prostředí.",
     category: "support",
     categories: ["support", "professional"],
-    gemUrl: "https://www.edugems.ai/gem/restorative-justice-circle"
+    gemUrl: "https://gemini.google.com/gem/1LBQMHtRYOfAzljo0qwBjTKiKLrR8ceYU?usp=sharing"
   },
   "social-stories": {
     slug: "social-stories",
     emoji: "📖",
     title: "Social Stories",
-    titleCs: "Sociální příběhy",
-    shortDescCs: "Sociální příběhy pro žáky.",
-    descriptionCs: "Tento Gem pomáhá rychle vygenerovat konkrétní, vysoce přizpůsobenou sociální příběh pro pomoc žákovi porozumět a připravit se na konkrétní událost nebo situaci. Ideální pro proaktivní sociálně-emoční intervenci, pomáhá žákům porozumět očekávanému sledu událostí, poskytuje jasný výsledek a stanovuje pozitivní strategii zvládání.",
+    titleCs: "Co mě čeká",
+    shortDescCs: "Sociální příběh na konkrétní situaci – posloupnost, očekávání, klidný jazyk.",
+    descriptionCs: "Tento Gem pomáhá učitelům, speciálním pedagogům a dalším pracovníkům školy vytvářet sociální příběhy na míru pro konkrétní situace, které žákům způsobují nejistotu, obavy nebo obtíže v chování a orientaci. Nejde o obecné moralizování ani o „správné poučení“, ale o srozumitelný, klidný a předvídatelný text, který žákovi vysvětlí, co se bude dít, jaká je posloupnost událostí, co od něj bude očekáváno a jak může situaci zvládnout. Gem se nejprve doptá na konkrétní událost nebo situaci, věk žáka, jeho komunikační styl, silné stránky, spouštěče nejistoty a případné podpůrné strategie, které už fungují. Poté vytvoří sociální příběh v pozitivním, vývojově přiměřeném jazyce a může ho dále upravit podle délky, perspektivy nebo potřeby vizuální opory. Hodí se pro přechody mezi činnostmi, návštěvy nového prostředí, změny režimu, konfliktní situace, školní akce, náročné sociální momenty i další události, kde žák potřebuje předem bezpečnou a srozumitelnou oporu.",
     category: "support",
     categories: ["support"],
-    gemUrl: "https://www.edugems.ai/gem/social-stories"
+    gemUrl: "https://gemini.google.com/gem/1B-TJ-BCZcCZ_mdeBR_L9Qamg3GlLoYTT?usp=sharing"
   },
   "vocabulary-tiers": {
     slug: "vocabulary-tiers",
     emoji: "🪜",
     title: "Vocabulary Tiers",
-    titleCs: "Úrovně slovní zásoby",
-    shortDescCs: "Třídění slovní zásoby podle obtížnosti.",
-    descriptionCs: "Tento Gem funguje jako váš podporující kouč gramotnosti a spolupedagog, pomáhá analyzovat výukové texty pomocí modelu Beck, McKeown a Kucan. Shrnuje váš text a kategorizuje slova do úrovně 1 (základní), úrovně 2 (vysoká využitelnost akademická) a úrovně 3 (oborově specifická), což vám umožňuje přesně určit, která slova učit pro maximální žákovské porozumění.",
+    titleCs: "Slovní zásoba pod lupou",
+    shortDescCs: "Tři úrovně slov v textu – co učit napřed, definice a věta z textu.",
+    descriptionCs: "Tento Gem pomáhá učitelům analyzovat výukové texty z hlediska slovní zásoby a vybrat ta slova, která jsou pro porozumění opravdu důležitá. Nejde o mechanické vypisování neznámých výrazů, ale o promyšlené třídění slov podle tří úrovní: běžná slova, obecně užitečná akademická slova a oborově specifické pojmy. Gem se nejprve doptá na text, ročník a případné potřeby žáků. Poté stručně shrne obsah textu a vytipuje nejdůležitější slova, která by učitel měl cíleně vyučovat. U každého slova přidá definici srozumitelnou pro daný věk a větu z původního textu, kde se výraz objevuje. Pokud je to relevantní, umí navíc upozornit i na zdánlivě běžná slova, která mohou být zrádná například pro vícejazyčné žáky. Hodí se pro češtinu, cizí jazyky, dějepis, přírodovědné předměty i odborné texty všude tam, kde učitel chce lépe rozhodnout, která slova mají být ve výuce v centru pozornosti.",
     category: "support",
     categories: ["support", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/vocabulary-tiers"
+    gemUrl: "https://gemini.google.com/gem/1339V1_u5NPnI0gUAhWq9ciGP6yMVVcUV?usp=sharing"
   },
   "act-english-generator": {
     slug: "act-english-generator",
     emoji: "📓",
     title: "ACT English Generator",
-    titleCs: "Generátor ACT English",
-    shortDescCs: "Generování cvičení ACT English.",
-    descriptionCs: "Tento Gem pomáhá hladce vložit přípravu na ACT English do vašeho stávajícího kurikula bez narušení průběhu hodin. Jako expertní specialista na integraci kurikula ACT generuje kvalitní, standardizované otázky založené na vašich konkrétních obsahových tématech (např. první světová válka, mitóza, Velký Gatsby), umožňuje „skrytou\“ přípravu na testy v hodinách dějepisu, přírodopisu nebo literatury.",
+    titleCs: "Angličtina v souvislostech",
+    shortDescCs: "Krátký text + MC z tématu výuky – gramatika a styl v kontextu, ne izolovaný drill.",
+    descriptionCs: "Tento Gem pomáhá učitelům angličtiny vytvářet kvalitní testové úlohy na gramatiku, styl a práci s textem, které nejsou vytržené ze vzduchoprázdna, ale zasazené do konkrétního učiva a témat. Učitel zadá obsahové téma, jazykovou dovednost a požadovanou obtížnost a Gem z toho vytvoří krátký anglický text s jednou čtyřmožností otázkou ve stylu standardizovaného testu. Díky tomu lze jazykovou přípravu přirozeně vkládat do témat z dějepisu, přírodních věd, literatury nebo jiných oblastí, aniž by výuka působila jako izolované drilování gramatiky. Gem je vhodný zejména pro druhý stupeň ZŠ, střední školy a přípravu na testově laděné formy práce, protože umí přizpůsobit obtížnost od základní až po náročnější úroveň. Výstup obsahuje samotnou otázku, čtyři možnosti odpovědi, správné řešení a stručné vysvětlení pro učitele, takže je okamžitě použitelný v hodině, pracovním listu nebo prezentaci.",
     category: "assessment",
     categories: ["assessment", "literacy"],
-    gemUrl: "https://www.edugems.ai/gem/act-english-generator"
+    gemUrl: "https://gemini.google.com/gem/1tu9BOug6wFOza_EkcDgNGg5cpAnSyIWl?usp=sharing"
   },
   "act-math-generator": {
     slug: "act-math-generator",
     emoji: "🔢",
     title: "ACT Math Generator",
-    titleCs: "Generátor ACT Math",
-    shortDescCs: "Generování cvičení ACT Math.",
-    descriptionCs: "Tento Gem pomáhá hladce vložit přípravu na ACT Math do libovolného předmětu – od fyzikálních laboratoří po analýzu historických dat. Jako expertní specialista na integraci kurikula ACT Math generuje kvalitní, standardizované úlohy propojující vaše konkrétní třídní témata s oficiálními oblastmi ACT matematiky (algebra, geometrie, statistika atd.), využívá deskriptivní geometrii tam, kde vizuální diagramy nejsou možné.",
+    titleCs: "Matematika v souvislostech",
+    shortDescCs: "Úloha z reálného kontextu předmětu – MC, postup a řešení pro učitele.",
+    descriptionCs: "Tento Gem pomáhá učitelům vytvářet kvalitní matematické úlohy navázané na konkrétní obsah nebo téma výuky, takže matematika nepůsobí odtrženě, ale jako přirozená součást širšího učiva. Učitel zadá obsahový kontext a matematickou dovednost, kterou chce procvičit, a Gem vytvoří jednu promyšlenou úlohu ve stylu standardizovaného testu nebo pracovního listu. Úlohy mohou vycházet z fyziky, chemie, ekonomiky, dějepisu, zeměpisu i čistě matematických témat. Gem respektuje různé oblasti středoškolské matematiky, používá přehledný formát, čtyři možnosti odpovědi a přidává i správné řešení s postupem pro učitele. Hodí se pro druhý stupeň ZŠ, střední školy i přípravu na testově laděné úlohy tam, kde učitel nechce procvičovat jen izolované vzorce, ale matematické myšlení v reálném kontextu.",
     category: "assessment",
     categories: ["assessment", "stem"],
-    gemUrl: "https://www.edugems.ai/gem/act-math-generator"
+    gemUrl: "https://gemini.google.com/gem/1E0QB_r7x-Un0s76N3CAQ-5CqAQ1P6v2w?usp=sharing"
   },
   "act-reading-generator": {
     slug: "act-reading-generator",
