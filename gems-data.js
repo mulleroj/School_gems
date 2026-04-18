@@ -1219,12 +1219,12 @@ window.GEMS_DATA = {
     slug: "staff-superhero-image",
     emoji: "🦸",
     title: "Staff Superhero Image",
-    titleCs: "Superhrdinský obrázek personálu",
-    shortDescCs: "Vytváření motivujících obrázků pro tým.",
-    descriptionCs: "Tento Gem pomáhá oslavit školní personál přeměnou jejich fotografií na kvalitní superhrdinské portréty. Jako váš expertní „školní umělec superhrdinů\“ vytváří pozitivní, ctící a cool obrázky, které zachovávají rozpoznatelnost člena personálu při umístění do dynamických póz. Ideální pro vytváření jedinečných ocenění, plakátů nebo digitálních pozdravů pro učitele, administrátory a podpůrný personál.",
+    titleCs: "Tvůrce superhrdinských portrétů pro školu",
+    shortDescCs: "Stylizované portréty z fotek pracovníků školy – respekt, pozitivní vizuál, plakáty i sociální sítě.",
+    descriptionCs: "Tento Gem pomáhá vytvářet stylizované superhrdinské portréty pracovníků školy z jejich fotografií tak, aby výsledný obrázek působil pozitivně, s respektem a zároveň vizuálně atraktivně. Hodí se pro ocenění učitelů, vedení školy, asistentů pedagoga, vychovatelů, školních psychologů, administrativních i provozních pracovníků. Nezačne slepě generovat obrázek, ale nejprve si vyžádá důležité informace o stylu, pozadí, textu v obrázku, formátu a dalších detailech. Výsledkem má být portrét, který zachová rozpoznatelnost člověka, ale zároveň ho promění do heroické a slavnostní podoby. Gem je vhodný pro tvorbu plakátů, přání, školních prezentací, nástěnek, příspěvků na sociální sítě i interních školních ocenění.",
     category: "professional",
     categories: ["professional"],
-    gemUrl: "https://www.edugems.ai/gem/staff-superhero-image"
+    gemUrl: "https://gemini.google.com/gem/11jaVXqN5Ry3lj9PnB3syRJSAYzaVf2AU?usp=sharing"
   },
   "math-spiral-review": {
     slug: "math-spiral-review",
