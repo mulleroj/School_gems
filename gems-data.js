@@ -1,6 +1,10 @@
 /**
  * Kompletní seznam gemů pro Google Gemini.
  * Každý gem má slug pro URL, emoji, názvy a popisy v češtině.
+ *
+ * addedAt (YYYY-MM-DD): pro sekci „Nejnovější gemy“ na úvodní stránce. Pokud chybí,
+ * doplní se po načtení z pořadí klíčů v tomto objektu — poslední záznam v souboru = nejnovější.
+ * Nový gem přidejte na konec objektu, nebo nastavte addedAt ručně (nejvyšší datum vyhrává).
  */
 window.GEMS_DATA = {
   "3-step-reflection": {
@@ -1434,5 +1438,28 @@ window.GEMS_DATA = {
     category: "materials",
     categories: ["materials", "newest"],
     gemUrl: "https://gemini.google.com/gem/1y5_RICNODtOrqlhkca6-rlQU1oQcdLQS?usp=sharing"
+  },
+  "slide-voiceover-director": {
+    slug: "slide-voiceover-director",
+    emoji: "🎙️",
+    title: "Slide Voiceover Director",
+    titleCs: "Režisér voiceoveru ke slidům",
+    shortDescCs: "Převod slidů na přirozený voiceover pro výuková videa, slide po slidu.",
+    descriptionCs: "Tento Gem převádí výukové slidy do hotových textů pro voiceover, které lze rovnou použít při tvorbě výukových videí. Stačí nahrát prezentaci ve formátu PDF, PPTX, Google Slides nebo vložit text jednotlivých slidů a Gem z jejich obsahu vytvoří samostatný mluvený komentář pro každý slide zvlášť. Výstup je navržen tak, aby fungoval přirozeně v AI hlasových nástrojích, jako je ElevenLabs, a zároveň se dobře stříhal do videa například v Google Vids nebo jiném editoru.\n\nGem nejprve rozpozná, o jaký předmět nebo typ obsahu jde, a podle toho doporučí nejvhodnější styl voiceoveru. Může jít o profesionálního vypravěče, jednu postavu nebo kombinaci dvou až tří rolí, které odpovídají tématu prezentace. U ekonomiky může pracovat například s expertem a studentem, u techniky s mistrem a učněm, u občanské nauky s vypravěčem a komentátorem, u angličtiny s lektorem a studentem. Díky tomu lze z obyčejné prezentace vytvořit video, které nepůsobí suše a lépe drží pozornost.\n\nVelkou výhodou tohoto Gemu je, že nepřepisuje text ze slidů mechanicky, ale převádí ho do mluvené podoby. Voiceover je krátký, srozumitelný, věcný a přizpůsobený poslechu. Každý slide dostane vlastní samostatný komentář, který vysvětluje obsah jednoduše, ale ne hloupě. Výsledkem není nudné čtení odrážek, ale přirozený doprovodný výklad, který pomáhá žákům látku pochopit.\n\nGem zároveň hlídá praktická omezení pro video a AI hlas. Každý voiceover drží v rozumné délce přibližně do 18 až 20 sekund, takže se hodí pro samostatné audio ke konkrétnímu slidu. Používá krátké věty, pracuje s pauzami a členěním textu tak, aby byl výstup dobře čitelný pro hlasové generátory. To je zásadní hlavně ve chvíli, kdy učitel potřebuje vytvořit video rychle a bez zdlouhavých úprav.\n\nStyl výstupu je jednotný a konzistentní napříč celou prezentací. Gem mluví přímo, srozumitelně a prakticky, občas přidá lehký věcný humor, ale nikdy nesklouzne k přehnané stylizaci. Hodí se proto jak pro formální výklad, tak pro modernější výuková videa, která mají být živější a přístupnější. Uživatel si navíc může vybrat, zda přijme doporučený styl, nebo si nastaví vlastní.\n\nTento Gem ocení učitelé, lektoři i tvůrci vzdělávacího obsahu, kteří chtějí z prezentací rychle vytvářet namluvená videa bez toho, aby museli každý slide ručně přepisovat do scénáře. Je ideální pro školní výuku, opakovací videa, samostudium, vysvětlující lekce i stručné shrnující prezentace. Šetří čas, drží kvalitu a pomáhá převést statické slidy do formátu, který je pro dnešní žáky i studenty výrazně použitelnější.",
+    category: "materials",
+    categories: ["materials", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1Lpj7UD4xtWZwhJheSPhaFElBsQkPM7He?usp=sharing",
+    addedAt: "2026-04-19"
   }
 };
+
+(function () {
+  var data = window.GEMS_DATA;
+  if (!data) return;
+  Object.keys(data).forEach(function (slug, i) {
+    var g = data[slug];
+    if (!g || g.addedAt) return;
+    var d = new Date(Date.UTC(2020, 0, 1 + i));
+    g.addedAt = d.toISOString().slice(0, 10);
+  });
+})();

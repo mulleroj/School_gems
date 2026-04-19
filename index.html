@@ -20,8 +20,6 @@
           <a class="nav-link" href="#newest">Nové gemy</a>
           <a class="nav-link" href="#planning">Plánování výuky</a>
           <a class="nav-link" href="#materials">Materiály</a>
-          <a class="nav-link" href="#engagement">Zapojení žáků</a>
-          <a class="nav-link" href="#support">Podpora žáků</a>
           <a class="nav-link" href="#assessment">Hodnocení</a>
         </nav>
 
@@ -48,7 +46,7 @@
             </p>
 
             <div class="hero-badges">
-              <div class="pill">Desítky předpřipravených gemů</div>
+              <div class="pill hero-count-pill"><span id="hero-gems-count">…</span> předpřipravených gemů</div>
               <div class="pill pill-accent">Plánování, hodnocení, hry, podpora žáků</div>
               <div class="pill">Vhodné pro učitele i žáky</div>
             </div>
@@ -85,16 +83,22 @@
         </div>
       </section>
 
-      <section id="newest">
+      <div class="home-below-hero">
+      <section id="newest" class="home-newest">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">💎</span>
-              Nejnovější gemy
+          <div class="section-header home-newest-header">
+            <div class="home-newest-title-wrap">
+              <span class="home-newest-kicker" aria-hidden="true">Novinky</span>
+              <div class="section-title">
+                <span class="icon">💎</span>
+                Nejnovější gemy
+              </div>
             </div>
-            <p class="section-subtitle">
-              Rychlý přehled právě přidaných gemů – reflektivní nástroje, plánování
-              výuky, mapy, hudební aktivity a další.
+            <p class="section-subtitle home-newest-lead" id="newest-section-lead">
+              V katalogu GemForge je nyní <span id="gems-total-phrase">…</span>.
+              Stejný kompletní výpis najdete na stránce
+              <a href="all-gems.html" class="home-inline-link">Všechny gemy</a>;
+              zde pod nadpisem zvolte štítkem zaměření a zobrazí se nejnovější gemy z příslušné části nabídky.
             </p>
           </div>
 
@@ -106,34 +110,74 @@
             <button class="chip" data-filter="support">Podpora & koučink</button>
           </div>
 
-          <div class="cards-grid" id="newest-grid" data-category="newest">
-            <a href="gem.html?slug=3-step-reflection" class="card">
-              <div class="card-header"><div class="card-icon">🪞</div><div class="card-title">3-kroková reflexe</div></div>
-              <p class="card-content">Strukturovaná reflexe podle Rolfe et al. – Co?, Tak co?, Co dál?</p>
-              <div class="card-tags"><span class="tag tag-accent">Nový gem</span><span class="tag">Pro žáky</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=5e-lesson-plan" class="card">
-              <div class="card-header"><div class="card-icon">🖐️</div><div class="card-title">5E plán hodiny</div></div>
-              <p class="card-content">Strukturovaný plán podle modelu 5E (Zapoj, Prozkoumej, Vysvětli, Rozšiř, Zhodnoť).</p>
-              <div class="card-tags"><span class="tag tag-accent">Nový gem</span><span class="tag">Plánování</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
+          <div class="cards-grid" id="newest-grid" data-category="newest"></div>
+        </div>
+      </section>
+
+      <section class="home-catalog-nav" id="browse-catalog" aria-labelledby="home-catalog-nav-title">
+        <div class="inner">
+          <div class="home-catalog-nav-head">
+            <h2 id="home-catalog-nav-title" class="home-catalog-nav-heading">Přehled podle tématu a publika</h2>
+            <p class="home-catalog-nav-desc">
+              Zúžte si oblast zájmu podle typu výuky, nebo podle toho, zda hledáte nástroje
+              pro přípravu hodin nebo přímou práci se žáky. Každá sekce má ukázkové gemy
+              a odkaz do plného katalogu se stejným filtrem.
+            </p>
+          </div>
+
+          <div class="home-catalog-filters" role="group" aria-label="Filtrování kategorií na úvodní stránce">
+            <div class="home-filter-row">
+              <span class="home-filter-label" id="home-filter-theme-label">Témata</span>
+              <div class="home-filter-chips" id="home-filter-theme" aria-labelledby="home-filter-theme-label">
+                <button type="button" class="home-catalog-chip active" data-home-filter="theme" data-value="all">Všechny</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="planning">Plánování</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="materials">Materiály</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="engagement">Zapojení</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="support">Podpora</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="assessment">Hodnocení</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="literacy">Čtenářství</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="stem">STEM</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="theme" data-value="professional">Administrativa</button>
+              </div>
+            </div>
+            <div class="home-filter-row">
+              <span class="home-filter-label" id="home-filter-audience-label">Publikum</span>
+              <div class="home-filter-chips" id="home-filter-audience" aria-labelledby="home-filter-audience-label">
+                <button type="button" class="home-catalog-chip active" data-home-filter="audience" data-value="all">Vše</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="audience" data-value="teacher">Pro učitele</button>
+                <button type="button" class="home-catalog-chip" data-home-filter="audience" data-value="student">Pro žáky</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="planning">
+      <div id="home-category-empty" class="home-category-empty" hidden>
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">🧭</span>
-              Plánování hodin a tvorba kurikula
+          <p class="home-category-empty-text">
+            U této kombinace tématu a publika zde nemáme žádnou ukázkovou sekci — zobrazit můžete vše v
+            <a href="all-gems.html" class="home-inline-link">plném katalogu</a>, nebo zrušte filtry níže.
+          </p>
+          <button type="button" class="home-empty-reset" id="home-filter-reset">
+            Zobrazit znovu všechny kategorie
+          </button>
+        </div>
+      </div>
+
+      <section id="planning" class="home-category-section" data-home-theme="planning" data-home-audience="mixed">
+        <div class="inner">
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">🧭</span>
+                Plánování hodin a tvorba kurikula
+              </div>
+              <p class="section-subtitle">
+                Nástroje pro návrh jednotek, hodin, rozbor standardů a plánování
+                výuky od první aktivity až po závěrečnou reflexi.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Nástroje pro návrh jednotek, hodin, rozbor standardů a plánování
-              výuky od první aktivity až po závěrečnou reflexi.
-            </p>
+            <a href="all-gems.html#planning" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-planning" data-category="planning">
@@ -151,35 +195,23 @@
             </a>
           </div>
 
-          <div class="accordion" data-accordion>
-            <div class="accordion-header">
-              <span>Více možností plánování (SAMR, jigsaw, stanoviště…)</span>
-              <span class="accordion-chevron">›</span>
-            </div>
-            <div class="accordion-body">
-              <div class="accordion-body-inner">
-                <p>
-                  V katalogu najdete další gemy pro
-                  <strong>AI + SAMR aktivity</strong>, <strong>stanoviště</strong>,
-                  <strong>jigsaw</strong> a <strong>rozbory standardů</strong>.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
-      <section id="materials">
+      <section id="materials" class="home-category-section" data-home-theme="materials" data-home-audience="mixed">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">💡</span>
-              Výukové materiály a obsah
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">💡</span>
+                Výukové materiály a obsah
+              </div>
+              <p class="section-subtitle">
+                Gemy zaměřené na tvorbu pracovních listů, textů, slidů, grafiky a dalších
+                materiálů, které můžete rovnou použít ve třídě.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Gemy zaměřené na tvorbu pracovních listů, textů, slidů, grafiky
-              a dalších materiálů, které můžete rovnou použít ve třídě.
-            </p>
+            <a href="all-gems.html#materials" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-materials" data-category="materials">
@@ -199,17 +231,20 @@
         </div>
       </section>
 
-      <section id="engagement">
+      <section id="engagement" class="home-category-section" data-home-theme="engagement" data-home-audience="mixed">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">🙋</span>
-              Zapojení žáků a hry
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">🙋</span>
+                Zapojení žáků a hry
+              </div>
+              <p class="section-subtitle">
+                Interaktivní aktivity, hry a simulace, které pomohou zvýšit zapojení žáků
+                a udělat hodiny zábavnější.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Interaktivní aktivity, hry a simulace, které pomohou zvýšit
-              zapojení žáků a udělat hodiny zábavnější.
-            </p>
+            <a href="all-gems.html#engagement" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-engagement" data-category="engagement">
@@ -229,17 +264,20 @@
         </div>
       </section>
 
-      <section id="support">
+      <section id="support" class="home-category-section" data-home-theme="support" data-home-audience="mixed">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">🔑</span>
-              Podpora žáků a diferenciace
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">🔑</span>
+                Podpora žáků a diferenciace
+              </div>
+              <p class="section-subtitle">
+                Nástroje pro speciální vzdělávací potřeby, úpravy úloh, jazykovou podporu,
+                scaffolding a diferenciaci.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Nástroje pro speciální vzdělávací potřeby, IEP/504, úpravy úloh,
-              jazykovou podporu, behaviorální intervence a sociální příběhy.
-            </p>
+            <a href="all-gems.html#support" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-support" data-category="support">
@@ -259,17 +297,19 @@
         </div>
       </section>
 
-      <section id="assessment">
+      <section id="assessment" class="home-category-section" data-home-theme="assessment" data-home-audience="mixed">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">💯</span>
-              Hodnocení, testy a data
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">💯</span>
+                Hodnocení, testy a data
+              </div>
+              <p class="section-subtitle">
+                Gemy pro tvorbu testů, otázek, rubrik, výstupních lístků, zpětné vazby a rozbor výsledků.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Gemy pro tvorbu testů, otázek vyšší úrovně DOK, rozbory dat ze
-              zkoušek a poskytování kvalitní zpětné vazby žákům.
-            </p>
+            <a href="all-gems.html#assessment" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-assessment" data-category="assessment">
@@ -289,17 +329,19 @@
         </div>
       </section>
 
-      <section id="literacy">
+      <section id="literacy" class="home-category-section" data-home-theme="literacy" data-home-audience="mixed">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">📖</span>
-              Čtenářství, psaní a jazyk
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">📖</span>
+                Čtenářství, psaní a jazyk
+              </div>
+              <p class="section-subtitle">
+                Gemy pro čtenářskou gramotnost, práci s textem, psaní a jazykovou podporu.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Gemy pro čtenářskou gramotnost, psaní, práci s textem a podporu
-              cizích jazyků.
-            </p>
+            <a href="all-gems.html#literacy" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-literacy" data-category="literacy">
@@ -319,17 +361,19 @@
         </div>
       </section>
 
-      <section id="stem">
+      <section id="stem" class="home-category-section" data-home-theme="stem" data-home-audience="mixed">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">🧪</span>
-              Matematika, věda & STEM
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">🧪</span>
+                Matematika, věda a STEM
+              </div>
+              <p class="section-subtitle">
+                Slovní úlohy, přírodovědné materiály, badatelské aktivity a další nástroje pro STEM výuku.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Nástroje pro 3D aktivity podle NGSS, slovní úlohy a spirálové
-              opakování v matematice a přírodních vědách.
-            </p>
+            <a href="all-gems.html#stem" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-stem" data-category="stem">
@@ -349,17 +393,20 @@
         </div>
       </section>
 
-      <section id="student-tools">
+      <section id="student-tools" class="home-category-section" data-home-theme="student" data-home-audience="student">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">🧒</span>
-              Nástroje přímo pro žáky
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">🧒</span>
+                Nástroje přímo pro žáky
+              </div>
+              <p class="section-subtitle">
+                Samostatně použitelné gemy pro reflexi, kariérní orientaci, brainstorming
+                a další přímé využití žáky.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Samostatné gemy, které mohou žáci používat přímo – od reflexí a
-              brainstormingů až po kariérní průzkum.
-            </p>
+            <a href="all-gems.html#student" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-student" data-category="student">
@@ -379,17 +426,19 @@
         </div>
       </section>
 
-      <section id="professional">
+      <section id="professional" class="home-category-section" data-home-theme="professional" data-home-audience="teacher">
         <div class="inner">
-          <div class="section-header">
-            <div class="section-title">
-              <span class="icon">💼</span>
-              Profesní úkoly a administrativa
+          <div class="section-header home-category-header">
+            <div>
+              <div class="section-title">
+                <span class="icon">💼</span>
+                Profesní úkoly a administrativa
+              </div>
+              <p class="section-subtitle">
+                Gemy šetřící čas při komunikaci s rodiči, plánování profesního rozvoje a běžné školní administrativě.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Gemy, které šetří čas při přípravě newsletterů, plánování
-              školení, komunikaci s rodiči a další administrativě.
-            </p>
+            <a href="all-gems.html#professional" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
           <div class="cards-grid" id="grid-professional" data-category="professional">
@@ -414,17 +463,19 @@
           </div>
         </div>
       </section>
+      </div>
     </main>
 
     <footer>
       <div class="inner footer-inner">
-        <div>
-          GemForge – sbírka gemů pro Gemini inspirovaných nejen Ericem Curts, upravených pro český vzdělávací systém.
+        <div class="footer-lead">
+          GemForge — užitečné gemy pro Gemini v českém kontextu (inspirace mimo jiné Ericem Curts).
         </div>
-        <div class="footer-links">
-          <a href="#planning" class="footer-link">Plánování</a>
-          <a href="all-gems.html#student" class="footer-link">Pro žáky</a>
-          <a href="#professional" class="footer-link">Pro učitele</a>
+        <div class="footer-links" aria-label="Rychlé odkazy k navigaci na úvodu a do katalogu">
+          <a href="#browse-catalog" class="footer-link">Přehled kategorií</a>
+          <a href="#newest" class="footer-link">Nejnovější gemy</a>
+          <a href="all-gems.html" class="footer-link">Všechny gemy</a>
+          <a href="all-gems.html#student" class="footer-link">Nástroje pro žáky</a>
         </div>
       </div>
     </footer>
@@ -434,31 +485,64 @@
   <script>
     var GEMS = window.GEMS_DATA || {};
     if (Object.keys(GEMS).length === 0) {
-      GEMS = { "3-step-reflection": { slug: "3-step-reflection", emoji: "🪞", titleCs: "3-kroková reflexe", shortDescCs: "Strukturovaná reflexe pro žáky.", category: "student", categories: ["student", "newest"] }, "5e-lesson-plan": { slug: "5e-lesson-plan", emoji: "🖐️", titleCs: "5E plán hodiny", shortDescCs: "Plán podle modelu 5E.", category: "planning", categories: ["planning", "newest"] }, "worksheet": { slug: "worksheet", emoji: "📝", titleCs: "Tvůrce pracovních listů", shortDescCs: "Listy pro českou školu podle cílů, ŠVP a žáků; snadný export do Google Dokumentů.", category: "materials", categories: ["materials"] }, "2-truths-a-lie-game": { slug: "2-truths-a-lie-game", emoji: "🫢", titleCs: "Generátor hry Dvě pravdy a lež", shortDescCs: "Tři výroky (dvě pravdy + jedna lež) k libovolnému tématu – aktivizace, opakování, kritické myšlení.", category: "engagement", categories: ["engagement"] }, "jeopardy-game": { slug: "jeopardy-game", emoji: "❓", titleCs: "Kvíz Jeopardy", shortDescCs: "Otázky a kategorie ve stylu Jeopardy.", category: "engagement", categories: ["engagement"] } };
+      GEMS = { "3-step-reflection": { slug: "3-step-reflection", emoji: "🪞", titleCs: "3-kroková reflexe", shortDescCs: "Strukturovaná reflexe pro žáky.", category: "student", categories: ["student"], addedAt: "2025-01-02" }, "5e-lesson-plan": { slug: "5e-lesson-plan", emoji: "🖐️", titleCs: "5E plán hodiny", shortDescCs: "Plán podle modelu 5E.", category: "planning", categories: ["planning"], addedAt: "2025-01-01" }, "worksheet": { slug: "worksheet", emoji: "📝", titleCs: "Tvůrce pracovních listů", shortDescCs: "Listy pro českou školu podle cílů, ŠVP a žáků; snadný export do Google Dokumentů.", category: "materials", categories: ["materials"], addedAt: "2024-06-01" }, "2-truths-a-lie-game": { slug: "2-truths-a-lie-game", emoji: "🫢", titleCs: "Generátor hry Dvě pravdy a lež", shortDescCs: "Tři výroky (dvě pravdy + jedna lež) k libovolnému tématu – aktivizace, opakování, kritické myšlení.", category: "engagement", categories: ["engagement"], addedAt: "2024-06-01" }, "jeopardy-game": { slug: "jeopardy-game", emoji: "❓", titleCs: "Kvíz Jeopardy", shortDescCs: "Otázky a kategorie ve stylu Jeopardy.", category: "engagement", categories: ["engagement"], addedAt: "2024-06-01" } };
     }
     var categoryLabels = { planning: "Plánování", materials: "Materiály", engagement: "Zapojení", support: "Podpora", assessment: "Hodnocení", literacy: "Čtenářství", stem: "STEM", student: "Pro žáky", professional: "Pro učitele", newest: "Nový" };
+
+    function formatGemsCountCs(n) {
+      var x = Math.abs(Math.floor(n)) || 0;
+      if (x === 1) return "1 gem";
+      var r = x % 10;
+      var r100 = x % 100;
+      if (r >= 2 && r <= 4 && (r100 < 10 || r100 >= 20)) return x + " gemy";
+      return x + " gemů";
+    }
+
+    function updateNewestSectionLead() {
+      var el = document.getElementById("gems-total-phrase");
+      if (el) el.textContent = formatGemsCountCs(Object.keys(GEMS).length);
+    }
+
+    function updateHeroGemCountBadge() {
+      var el = document.getElementById("hero-gems-count");
+      if (el) el.textContent = String(Object.keys(GEMS).length);
+    }
+
+    updateHeroGemCountBadge();
+    updateNewestSectionLead();
 
     function renderCard(gem, extraTag) {
       var tag = extraTag ? '<span class="tag tag-accent">' + extraTag + "</span>" : "";
       var role = gem.category === "student" ? "Žák" : "Učitel";
-      return '<a href="gem.html?slug=' + gem.slug + '" class="card">' +
-        '<div class="card-header"><div class="card-icon">' + gem.emoji + "</div><div class="card-title">" + gem.titleCs + "</div></div>" +
-        '<p class="card-content">' + gem.shortDescCs + "</p>" +
-        '<div class="card-tags">' + tag + '<span class="tag">' + (categoryLabels[gem.category] || gem.category) + "</span></div>" +
-        '<div class="card-footer"><span>' + role + "</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>" +
-        "</a>";
+      var categoryLabel = categoryLabels[gem.category] || gem.category;
+      return `<a href="gem.html?slug=${gem.slug}" class="card">
+        <div class="card-header"><div class="card-icon">${gem.emoji}</div><div class="card-title">${gem.titleCs}</div></div>
+        <p class="card-content">${gem.shortDescCs}</p>
+        <div class="card-tags">${tag}<span class="tag">${categoryLabel}</span></div>
+        <div class="card-footer"><span>${role}</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
+      </a>`;
     }
+
+    var HOME_CATEGORY_PREVIEW_LIMIT = 3;
 
     function renderSectionGrid(sectionId, category) {
       var grid = document.getElementById("grid-" + sectionId);
       if (!grid) return;
       grid.innerHTML = "";
-      Object.keys(GEMS).forEach(function (slug) {
+      var slugs = Object.keys(GEMS).filter(function (slug) {
         var g = GEMS[slug];
-        if (g.categories && g.categories.indexOf(category) !== -1) {
-          grid.insertAdjacentHTML("beforeend", renderCard(g, category === "newest" ? "Nový gem" : ""));
-        }
+        return g && g.categories && g.categories.indexOf(category) !== -1;
       });
+      slugs.sort(function (a, b) {
+        var ka = gemAddedAtKey(GEMS[a]);
+        var kb = gemAddedAtKey(GEMS[b]);
+        if (ka !== kb) return kb < ka ? -1 : kb > ka ? 1 : 0;
+        return a.localeCompare(b);
+      });
+      var n = Math.min(HOME_CATEGORY_PREVIEW_LIMIT, slugs.length);
+      for (var i = 0; i < n; i++) {
+        grid.insertAdjacentHTML("beforeend", renderCard(GEMS[slugs[i]], category === "newest" ? "Nový gem" : ""));
+      }
     }
 
     function renderAllSections() {
@@ -466,18 +550,40 @@
       sections.forEach(function (s) { renderSectionGrid(s, s); });
     }
 
+    var HOME_NEWEST_LIMIT = 12;
+
+    function gemAddedAtKey(g) {
+      if (g && g.addedAt) return String(g.addedAt);
+      return "1970-01-01";
+    }
+
+    function gemMatchesNewestChip(g, filterKey) {
+      var filterMap = { all: null, reflection: "student", planning: "planning", materials: "materials", support: "support" };
+      var subCat = filterMap[filterKey] || filterMap.all;
+      if (!subCat) return true;
+      if (g.category === subCat) return true;
+      if (g.categories && g.categories.indexOf(subCat) !== -1) return true;
+      return false;
+    }
+
     function renderNewest(filter) {
       var grid = document.getElementById("newest-grid");
       if (!grid) return;
       grid.innerHTML = "";
-      var filterMap = { all: null, reflection: "student", planning: "planning", materials: "materials", support: "support" };
-      var subCat = filterMap[filter] || filterMap.all;
-      Object.keys(GEMS).forEach(function (slug) {
-        var g = GEMS[slug];
-        if (!g.categories || g.categories.indexOf("newest") === -1) return;
-        if (subCat && g.categories.indexOf(subCat) === -1) return;
-        grid.insertAdjacentHTML("beforeend", renderCard(g, "Nový gem"));
+      var fk = filter || "all";
+      var slugs = Object.keys(GEMS).filter(function (slug) {
+        return gemMatchesNewestChip(GEMS[slug], fk);
       });
+      slugs.sort(function (a, b) {
+        var ka = gemAddedAtKey(GEMS[a]);
+        var kb = gemAddedAtKey(GEMS[b]);
+        if (ka !== kb) return kb < ka ? -1 : kb > ka ? 1 : 0;
+        return a.localeCompare(b);
+      });
+      var n = Math.min(HOME_NEWEST_LIMIT, slugs.length);
+      for (var i = 0; i < n; i++) {
+        grid.insertAdjacentHTML("beforeend", renderCard(GEMS[slugs[i]], "Nový gem"));
+      }
     }
 
     document.querySelectorAll("[data-scroll]").forEach(function (el) {
@@ -509,8 +615,61 @@
       renderNewest(chip.dataset.filter || "all");
     });
 
+    var homeTheme = "all";
+    var homeAudience = "all";
+
+    function resetHomeFilters() {
+      homeTheme = "all";
+      homeAudience = "all";
+      document.querySelectorAll('.home-catalog-chip[data-home-filter="theme"]').forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-value") === "all");
+      });
+      document.querySelectorAll('.home-catalog-chip[data-home-filter="audience"]').forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-value") === "all");
+      });
+      applyHomeCategoryVisibility();
+    }
+
+    function applyHomeCategoryVisibility() {
+      var visible = 0;
+      document.querySelectorAll(".home-category-section").forEach(function (sec) {
+        var t = sec.getAttribute("data-home-theme");
+        var audPref = sec.getAttribute("data-home-audience");
+        var themeMatch = homeTheme === "all" || homeTheme === t;
+        var audMatch = homeAudience === "all"
+          || (homeAudience === "teacher" && audPref !== "student")
+          || (homeAudience === "student" && audPref !== "teacher");
+        var show = themeMatch && audMatch;
+        sec.hidden = !show;
+        if (show) visible += 1;
+      });
+      var emptyEl = document.getElementById("home-category-empty");
+      if (emptyEl) emptyEl.hidden = visible > 0;
+    }
+
+    document.querySelectorAll('.home-catalog-chip[data-home-filter="theme"]').forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        homeTheme = btn.getAttribute("data-value") || "all";
+        document.querySelectorAll('.home-catalog-chip[data-home-filter="theme"]').forEach(function (b) { b.classList.toggle("active", b === btn); });
+        applyHomeCategoryVisibility();
+      });
+    });
+
+    document.querySelectorAll('.home-catalog-chip[data-home-filter="audience"]').forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        homeAudience = btn.getAttribute("data-value") || "all";
+        document.querySelectorAll('.home-catalog-chip[data-home-filter="audience"]').forEach(function (b) { b.classList.toggle("active", b === btn); });
+        applyHomeCategoryVisibility();
+      });
+    });
+
+    var resetBtn = document.getElementById("home-filter-reset");
+    if (resetBtn) resetBtn.addEventListener("click", resetHomeFilters);
+
+    updateNewestSectionLead();
     renderAllSections();
     renderNewest("all");
+    applyHomeCategoryVisibility();
   </script>
 </body>
 </html>
