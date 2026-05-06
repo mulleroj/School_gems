@@ -1431,6 +1431,18 @@ window.GEMS_DATA={
     categories: ["materials", "newest"],
     gemUrl: "https://gemini.google.com/gem/1y5_RICNODtOrqlhkca6-rlQU1oQcdLQS?usp=sharing"
   },
+  "notebooklm-mindmap-optimizer": {
+    slug: "notebooklm-mindmap-optimizer",
+    emoji: "🧠",
+    title: "NotebookLM MindMap Optimizer",
+    titleCs: "NotebookLM MindMap Optimizer",
+    shortDescCs: "Optimalizace dokumentů a instrukcí pro myšlenkové mapy v Google NotebookLM.",
+    descriptionCs: "Tento gem pomáhá optimalizovat dokumenty pro tvorbu myšlenkových map v Google NotebookLM. Analyzuje nahrané materiály, doporučí ideální nastavení modulu Mind Map a vytvoří hotové AI instrukce pro přehlednější, logičtější a pedagogicky lépe strukturované mapy. Ideální pro učitele, studenty, tvůrce kurzů i práci s rozsáhlými studijními materiály.",
+    category: "materials",
+    categories: ["materials", "student", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1MhLHPXfnxy3bf5chNYCqWihuCAEH6uld?usp=sharing",
+    addedAt: "2026-05-06"
+  },
   "slide-voiceover-director": {
     slug: "slide-voiceover-director",
     emoji: "🎙️",
