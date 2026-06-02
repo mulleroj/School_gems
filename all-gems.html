@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <title>Všechny gemy – GemForge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./styles.css" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <link rel="stylesheet" href="./styles.css?v=20260610" />
 </head>
 <body>
   <div class="page">
@@ -17,6 +18,7 @@
 
         <nav class="nav-links" aria-label="Hlavní navigace">
           <a class="nav-link" href="index.html">Úvod</a>
+          <a class="nav-link" href="index.html#favorites">Oblíbené</a>
           <a class="nav-link active" href="all-gems.html">Všechny gemy</a>
         </nav>
 
@@ -32,7 +34,9 @@
         <div class="inner">
           <h1 class="hero-title">Všechny gemy</h1>
           <p class="hero-subtitle">
-            Procházej, testuj a stav si vlastní sadu Gemů pro Gemini podle toho, co zrovna potřebuješ. Kompletní přehled všech dostupných gemů.
+            Procházej, testuj a stav si vlastní sadu Gemů pro Gemini podle toho, co zrovna potřebuješ.
+            Kompletní přehled všech gemů — v patičce každé karty použij <strong>☆ Do mé sady</strong>
+            (<a href="index.html#favorites" class="home-inline-link">Moje oblíbené</a> na úvodu).
           </p>
         </div>
       </section>
@@ -52,26 +56,12 @@
             <button class="chip" data-filter="professional">Pro učitele</button>
           </div>
 
-          <div class="cards-grid" id="all-gems-grid">
-            <a href="gem.html?slug=3-step-reflection" class="card">
-              <div class="card-header"><div class="card-icon">🪞</div><div class="card-title">3-kroková reflexe</div></div>
-              <p class="card-content">Strukturovaná reflexe podle Rolfe et al.</p>
-              <div class="card-tags"><span class="tag">Pro žáky</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=5e-lesson-plan" class="card">
-              <div class="card-header"><div class="card-icon">🖐️</div><div class="card-title">5E plán hodiny</div></div>
-              <p class="card-content">Plán podle modelu 5E.</p>
-              <div class="card-tags"><span class="tag">Plánování</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=worksheet" class="card">
-              <div class="card-header"><div class="card-icon">📝</div><div class="card-title">Tvůrce pracovních listů</div></div>
-              <p class="card-content">Listy pro českou školu podle cílů, ŠVP a žáků; snadný export do Google Dokumentů.</p>
-              <div class="card-tags"><span class="tag">Materiály</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <p class="catalog-set-hint">
+            V patičce každé karty klikněte na <strong>☆ Do mé sady</strong> — gem se uloží do
+            <a href="index.html#favorites" class="home-inline-link">Moje oblíbené</a> (jen v tomto prohlížeči).
+          </p>
+
+          <div class="cards-grid" id="all-gems-grid" aria-live="polite"></div>
 
           <p class="section-subtitle" style="margin-top: 2rem; text-align: center; color: var(--text-muted);">
             <span id="gem-count">0</span> gemů celkem
@@ -84,7 +74,8 @@
       <div class="inner footer-inner">
         <div class="footer-lead">
           GemForge — užitečné gemy pro Gemini v českém kontextu (inspirace mimo jiné Ericem Curts).
-          Zde máte kompletní seznam; na úvodu stejná témata a publikum vyfiltrujete v přehledu kategorií.
+          Zde máte kompletní seznam; do sady přidáte gem v patičce karty (<strong>☆ Do mé sady</strong>).
+          Na úvodu stejná témata a publikum vyfiltrujete v přehledu kategorií.
         </div>
         <div class="footer-links" aria-label="Rychlé odkazy">
           <a href="index.html" class="footer-link">Úvod</a>
@@ -97,8 +88,10 @@
   </div>
 
   <!-- gems-inline.js jako fallback (načte se první), gems-data.js přepíše když je k dispozici -->
-  <script src="./gems-inline.js?v=20260605"></script>
-  <script src="./gems-data.js?v=20260605"></script>
+  <script src="./gems-inline.js?v=20260610"></script>
+  <script src="./gems-data.js?v=20260610"></script>
+  <script src="./favorites.js?v=20260610"></script>
+  <script src="./gem-cards.js?v=20260610"></script>
   <script>
     (function() {
       var GEMS = window.GEMS_DATA || {};
@@ -131,17 +124,25 @@
           .replace(/"/g, "&quot;");
       }
       function renderCard(gem) {
-        var cat = gem.category || "other";
-        var role = cat === "student" ? "Žák" : "Učitel";
-        var title = esc(gem.titleCs || gem.title);
-        var desc = esc(gem.shortDescCs || "");
-        var tag = esc(categoryLabels[cat] || cat);
-        return '<a href="gem.html?slug=' + esc(gem.slug) + '" class="card">' +
-          '<div class="card-header"><div class="card-icon">' + (gem.emoji || "") + "</div><div class=\"card-title\">" + title + "</div></div>" +
-          '<p class="card-content">' + desc + "</p>" +
-          '<div class="card-tags"><span class=\"tag\">' + tag + "</span></div>" +
-          '<div class=\"card-footer\"><span>' + role + "</span><span class=\"card-link\">Detail &amp; otevřít <span>↗</span></span></div>" +
-          "</a>";
+        if (window.GemCards && window.GemCards.render) {
+          return window.GemCards.render(gem, { categoryLabels: categoryLabels });
+        }
+        var slug = gem.slug;
+        var href = "gem.html?slug=" + encodeURIComponent(slug);
+        var role = gem.category === "student" ? "Žák" : "Učitel";
+        var cat = categoryLabels[gem.category] || gem.category || "";
+        return (
+          '<div class="card-shell">' +
+          '<a href="' + href + '" class="card card-body-link">' +
+          '<div class="card-header"><div class="card-icon">' + (gem.emoji || "") + '</div><div class="card-title">' + esc(gem.titleCs) + '</div></div>' +
+          '<p class="card-content">' + esc(gem.shortDescCs) + '</p>' +
+          '<div class="card-tags"><span class="tag">' + esc(cat) + '</span></div>' +
+          '</a>' +
+          '<div class="card-footer"><span>' + role + '</span>' +
+          '<button type="button" class="card-set-toggle" data-favorite-slug="' + esc(slug) + '" aria-label="Přidat do mé sady" aria-pressed="false">☆ Do mé sady</button>' +
+          '<a href="' + href + '" class="card-link">Detail & otevřít <span>↗</span></a>' +
+          '</div></div>'
+        );
       }
 
       function renderGrid(filter) {
@@ -166,6 +167,7 @@
 
         grid.innerHTML = html;
         if (countEl) countEl.textContent = shown;
+        if (window.GemFavorites && window.GemFavorites.syncAll) window.GemFavorites.syncAll();
       }
 
       var VALID_FILTERS = ["all", "planning", "materials", "engagement", "support", "assessment", "literacy", "stem", "student", "professional"];
@@ -213,8 +215,13 @@
         });
       }
 
+      document.addEventListener("gemforge-favorites-change", function () {
+        if (window.GemFavorites && window.GemFavorites.syncAll) window.GemFavorites.syncAll();
+      });
+
       applyFilterFromUrl();
       window.addEventListener("hashchange", applyFilterFromUrl);
+      if (window.GemFavorites && window.GemFavorites.syncAll) window.GemFavorites.syncAll();
     })();
   </script>
 </body>

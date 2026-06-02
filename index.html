@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title>GemForge – Místo, kde se z nápadů stávají užitečné Gemy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260610" />
 </head>
 <body>
   <div class="page">
@@ -17,6 +17,7 @@
 
         <nav class="nav-links" aria-label="Hlavní navigace">
           <a class="nav-link" href="all-gems.html">Všechny gemy</a>
+          <a class="nav-link" href="#favorites">Oblíbené</a>
           <a class="nav-link" href="#newest">Nové gemy</a>
           <a class="nav-link" href="#planning">Plánování výuky</a>
           <a class="nav-link" href="#materials">Materiály</a>
@@ -43,6 +44,8 @@
             </p>
             <p class="hero-subtitle">
               Procházej, testuj a stav si vlastní sadu Gemů pro Gemini podle toho, co zrovna potřebuješ.
+              U každé karty v patičce klikni na <strong>☆ Do mé sady</strong> — uloží se do
+              <a href="#favorites" class="home-inline-link">Moje oblíbené</a> v tomto prohlížeči.
             </p>
 
             <div class="hero-badges">
@@ -84,6 +87,27 @@
       </section>
 
       <div class="home-below-hero">
+      <section id="favorites" class="home-favorites">
+        <div class="inner">
+          <div class="section-header home-newest-header">
+            <div class="home-newest-title-wrap">
+              <span class="home-newest-kicker" aria-hidden="true">Uloženo v prohlížeči</span>
+              <div class="section-title">
+                <span class="icon">⭐</span>
+                Moje oblíbené
+              </div>
+            </div>
+            <p class="section-subtitle home-newest-lead">
+              Gemy přidané přes <strong>☆ Do mé sady</strong> v patičce karty se zobrazí zde jen u vás v tomto prohlížeči.
+            </p>
+          </div>
+          <div class="cards-grid" id="favorites-grid" aria-live="polite"></div>
+          <p class="home-favorites-empty" id="favorites-empty" hidden>
+            Zatím nemáš žádné oblíbené Gemy. V katalogu u karty v patičce klikni na <strong>☆ Do mé sady</strong>.
+          </p>
+        </div>
+      </section>
+
       <section id="newest" class="home-newest">
         <div class="inner">
           <div class="section-header home-newest-header">
@@ -180,20 +204,7 @@
             <a href="all-gems.html#planning" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-planning" data-category="planning">
-            <a href="gem.html?slug=5e-lesson-plan" class="card">
-              <div class="card-header"><div class="card-icon">🖐️</div><div class="card-title">5E plán hodiny</div></div>
-              <p class="card-content">Strukturovaný plán podle modelu 5E (Zapoj, Prozkoumej, Vysvětli, Rozšiř, Zhodnoť).</p>
-              <div class="card-tags"><span class="tag tag-accent">Plán hodiny</span><span class="tag">5E model</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=unit-plan" class="card">
-              <div class="card-header"><div class="card-icon">📋</div><div class="card-title">Plánovač výukového celku</div></div>
-              <p class="card-content">Plán výukového celku podle českého školství.</p>
-              <div class="card-tags"><span class="tag tag-accent">Výukový celek</span><span class="tag">Kurikulum</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-planning" data-category="planning"></div>
 
         </div>
       </section>
@@ -214,20 +225,7 @@
             <a href="all-gems.html#materials" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-materials" data-category="materials">
-            <a href="gem.html?slug=worksheet" class="card">
-              <div class="card-header"><div class="card-icon">📝</div><div class="card-title">Tvůrce pracovních listů</div></div>
-              <p class="card-content">Listy pro českou školu podle cílů, ŠVP a žáků; snadný export do Google Dokumentů.</p>
-              <div class="card-tags"><span class="tag tag-accent">Pracovní listy</span><span class="tag">Materiály</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=simple-slides" class="card">
-              <div class="card-header"><div class="card-icon">🎯</div><div class="card-title">Srozumitelné slidy</div></div>
-              <p class="card-content">Prezentace s nízkou kognitivní zátěží pro různorodé žáky.</p>
-              <div class="card-tags"><span class="tag tag-accent">Simple Slides</span><span class="tag">Prezentace</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-materials" data-category="materials"></div>
         </div>
       </section>
 
@@ -247,20 +245,7 @@
             <a href="all-gems.html#engagement" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-engagement" data-category="engagement">
-            <a href="gem.html?slug=2-truths-a-lie-game" class="card">
-              <div class="card-header"><div class="card-icon">🫢</div><div class="card-title">Generátor hry Dvě pravdy a lež</div></div>
-              <p class="card-content">Tři výroky (dvě pravdy + jedna lež) k libovolnému tématu – aktivizace, opakování, kritické myšlení.</p>
-              <div class="card-tags"><span class="tag tag-accent">Dvě pravdy a lež</span><span class="tag">Zapojení</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=jeopardy-game" class="card">
-              <div class="card-header"><div class="card-icon">❓</div><div class="card-title">Kvíz Jeopardy</div></div>
-              <p class="card-content">Otázky a kategorie ve stylu Jeopardy pro opakování.</p>
-              <div class="card-tags"><span class="tag tag-accent">Jeopardy Game</span><span class="tag">Opakování</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-engagement" data-category="engagement"></div>
         </div>
       </section>
 
@@ -280,20 +265,7 @@
             <a href="all-gems.html#support" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-support" data-category="support">
-            <a href="gem.html?slug=ai-tutor" class="card">
-              <div class="card-header"><div class="card-icon">🧑‍🏫</div><div class="card-title">AI tutor</div></div>
-              <p class="card-content">Bezpečný AI tutor, který žákům vysvětluje látku krok za krokem.</p>
-              <div class="card-tags"><span class="tag tag-accent">AI Tutor</span><span class="tag">Podpora</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=re-level-text" class="card">
-              <div class="card-header"><div class="card-icon">🔀</div><div class="card-title">Přeúrovňování textů</div></div>
-              <p class="card-content">Texty v různých úrovních obtížnosti pro diferenciaci.</p>
-              <div class="card-tags"><span class="tag tag-accent">Re-level Text</span><span class="tag">Diferenciace</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-support" data-category="support"></div>
         </div>
       </section>
 
@@ -312,20 +284,7 @@
             <a href="all-gems.html#assessment" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-assessment" data-category="assessment">
-            <a href="gem.html?slug=exit-ticket" class="card">
-              <div class="card-header"><div class="card-icon">🎫</div><div class="card-title">Výstupní lístek (Exit Ticket)</div></div>
-              <p class="card-content">Výstupní lístky pro ověření porozumění na konci hodiny.</p>
-              <div class="card-tags"><span class="tag tag-accent">Exit Ticket</span><span class="tag">Hodnocení</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=rubric" class="card">
-              <div class="card-header"><div class="card-icon">📋</div><div class="card-title">Hodnoticí rubrika</div></div>
-              <p class="card-content">Rubriky pro hodnocení projektů, esejí a prezentací.</p>
-              <div class="card-tags"><span class="tag tag-accent">Rubric</span><span class="tag">Kritéria</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-assessment" data-category="assessment"></div>
         </div>
       </section>
 
@@ -344,20 +303,7 @@
             <a href="all-gems.html#literacy" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-literacy" data-category="literacy">
-            <a href="gem.html?slug=book-matchmaker" class="card">
-              <div class="card-header"><div class="card-icon">❤️</div><div class="card-title">Doporučovač knih</div></div>
-              <p class="card-content">Doporučení knih podle zájmů, věku a čtenářské úrovně.</p>
-              <div class="card-tags"><span class="tag tag-accent">Book Matchmaker</span><span class="tag">Čtení</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=raft-writing-prompts" class="card">
-              <div class="card-header"><div class="card-icon">✍️</div><div class="card-title">RAFT generátor psacích úkolů</div></div>
-              <p class="card-content">Kreativní psací úkoly RAFT (Role, Publikum, Formát, Téma).</p>
-              <div class="card-tags"><span class="tag tag-accent">RAFT</span><span class="tag">Psaní</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-literacy" data-category="literacy"></div>
         </div>
       </section>
 
@@ -376,20 +322,7 @@
             <a href="all-gems.html#stem" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-stem" data-category="stem">
-            <a href="gem.html?slug=3d-ngss-activity" class="card">
-              <div class="card-header"><div class="card-icon">🔬</div><div class="card-title">Přírodovědný architekt</div></div>
-              <p class="card-content">Materiály do přírodopisu podle českého kurikula.</p>
-              <div class="card-tags"><span class="tag tag-accent">Přírodověda</span><span class="tag">STEM</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=math-story-problems" class="card">
-              <div class="card-header"><div class="card-icon">➕</div><div class="card-title">Tvůrce matematických slovních úloh</div></div>
-              <p class="card-content">Slovní úlohy pro českou školu podle věku, učiva a obtížnosti – sady k procvičení a rozvoji myšlení.</p>
-              <div class="card-tags"><span class="tag tag-accent">Slovní úlohy</span><span class="tag">Matematika</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-stem" data-category="stem"></div>
         </div>
       </section>
 
@@ -409,20 +342,7 @@
             <a href="all-gems.html#student" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-student" data-category="student">
-            <a href="gem.html?slug=3-step-reflection" class="card">
-              <div class="card-header"><div class="card-icon">🪞</div><div class="card-title">3-kroková reflexe</div></div>
-              <p class="card-content">Strukturovaná reflexe pro žáky – Co?, Tak co?, Co dál?</p>
-              <div class="card-tags"><span class="tag tag-accent">3-Step Reflection</span><span class="tag">Metakognice</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=career-explorer" class="card">
-              <div class="card-header"><div class="card-icon">💼</div><div class="card-title">Průzkumník kariéry</div></div>
-              <p class="card-content">Objevování povolání podle zájmů a dovedností.</p>
-              <div class="card-tags"><span class="tag tag-accent">Career Explorer</span><span class="tag">Budoucnost</span></div>
-              <div class="card-footer"><span>Žák</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-student" data-category="student"></div>
         </div>
       </section>
 
@@ -441,20 +361,7 @@
             <a href="all-gems.html#professional" class="home-category-cta">Otevřít celou kategorii v katalogu <span aria-hidden="true">↗</span></a>
           </div>
 
-          <div class="cards-grid" id="grid-professional" data-category="professional">
-            <a href="gem.html?slug=email-to-parents" class="card">
-              <div class="card-header"><div class="card-icon">📧</div><div class="card-title">Tvůrce e-mailů rodičům a zákonným zástupcům</div></div>
-              <p class="card-content">Profesionální e-maily pro českou školu – situace, tón, věcně i lidsky; zpětná vazba i citlivá témata.</p>
-              <div class="card-tags"><span class="tag tag-accent">E-mail rodičům</span><span class="tag">Komunikace</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-            <a href="gem.html?slug=professional-learning-coach" class="card">
-              <div class="card-header"><div class="card-icon">📣</div><div class="card-title">Pedagogický mentor</div></div>
-              <p class="card-content">Plánování profesního růstu po menších krocích.</p>
-              <div class="card-tags"><span class="tag tag-accent">PD Coach</span><span class="tag">Rozvoj</span></div>
-              <div class="card-footer"><span>Učitel</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-            </a>
-          </div>
+          <div class="cards-grid" id="grid-professional" data-category="professional"></div>
 
           <div class="inline-chips">
             <span class="tag">Recommendation Letter</span>
@@ -470,9 +377,11 @@
       <div class="inner footer-inner">
         <div class="footer-lead">
           GemForge — užitečné gemy pro Gemini v českém kontextu (inspirace mimo jiné Ericem Curts).
+          Do vlastní sady přidáte gem v patičce karty: <strong>☆ Do mé sady</strong>.
         </div>
         <div class="footer-links" aria-label="Rychlé odkazy k navigaci na úvodu a do katalogu">
           <a href="#browse-catalog" class="footer-link">Přehled kategorií</a>
+          <a href="#favorites" class="footer-link">Moje oblíbené</a>
           <a href="#newest" class="footer-link">Nejnovější gemy</a>
           <a href="all-gems.html" class="footer-link">Všechny gemy</a>
           <a href="all-gems.html#student" class="footer-link">Nástroje pro žáky</a>
@@ -481,7 +390,9 @@
     </footer>
   </div>
 
-  <script src="gems-data.js?v=20260605"></script>
+  <script src="gems-data.js?v=20260609"></script>
+  <script src="favorites.js?v=20260609"></script>
+  <script src="gem-cards.js?v=20260609"></script>
   <script>
     var GEMS = window.GEMS_DATA || {};
     if (Object.keys(GEMS).length === 0) {
@@ -512,15 +423,28 @@
     updateNewestSectionLead();
 
     function renderCard(gem, extraTag) {
-      var tag = extraTag ? '<span class="tag tag-accent">' + extraTag + "</span>" : "";
-      var role = gem.category === "student" ? "Žák" : "Učitel";
-      var categoryLabel = categoryLabels[gem.category] || gem.category;
-      return `<a href="gem.html?slug=${gem.slug}" class="card">
-        <div class="card-header"><div class="card-icon">${gem.emoji}</div><div class="card-title">${gem.titleCs}</div></div>
-        <p class="card-content">${gem.shortDescCs}</p>
-        <div class="card-tags">${tag}<span class="tag">${categoryLabel}</span></div>
-        <div class="card-footer"><span>${role}</span><span class="card-link">Detail & otevřít <span>↗</span></span></div>
-      </a>`;
+      if (window.GemCards && window.GemCards.render) {
+        return window.GemCards.render(gem, { extraTag: extraTag, categoryLabels: categoryLabels });
+      }
+      return "";
+    }
+
+    function renderFavorites() {
+      var grid = document.getElementById("favorites-grid");
+      var emptyEl = document.getElementById("favorites-empty");
+      if (!grid) return;
+      var slugs = window.GemFavorites ? window.GemFavorites.getAll() : [];
+      var html = "";
+      var shown = 0;
+      slugs.forEach(function (slug) {
+        var g = GEMS[slug];
+        if (!g) return;
+        html += renderCard(g);
+        shown += 1;
+      });
+      grid.innerHTML = html;
+      if (emptyEl) emptyEl.hidden = shown > 0;
+      grid.hidden = shown === 0;
     }
 
     var HOME_CATEGORY_PREVIEW_LIMIT = 3;
@@ -673,9 +597,16 @@
     var resetBtn = document.getElementById("home-filter-reset");
     if (resetBtn) resetBtn.addEventListener("click", resetHomeFilters);
 
+    document.addEventListener("gemforge-favorites-change", function () {
+      if (window.GemFavorites && window.GemFavorites.syncAll) window.GemFavorites.syncAll();
+      renderFavorites();
+    });
+
     updateNewestSectionLead();
     renderAllSections();
     renderNewest("all");
+    renderFavorites();
+    if (window.GemFavorites && window.GemFavorites.syncAll) window.GemFavorites.syncAll();
     applyHomeCategoryVisibility();
   </script>
 </body>
