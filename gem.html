@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Detail gemu – GemForge</title>
-  <link rel="stylesheet" href="styles.css?v=20260610" />
+  <link rel="stylesheet" href="styles.css?v=20260611" />
 </head>
 <body>
   <div class="page">
@@ -47,12 +47,19 @@
               <p class="gem-detail-subtitle" id="gem-subtitle"></p>
               <div class="gem-detail-meta">
                 <span class="tag tag-accent" id="gem-category"></span>
-                <button type="button" class="card-set-toggle" id="gem-set-toggle" data-favorite-slug="" aria-label="Přidat do mé sady" aria-pressed="false" hidden>☆ Do mé sady</button>
                 <a href="#" target="_blank" rel="noopener" class="gem-original-link" id="gem-original-link">
                   Otevřít gem ↗
                 </a>
               </div>
             </div>
+          </div>
+
+          <div class="gem-detail-set-bar" id="gem-detail-set-bar" hidden>
+            <button type="button" class="card-set-toggle gem-detail-set-btn" id="gem-set-toggle" data-favorite-slug="" aria-label="Přidat do mé sady" aria-pressed="false">☆ Do mé sady</button>
+            <p class="gem-detail-set-hint">
+              Uloží se jen v tomto prohlížeči. Přehled najdete v
+              <a href="index.html#favorites" class="home-inline-link">Moje oblíbené</a>.
+            </p>
           </div>
 
           <section class="gem-section">
@@ -69,7 +76,7 @@
               <li>Klikněte na odkaz níže a otevřete gem v Google Gemini.</li>
               <li>Napište „Ahoj“ nebo popište, co potřebujete.</li>
               <li>Pro lepší výsledky zvolte model <strong>Thinking</strong> nebo <strong>Pro</strong> místo Fast.</li>
-              <li>Do vlastní sady přidáte gem tlačítkem <strong>☆ Do mé sady</strong> v záhlaví (stejně jako v patičce karty v katalogu).</li>
+              <li>Do vlastní sady přidáte gem tlačítkem <strong>☆ Do mé sady</strong> nad popisem (stejně jako v patičce karty v katalogu).</li>
             </ul>
             <a href="#" target="_blank" rel="noopener" class="btn-primary btn-gem-link" id="btn-gem-link">
               Spustit gem v Gemini ↗
@@ -91,7 +98,7 @@
       <div class="inner footer-inner">
         <div class="footer-lead">
           GemForge — užitečné gemy pro Gemini v českém kontextu (inspirace mimo jiné Ericem Curts).
-          V katalogu je sada v patičce karty (<strong>☆ Do mé sady</strong>), na detailu tlačítkem výše.
+          V katalogu je sada v patičce karty (<strong>☆ Do mé sady</strong>), na detailu gemu tlačítkem pod názvem.
         </div>
         <div class="footer-links" aria-label="Rychlé odkazy">
           <a href="index.html" class="footer-link">Úvod</a>
@@ -104,9 +111,9 @@
   </div>
 
   <!-- gems-inline.js jako fallback, gems-data.js přepíše když je k dispozici -->
-  <script src="./gems-inline.js?v=20260609"></script>
-  <script src="./gems-data.js?v=20260609"></script>
-  <script src="./favorites.js?v=20260609"></script>
+  <script src="./gems-inline.js?v=20260611"></script>
+  <script src="./gems-data.js?v=20260611"></script>
+  <script src="./favorites.js?v=20260611"></script>
   <script>
     (function(){
       if (!window.GEMS_DATA || Object.keys(window.GEMS_DATA).length === 0) {
@@ -144,12 +151,20 @@
       document.title = gem.titleCs + " – GemForge";
 
       document.getElementById("gem-emoji").textContent = gem.emoji;
+      var setBar = document.getElementById("gem-detail-set-bar");
       var favBtn = document.getElementById("gem-set-toggle");
-      if (favBtn && window.GemFavorites) {
-        favBtn.hidden = false;
+      if (setBar) setBar.hidden = false;
+      if (favBtn) {
         favBtn.setAttribute("data-favorite-slug", gem.slug);
-        window.GemFavorites.syncButtons(gem.slug);
+        if (window.GemFavorites && window.GemFavorites.syncButtons) {
+          window.GemFavorites.syncButtons(gem.slug);
+        }
       }
+      document.addEventListener("gemforge-favorites-change", function () {
+        if (window.GemFavorites && window.GemFavorites.syncButtons && gem.slug) {
+          window.GemFavorites.syncButtons(gem.slug);
+        }
+      });
       document.getElementById("gem-title").textContent = gem.titleCs;
       document.getElementById("gem-subtitle").textContent = gem.title;
       document.getElementById("gem-description").textContent = gem.descriptionCs || gem.shortDescCs || "Popis není k dispozici. Pro detail použijte odkaz níže.";
