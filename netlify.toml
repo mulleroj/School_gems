@@ -4,6 +4,11 @@
 [build]
   publish = "."
 
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
 [[redirects]]
   from = "/gem"
   to = "/gem.html"

@@ -481,7 +481,7 @@
     </footer>
   </div>
 
-  <script src="gems-data.js"></script>
+  <script src="gems-data.js?v=20260605"></script>
   <script>
     var GEMS = window.GEMS_DATA || {};
     if (Object.keys(GEMS).length === 0) {
@@ -551,10 +551,15 @@
     }
 
     var HOME_NEWEST_LIMIT = 12;
+    var HOME_NEWEST_MIN_DATE = "2026-04-01";
 
     function gemAddedAtKey(g) {
       if (g && g.addedAt) return String(g.addedAt);
       return "1970-01-01";
+    }
+
+    function gemIsInNewestSection(g) {
+      return gemAddedAtKey(g) >= HOME_NEWEST_MIN_DATE;
     }
 
     function gemMatchesNewestChip(g, filterKey) {
@@ -572,7 +577,9 @@
       grid.innerHTML = "";
       var fk = filter || "all";
       var slugs = Object.keys(GEMS).filter(function (slug) {
-        return gemMatchesNewestChip(GEMS[slug], fk);
+        var g = GEMS[slug];
+        if (!gemIsInNewestSection(g)) return false;
+        return gemMatchesNewestChip(g, fk);
       });
       slugs.sort(function (a, b) {
         var ka = gemAddedAtKey(GEMS[a]);

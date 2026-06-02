@@ -7,11 +7,17 @@ Místo, kde se z nápadů stávají užitečné Gemy. Procházej, testuj a stav 
 ## Struktura projektu
 
 - `index.html` – úvodní stránka
-- `all-gems.html` – přehled všech 115 gemů
+- `all-gems.html` – přehled všech gemů (dynamický počet podle dat)
 - `gem.html` – detail jednotlivého gemu
 - `gems-data.js` – data gemů (slug, emoji, popisy, odkazy)
 - `gems-inline.js` – záložní kopie dat pro stránku „Všechny gemy“
 - `styles.css` – styly
+
+## Projektová paměť
+
+Podrobný popis principů, logiky a postupu přidávání nových gemů:
+
+- `docs/PROJECT_MEMORY.md`
 
 ## Lokální spuštění
 

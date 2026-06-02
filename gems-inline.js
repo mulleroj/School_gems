@@ -1454,6 +1454,90 @@ window.GEMS_DATA={
     categories: ["materials", "newest"],
     gemUrl: "https://gemini.google.com/gem/1Lpj7UD4xtWZwhJheSPhaFElBsQkPM7He?usp=sharing",
     addedAt: "2026-04-19"
+  },
+  "conference-concierge": {
+    slug: "conference-concierge",
+    emoji: "📅",
+    title: "Conference Concierge",
+    titleCs: "Průvodce konferencí pro učitele",
+    shortDescCs: "Osobní itinerář konference, semináře nebo DVPP podle role, předmětu a cílů – bez kolizí v programu.",
+    descriptionCs: "Tento gem slouží jako chytrý průvodce programem vzdělávací konference, semináře, webinářového dne nebo DVPP akce. Pracuje s nahraným programem akce a podle odpovědí uživatele doporučuje konkrétní přednášky, workshopy nebo bloky, které nejlépe odpovídají jeho roli, předmětu, typu školy a vzdělávacím cílům.\n\nNejprve se uživatele doptá na jeho zájmy, cílovou skupinu, témata, kterým se chce věnovat, a případná časová omezení. Poté vytvoří přehledný osobní itinerář po jednotlivých dnech, chronologicky a bez časových kolizí. Pokud v určitém čase nenajde vhodnou položku, jasně označí volné místo a nic si nedomýšlí. Hodí se pro učitele, vedení škol, ICT koordinátory, metodiky prevence, kariérové poradce i organizátory školních vzdělávacích akcí.",
+    category: "professional",
+    categories: ["professional", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1lt29tle5k8vdAcq2Uq2Mi7gccayLKaAJ?usp=sharing",
+    addedAt: "2026-06-02"
+  },
+  "form-analyzer": {
+    slug: "form-analyzer",
+    emoji: "📊",
+    title: "Form Analyzer",
+    titleCs: "Analyzátor školních formulářů",
+    shortDescCs: "Zpracování dat z formulářů a anket – shrnutí, hlubší analýza a výstupy pro školu včetně GDPR.",
+    descriptionCs: "Tento gem pomáhá zpracovat a pochopit data získaná z formulářů, dotazníků, anket, evaluačních šetření nebo registračních formulářů. Je určený pro učitele, vedení škol, metodiky, koordinátory, organizátory školních akcí i další pracovníky ve vzdělávání.\n\nUživatel nahraje otázky formuláře a tabulku s odpověďmi. Gem nejprve zjistí účel sběru dat, poté vytvoří přehledné shrnutí hlavních zjištění, klíčových trendů a zajímavých odchylek. Následně uživatele provází hlubší analýzou podle skutečných dat — například podle tříd, ročníků, rolí respondentů, spokojenosti, opakujících se problémů nebo návrhů na zlepšení.\n\nVýstupem mohou být přehledné závěry, tabulky, doporučení pro vedení školy, návrh e-mailu pro rodiče nebo kolegy, podklady pro poradu, akční plán nebo shrnutí výsledků evaluace. Gem zároveň připomíná zásady ochrany osobních údajů a vede uživatele k anonymizaci citlivých dat.",
+    category: "assessment",
+    categories: ["assessment", "professional", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1D0mDqkZYsXbYDRoQoNET-Wy0F9gWNcLS?usp=sharing",
+    addedAt: "2026-06-02"
+  },
+  "micro-inquiry-sparks": {
+    slug: "micro-inquiry-sparks",
+    emoji: "🔍",
+    title: "Micro-Inquiry Sparks",
+    titleCs: "Tvůrce badatelských aktivit",
+    shortDescCs: "Krátké badatelské úvody 5–15 min před výkladem – žáci objevují, učitel vysvětlí potom.",
+    descriptionCs: "Tento gem pomáhá učitelům navrhovat krátké úvodní aktivity v délce 5 až 15 minut, které staví na zvědavosti, objevování a aktivním přemýšlení žáků. Místo toho, aby učitel začal hodinu rovnou výkladem, gem vytvoří situaci, problém, obrázek, příběh, data nebo hádanku, se kterou se žáci nejprve sami utkají.\n\nCílem je, aby žáci začali pozorovat, klást otázky, tvořit hypotézy a diskutovat ještě před tím, než učitel oficiálně vysvětlí nové učivo. Gem je vhodný pro základní i střední školy, odborné vzdělávání i všeobecně vzdělávací předměty. Pomáhá učiteli připravit aktivitu, která má jasnou strukturu, podporuje produktivní nejistotu a plynule navazuje na následný výklad.\n\nHodí se hlavně pro chvíle, kdy nechceme žákům „nasypat hotovou pravdu do hlavy lžící“, ale chceme je nejdřív přimět, aby začali sami přemýšlet.",
+    category: "planning",
+    categories: ["planning", "engagement", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1eunSjA_1l7pf8hPinBcJbJNC2zxvt9hp?usp=sharing",
+    addedAt: "2026-06-02"
+  },
+  "study-coach-gem-creator": {
+    slug: "study-coach-gem-creator",
+    emoji: "🎓",
+    title: "Study Coach Gem Creator",
+    titleCs: "AI Studijní kouč na míru",
+    shortDescCs: "Vlastní AI studijní kouč podle předmětu, ročníku a nahraných materiálů – prompt na celý rok.",
+    descriptionCs: "Tento gem pomáhá učitelům rychle vytvořit vlastního AI studijního kouče pro konkrétní předmět, ročník a typ žáků. Učitel projde krátkým rozhovorem, ve kterém zadá předmět, ročník, používaný vzdělávací program, oblíbené grafické organizéry a způsob práce s nahranými materiály.\n\nVýsledkem je hotový prompt pro AI doučovatele, kterého mohou žáci používat k opakování učiva, procvičování vybavování z paměti, vysvětlování pojmů, práci ve dvojici nebo přípravě na test. Kouč umí pracovat s nahranými poznámkami, pracovními listy, slovní zásobou, přehledy učiva nebo výňatky z učebnic. Podporuje žáky se SPU, ADHD, odlišným mateřským jazykem i slabší čtenářskou úrovní.\n\nGem je vhodný hlavně pro 2. stupeň ZŠ, střední školy a učební obory. Hodí se pro běžné předměty, odborné předměty i jazykovou výuku. Učitel si jednou vytvoří strukturu studijního kouče a během roku ji může opakovaně používat s různými nahranými materiály.",
+    category: "support",
+    categories: ["support", "student", "professional", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1BAKTQ63KbqsnIX3HVm5rwZsrIOJEwsxL?usp=sharing",
+    addedAt: "2026-06-02"
+  },
+  "the-writers-room": {
+    slug: "the-writers-room",
+    emoji: "🎬",
+    title: "The Writer's Room",
+    titleCs: "Scenáristická dílna učiva",
+    shortDescCs: "Učivo jako epizodický seriál – příběh, napětí a přesnost s materiály k výuce.",
+    descriptionCs: "Tento gem pomáhá učitelům převést klasické učivo, poznámky, prezentace nebo texty do podoby poutavého vzdělávacího seriálu. Místo obyčejného výkladu vytváří epizodické příběhy, které mají atmosféru, napětí, jasnou dějovou linku a zároveň zachovávají vzdělávací přesnost.\n\nUčitel nahraje materiály k tématu, určí ročník, cíle výuky, čtenářskou úroveň žáků a požadovaný styl. Gem poté navrhne strukturu série, jednotlivé epizody, slovní zásobu, otázky k porozumění, otázky k hlubšímu přemýšlení, pracovní listy, opakovací otázky a učitelské poznámky. Zvláštní důraz klade na věkové přizpůsobení, práci s citlivým obsahem, podporu žáků se SPU, OMJ nebo slabší čtenářskou úrovní a na to, aby učitel vždy ověřil věcnou správnost.\n\nHodí se pro dějepis, občanskou nauku, literaturu, přírodovědné předměty, odborné předměty i další témata, kde učitel potřebuje látku oživit a dát jí silnější příběhový rámec. Je to takový Netflix pro učivo — jen bez gauče, chipsů a algoritmu, který vás pošle do králičí nory.",
+    category: "materials",
+    categories: ["materials", "literacy", "newest"],
+    gemUrl: "https://gemini.google.com/gem/10xMgXKzuEnj-IEH-5lZ1yGlPaeQQ_WmR?usp=sharing",
+    addedAt: "2026-06-02"
+  },
+  "thinking-routines": {
+    slug: "thinking-routines",
+    emoji: "🗣️",
+    title: "Thinking Routines",
+    titleCs: "Mysli nahlas",
+    shortDescCs: "Aktivity z rutin viditelného myšlení – učitel vidí, jak žáci přemýšlejí a mění názor.",
+    descriptionCs: "Mysli nahlas pomáhá učitelům navrhovat výukové aktivity založené na rutinách viditelného myšlení. Nejde o obyčejné pracovní listy, ale o promyšlené postupy, díky kterým učitel lépe vidí, jak žáci přemýšlejí, co si všímají, jak tvoří otázky, jak své názory zdůvodňují a jak se jejich porozumění postupně mění.\n\nUčitel zadá ročník, předmět, téma a výukový cíl. Gem navrhne tři vhodné rutiny z nahraného přehledu, vysvětlí, proč se k tématu hodí, a po výběru jedné z nich připraví kompletní aktivitu: postup pro učitele, žákovský organizér, podporu pro žáky se SPU, ADHD nebo OMJ, rozšíření pro nadané žáky, návrhy hodnocení a doporučení digitálních nástrojů.\n\nGem se hodí pro základní i střední školy a pro různé předměty – od jazyků a občanky přes dějepis až po přírodovědné a odborné předměty. Je určený pro učitele, kteří nechtějí jen slyšet správnou odpověď, ale chtějí porozumět tomu, jak k ní žáci došli.",
+    category: "planning",
+    categories: ["planning", "engagement", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1nqYz6K6oZEQM2ZMpq3LJofBpcfqRWbLM?usp=sharing",
+    addedAt: "2026-06-02"
+  },
+  "writing-elaboration": {
+    slug: "writing-elaboration",
+    emoji: "💭",
+    title: "Writing Elaboration",
+    titleCs: "Rozviň myšlenku",
+    shortDescCs: "Studijní kouč psaní – jedna otázka, jeden odstavec, žák přepíše sám.",
+    descriptionCs: "Rozviň myšlenku je studijní kouč pro žáky, který jim pomáhá vylepšovat písemný projev tím, že je vede k hlubšímu vysvětlení vlastních nápadů. Neopravuje text za žáka a nepíše hotové věty. Místo toho klade přesné otázky, které žáka navedou k tomu, aby doplnil příklad, vysvětlil souvislost, ukázal příčinu a důsledek, porovnal možnosti, zdůvodnil tvrzení nebo vysvětlil, proč je jeho myšlenka důležitá.\n\nGem je vhodný pro slohové práce, argumentační texty, úvahy, výklady, literární rozbory, reflexe, odpovědi na otevřené otázky i další školní psaní. Pracuje vždy jen s jedním odstavcem najednou, aby žáka nepřetížil. Nejprve pomůže najít hlavní myšlenku odstavce, potom vybere jedno místo, které potřebuje rozvinout, a položí jednu cílenou otázku. Jakmile žák své myšlenky rozpracuje, zastaví se a vyzve ho, aby odstavec sám přepsal.\n\nHodí se pro základní i střední školy, protože podporuje samostatné myšlení, práci s důkazem, argumentaci a schopnost vysvětlit „proč na tom záleží“. Je to takový učitelský hlas v hlavě, jen bez červené propisky a bez povzdechu nad třetí větou začínající „Myslím si, že…“.",
+    category: "literacy",
+    categories: ["literacy", "student", "newest"],
+    gemUrl: "https://gemini.google.com/gem/1IF10NK6heva7cQ_Spno51HPfzDzAuCUI?usp=sharing",
+    addedAt: "2026-06-02"
   }
 };
 
